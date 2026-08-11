@@ -1,0 +1,51 @@
+// This is your Prisma schema file
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  password  String
+  name      String
+  role      String   @default("EDITOR") // ADMIN | EDITOR
+  createdAt DateTime @default(now())
+  points    Point[]
+}
+
+model TouristRoute {
+  id          String   @id @default(cuid())
+  name        String
+  description String?
+  color       String   @default("#FF6B35")
+  isActive    Boolean  @default(true)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  points      Point[]
+}
+
+model Point {
+  id          String        @id @default(cuid())
+  name        String
+  description String
+  category    String
+  address     String
+  latitude    Float
+  longitude   Float
+  images      String        @default("[]")
+  qrCodePath  String?
+  qrCodeUrl   String?
+  visitCount  Int           @default(0)
+  isActive    Boolean       @default(true)
+  routeId     String?
+  route       TouristRoute? @relation(fields: [routeId], references: [id])
+  createdById String
+  createdBy   User          @relation(fields: [createdById], references: [id])
+  createdAt   DateTime      @default(now())
+  updatedAt   DateTime      @updatedAt
+}

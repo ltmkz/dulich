@@ -1,69 +1,112 @@
-import Image from "next/image";
+import Link from "next/link";
+import { Compass, MapPin, Map as MapIcon, QrCode, Route as RouteIcon, ShieldCheck, LogIn } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent } from "@/components/ui/card";
 
-export default function Home() {
+export default function LandingPage() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert h-5 w-[100px]"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the{" "}
-            <code className="rounded bg-black/[.06] px-1.5 py-0.5 font-mono text-[0.9em] dark:bg-white/[.08]">
-              page.tsx
-            </code>{" "}
-            file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+    <main className="min-h-screen bg-slate-50 flex flex-col relative overflow-hidden font-sans">
+      {/* Dynamic Background Elements */}
+      <div className="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] rounded-full bg-primary/10 blur-[120px] pointer-events-none" />
+      <div className="absolute bottom-[-10%] right-[-10%] w-[40%] h-[40%] rounded-full bg-blue-400/10 blur-[120px] pointer-events-none" />
+      <div className="absolute top-[20%] right-[10%] w-[20%] h-[20%] rounded-full bg-emerald-400/10 blur-[100px] pointer-events-none" />
+
+      {/* Navigation */}
+      <nav className="w-full px-6 py-4 flex items-center justify-between relative z-10">
+        <div className="flex items-center gap-2">
+          <div className="bg-primary text-white p-2 rounded-xl shadow-lg shadow-primary/20">
+            <Compass className="h-6 w-6" />
+          </div>
+          <span className="font-bold text-lg text-slate-800 tracking-tight hidden sm:block">
+            Đoàn Thanh Niên
+          </span>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert h-[14px] w-4"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={14}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+        <div className="flex gap-3">
+          <Link href="/login">
+            <Button variant="ghost" className="text-slate-600 font-medium">Đăng Nhập</Button>
+          </Link>
         </div>
-      </main>
-    </div>
+      </nav>
+
+      {/* Hero Section */}
+      <div className="flex-1 flex flex-col items-center justify-center px-4 py-20 relative z-10 text-center max-w-4xl mx-auto">
+        <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-blue-100 text-primary text-sm font-medium mb-8 border border-blue-200 animate-in fade-in slide-in-from-bottom-4 duration-700">
+          <span className="relative flex h-2 w-2">
+            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
+            <span className="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
+          </span>
+          Dự án Công trình Thanh niên số hóa
+        </div>
+
+        <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight text-slate-900 leading-[1.15] mb-6 animate-in fade-in slide-in-from-bottom-6 duration-700 delay-100">
+          Số Hóa Di Tích & <br className="hidden sm:block" />
+          <span className="bg-clip-text text-transparent bg-gradient-to-r from-primary to-blue-500">
+            Du Lịch Địa Phương
+          </span>
+        </h1>
+
+        <p className="text-lg md:text-xl text-slate-600 mb-10 max-w-2xl leading-relaxed animate-in fade-in slide-in-from-bottom-8 duration-700 delay-200">
+          Khám phá lịch sử và văn hóa địa phương thông qua mã QR thông minh. 
+          Xây dựng cơ sở dữ liệu số hóa các di tích lịch sử, địa chỉ đỏ và tuyến đường tham quan trực quan.
+        </p>
+
+        <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto animate-in fade-in slide-in-from-bottom-10 duration-700 delay-300">
+          <Link href="/admin/dashboard" className="w-full sm:w-auto">
+            <Button size="lg" className="w-full sm:w-auto h-14 px-8 text-base shadow-xl shadow-primary/20 hover:shadow-primary/30 transition-all gap-2 rounded-xl">
+              <ShieldCheck className="h-5 w-5" /> Quản Trị Hệ Thống
+            </Button>
+          </Link>
+          <Link href="/login" className="w-full sm:w-auto">
+            <Button variant="outline" size="lg" className="w-full sm:w-auto h-14 px-8 text-base bg-white hover:bg-slate-50 transition-all gap-2 rounded-xl border-slate-200">
+              <LogIn className="h-5 w-5 text-slate-500" /> Đăng Nhập Quản Lý
+            </Button>
+          </Link>
+        </div>
+
+        {/* Feature Grid */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mt-20 w-full animate-in fade-in slide-in-from-bottom-12 duration-700 delay-500">
+          {[
+            { 
+              icon: MapPin, 
+              title: "Điểm Di Tích", 
+              desc: "Thông tin lịch sử chi tiết, hình ảnh và vị trí.",
+              color: "text-blue-600",
+              bg: "bg-blue-100"
+            },
+            { 
+              icon: MapIcon, 
+              title: "Bản Đồ Trực Quan", 
+              desc: "Hiển thị vị trí tọa độ trực quan trên bản đồ.",
+              color: "text-emerald-600",
+              bg: "bg-emerald-100"
+            },
+            { 
+              icon: QrCode, 
+              title: "Quét Mã QR", 
+              desc: "Truy cập thông tin cực nhanh từ điện thoại.",
+              color: "text-purple-600",
+              bg: "bg-purple-100"
+            },
+            { 
+              icon: RouteIcon, 
+              title: "Tuyến Đường", 
+              desc: "Gắn kết các điểm thành tuyến tham quan.",
+              color: "text-amber-600",
+              bg: "bg-amber-100"
+            },
+          ].map((f, idx) => (
+            <Card key={idx} className="border-slate-100 shadow-sm hover:shadow-md transition-all duration-300 hover:-translate-y-1 bg-white/60 backdrop-blur-sm">
+              <CardContent className="p-6 text-left flex flex-col gap-3">
+                <div className={`w-12 h-12 rounded-2xl ${f.bg} flex items-center justify-center mb-2`}>
+                  <f.icon className={`h-6 w-6 ${f.color}`} />
+                </div>
+                <h3 className="font-bold text-slate-800">{f.title}</h3>
+                <p className="text-sm text-slate-500 leading-relaxed">{f.desc}</p>
+              </CardContent>
+            </Card>
+          ))}
+        </div>
+      </div>
+    </main>
   );
 }
