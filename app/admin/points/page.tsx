@@ -138,7 +138,7 @@ export default function PointsPage() {
               />
             </div>
             <div className="w-full sm:w-[220px]">
-              <Select value={categoryFilter} onValueChange={setCategoryFilter}>
+              <Select value={categoryFilter} onValueChange={(v) => setCategoryFilter(v || "all")}>
                 <SelectTrigger>
                   <SelectValue placeholder="Tất cả loại hình" />
                 </SelectTrigger>

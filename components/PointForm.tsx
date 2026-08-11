@@ -197,7 +197,7 @@ export function PointForm({ initialData, mode }: PointFormProps) {
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div className="space-y-2">
                     <Label>Loại điểm <span className="text-destructive">*</span></Label>
-                    <Select value={form.category} onValueChange={(v) => setForm((f) => ({ ...f, category: v }))}>
+                    <Select value={form.category} onValueChange={(v) => setForm((f) => ({ ...f, category: v || "HISTORICAL_SITE" }))}>
                       <SelectTrigger>
                         <SelectValue placeholder="Chọn loại hình" />
                       </SelectTrigger>
@@ -211,7 +211,7 @@ export function PointForm({ initialData, mode }: PointFormProps) {
 
                   <div className="space-y-2">
                     <Label>Tuyến đường</Label>
-                    <Select value={form.routeId} onValueChange={(v) => setForm((f) => ({ ...f, routeId: v }))}>
+                    <Select value={form.routeId} onValueChange={(v) => setForm((f) => ({ ...f, routeId: v || "none" }))}>
                       <SelectTrigger>
                         <SelectValue placeholder="Chọn tuyến đường" />
                       </SelectTrigger>

@@ -4,7 +4,7 @@ import { PointForm } from "@/components/PointForm";
 import Image from "next/image";
 import { use } from "react";
 import { Loader2, Download, QrCode } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { buttonVariants } from "@/components/ui/button";
 
 interface Point {
   id: string;
@@ -78,11 +78,9 @@ export default function EditPointPage({ params }: { params: Promise<{ id: string
               className="rounded-lg"
               unoptimized
             />
-            <Button variant="outline" size="sm" className="w-full gap-2 h-8 text-xs" asChild>
-              <a href={point.qrCodePath} download>
-                <Download className="h-3 w-3" /> Tải QR
-              </a>
-            </Button>
+            <a href={point.qrCodePath} download className={buttonVariants({ variant: "outline", size: "sm", className: "w-full gap-2 h-8 text-xs" })}>
+              <Download className="h-3 w-3" /> Tải QR
+            </a>
           </div>
         )}
       </div>
