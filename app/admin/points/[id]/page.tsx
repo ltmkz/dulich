@@ -14,7 +14,7 @@ interface Point {
   address: string;
   latitude: number;
   longitude: number;
-  images: string;
+  images: string[];
   routeId?: string | null;
   qrCodePath?: string;
   visitCount: number;
@@ -49,7 +49,7 @@ export default function EditPointPage({ params }: { params: Promise<{ id: string
     );
   }
 
-  const images = JSON.parse(point.images || "[]") as string[];
+  const images = Array.isArray(point.images) ? point.images : [];
 
   return (
     <div className="fade-in space-y-6">
