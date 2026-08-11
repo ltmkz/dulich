@@ -1,23 +1,15 @@
 import QRCode from "qrcode";
-import path from "path";
-import fs from "fs";
 
 export async function generateQRCode(
   pointId: string,
   baseUrl: string
 ): Promise<{ qrCodePath: string; qrCodeUrl: string }> {
-  const qrDir = path.join(process.cwd(), "public", "qr");
-  if (!fs.existsSync(qrDir)) {
-    fs.mkdirSync(qrDir, { recursive: true });
-  }
-
   const targetUrl = `${baseUrl}/p/${pointId}`;
-  const fileName = `qr-${pointId}.png`;
-  const filePath = path.join(qrDir, fileName);
 
-  await QRCode.toFile(filePath, targetUrl, {
+  // Generate Base64 Data URI instead of saving to disk (fixes Vercel read-only issue)
+  const qrCodeDataUri = await QRCode.toDataURL(targetUrl, {
     errorCorrectionLevel: "H",
-    type: "png",
+    type: "image/png",
     width: 400,
     margin: 2,
     color: {
@@ -27,7 +19,7 @@ export async function generateQRCode(
   });
 
   return {
-    qrCodePath: `/qr/${fileName}`,
+    qrCodePath: qrCodeDataUri,
     qrCodeUrl: targetUrl,
   };
 }
