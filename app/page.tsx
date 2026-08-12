@@ -18,7 +18,7 @@ export default function LandingPage() {
             <Compass className="h-6 w-6" />
           </div>
           <span className="font-bold text-lg text-slate-800 tracking-tight hidden sm:block">
-            Đoàn Thanh Niên
+            Đoàn Thanh Niên Khe Sanh
           </span>
         </div>
         <div className="flex gap-3">
@@ -46,7 +46,7 @@ export default function LandingPage() {
         </h1>
 
         <p className="text-lg md:text-xl text-slate-600 mb-10 max-w-2xl leading-relaxed animate-in fade-in slide-in-from-bottom-8 duration-700 delay-200">
-          Khám phá lịch sử và văn hóa địa phương thông qua mã QR thông minh. 
+          Khám phá lịch sử và văn hóa địa phương thông qua mã QR thông minh.
           Xây dựng cơ sở dữ liệu số hóa các di tích lịch sử, địa chỉ đỏ và tuyến đường tham quan trực quan.
         </p>
 
@@ -66,30 +66,30 @@ export default function LandingPage() {
         {/* Feature Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mt-20 w-full animate-in fade-in slide-in-from-bottom-12 duration-700 delay-500">
           {[
-            { 
-              icon: MapPin, 
-              title: "Điểm Di Tích", 
+            {
+              icon: MapPin,
+              title: "Điểm Di Tích",
               desc: "Thông tin lịch sử chi tiết, hình ảnh và vị trí.",
               color: "text-blue-600",
               bg: "bg-blue-100"
             },
-            { 
-              icon: MapIcon, 
-              title: "Bản Đồ Trực Quan", 
+            {
+              icon: MapIcon,
+              title: "Bản Đồ Trực Quan",
               desc: "Hiển thị vị trí tọa độ trực quan trên bản đồ.",
               color: "text-emerald-600",
               bg: "bg-emerald-100"
             },
-            { 
-              icon: QrCode, 
-              title: "Quét Mã QR", 
+            {
+              icon: QrCode,
+              title: "Quét Mã QR",
               desc: "Truy cập thông tin cực nhanh từ điện thoại.",
               color: "text-purple-600",
               bg: "bg-purple-100"
             },
-            { 
-              icon: RouteIcon, 
-              title: "Tuyến Đường", 
+            {
+              icon: RouteIcon,
+              title: "Tuyến Đường",
               desc: "Gắn kết các điểm thành tuyến tham quan.",
               color: "text-amber-600",
               bg: "bg-amber-100"
