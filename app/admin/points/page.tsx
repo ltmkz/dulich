@@ -3,14 +3,14 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { CATEGORIES, CATEGORY_ICONS, CategoryKey } from "@/lib/constants";
-import { 
-  Plus, 
-  Search, 
-  MapPin, 
-  Eye, 
-  Pencil, 
-  Trash2, 
-  Download, 
+import {
+  Plus,
+  Search,
+  MapPin,
+  Eye,
+  Pencil,
+  Trash2,
+  Download,
   RefreshCw,
   MoreVertical
 } from "lucide-react";
@@ -83,7 +83,7 @@ export default function PointsPage() {
       .catch(() => setLoading(false));
   };
 
-  useEffect(() => { 
+  useEffect(() => {
     // Debounce search slightly
     const timer = setTimeout(() => fetchPoints(), 300);
     return () => clearTimeout(timer);
@@ -106,7 +106,7 @@ export default function PointsPage() {
     <div className="fade-in space-y-6">
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
         <div>
-          <h1 className="text-3xl font-bold tracking-tight text-primary">Điểm Di Tích</h1>
+          <h1 className="text-3xl font-bold tracking-tight text-primary">Địa điểm</h1>
           <p className="text-muted-foreground mt-1">
             Quản lý {points.length} điểm tham quan trong hệ thống
           </p>
@@ -215,8 +215,8 @@ export default function PointsPage() {
                           <TableCell>
                             {point.route ? (
                               <div className="flex items-center gap-2">
-                                <div 
-                                  className="w-2.5 h-2.5 rounded-full" 
+                                <div
+                                  className="w-2.5 h-2.5 rounded-full"
                                   style={{ backgroundColor: point.route.color }}
                                 />
                                 <span className="text-sm">{point.route.name}</span>
@@ -233,49 +233,49 @@ export default function PointsPage() {
                           <TableCell className="text-right">
                             <DropdownMenu>
                               <DropdownMenuTrigger className="h-8 w-8 p-0 inline-flex items-center justify-center rounded-md text-sm font-medium hover:bg-accent hover:text-accent-foreground outline-none">
-                                  <span className="sr-only">Open menu</span>
-                                  <MoreVertical className="h-4 w-4" />
+                                <span className="sr-only">Open menu</span>
+                                <MoreVertical className="h-4 w-4" />
                               </DropdownMenuTrigger>
                               <DropdownMenuContent align="end">
                                 <DropdownMenuGroup>
                                   <DropdownMenuLabel>Hành động</DropdownMenuLabel>
                                   <DropdownMenuItem>
-                                  <Link href={`/p/${point.id}`} target="_blank" className="cursor-pointer flex items-center w-full outline-none">
-                                    <Eye className="mr-2 h-4 w-4" /> Xem trang Public
-                                  </Link>
-                                </DropdownMenuItem>
-                                <DropdownMenuItem>
-                                  <Link href={`/admin/points/${point.id}`} className="cursor-pointer flex items-center w-full outline-none">
-                                    <Pencil className="mr-2 h-4 w-4" /> Chỉnh sửa điểm
-                                  </Link>
-                                </DropdownMenuItem>
-                                
-                                <DropdownMenuSeparator />
-                                
-                                {point.qrCodePath ? (
+                                    <Link href={`/p/${point.id}`} target="_blank" className="cursor-pointer flex items-center w-full outline-none">
+                                      <Eye className="mr-2 h-4 w-4" /> Xem trang Public
+                                    </Link>
+                                  </DropdownMenuItem>
                                   <DropdownMenuItem>
-                                    <a href={point.qrCodePath} download target="_blank" className="cursor-pointer font-medium text-primary flex items-center w-full outline-none">
-                                      <Download className="mr-2 h-4 w-4" /> Tải mã QR
-                                    </a>
+                                    <Link href={`/admin/points/${point.id}`} className="cursor-pointer flex items-center w-full outline-none">
+                                      <Pencil className="mr-2 h-4 w-4" /> Chỉnh sửa điểm
+                                    </Link>
                                   </DropdownMenuItem>
-                                ) : (
-                                  <DropdownMenuItem 
-                                    onClick={() => handleRegenerateQR(point.id)}
-                                    className="cursor-pointer font-medium text-amber-600 focus:text-amber-600 focus:bg-amber-50"
+
+                                  <DropdownMenuSeparator />
+
+                                  {point.qrCodePath ? (
+                                    <DropdownMenuItem>
+                                      <a href={point.qrCodePath} download target="_blank" className="cursor-pointer font-medium text-primary flex items-center w-full outline-none">
+                                        <Download className="mr-2 h-4 w-4" /> Tải mã QR
+                                      </a>
+                                    </DropdownMenuItem>
+                                  ) : (
+                                    <DropdownMenuItem
+                                      onClick={() => handleRegenerateQR(point.id)}
+                                      className="cursor-pointer font-medium text-amber-600 focus:text-amber-600 focus:bg-amber-50"
+                                    >
+                                      <RefreshCw className="mr-2 h-4 w-4" /> Sinh mã QR
+                                    </DropdownMenuItem>
+                                  )}
+
+                                  <DropdownMenuSeparator />
+
+                                  <DropdownMenuItem
+                                    onClick={() => handleDelete(point.id)}
+                                    disabled={deletingId === point.id}
+                                    className="cursor-pointer text-destructive focus:text-destructive focus:bg-destructive/10"
                                   >
-                                    <RefreshCw className="mr-2 h-4 w-4" /> Sinh mã QR
+                                    <Trash2 className="mr-2 h-4 w-4" /> Xóa điểm
                                   </DropdownMenuItem>
-                                )}
-                                
-                                <DropdownMenuSeparator />
-                                
-                                <DropdownMenuItem 
-                                  onClick={() => handleDelete(point.id)}
-                                  disabled={deletingId === point.id}
-                                  className="cursor-pointer text-destructive focus:text-destructive focus:bg-destructive/10"
-                                >
-                                  <Trash2 className="mr-2 h-4 w-4" /> Xóa điểm
-                                </DropdownMenuItem>
                                 </DropdownMenuGroup>
                               </DropdownMenuContent>
                             </DropdownMenu>
