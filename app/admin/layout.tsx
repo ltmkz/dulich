@@ -22,7 +22,7 @@ import { cn } from "@/lib/utils";
 
 const navItems = [
   { href: "/admin/dashboard", icon: LayoutDashboard, label: "Bảng Điều Khiển" },
-  { href: "/admin/points", icon: MapPin, label: "Điểm Di Tích" },
+  { href: "/admin/points", icon: MapPin, label: "Địa Điểm" },
   { href: "/admin/routes", icon: RouteIcon, label: "Tuyến Đường" },
   { href: "/admin/map", icon: MapIcon, label: "Bản Đồ Tổng Quan" },
 ];
