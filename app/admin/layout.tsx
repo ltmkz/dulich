@@ -4,14 +4,14 @@ import { useRouter, usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { signOut } from "next-auth/react";
-import { 
-  LayoutDashboard, 
-  MapPin, 
-  Route as RouteIcon, 
-  Map as MapIcon, 
-  LogOut, 
-  PanelLeftClose, 
-  PanelLeftOpen, 
+import {
+  LayoutDashboard,
+  MapPin,
+  Route as RouteIcon,
+  Map as MapIcon,
+  LogOut,
+  PanelLeftClose,
+  PanelLeftOpen,
   ExternalLink,
   Compass
 } from "lucide-react";
@@ -69,7 +69,7 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
           {sidebarOpen && (
             <div className="overflow-hidden">
               <div className="font-bold text-sm whitespace-nowrap text-foreground">
-                Đoàn Thanh Niên
+                Đoàn Thanh Niên Khe Sanh
               </div>
               <div className="text-[11px] text-muted-foreground whitespace-nowrap">
                 Số Hóa Di Tích & Du Lịch
@@ -89,8 +89,8 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
                   <div
                     className={cn(
                       "flex items-center gap-3 px-3 py-2.5 rounded-md transition-colors whitespace-nowrap",
-                      active 
-                        ? "bg-primary/10 text-primary font-medium" 
+                      active
+                        ? "bg-primary/10 text-primary font-medium"
                         : "text-muted-foreground hover:bg-muted hover:text-foreground"
                     )}
                   >
@@ -118,9 +118,9 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
                   {session.user.role === "ADMIN" ? "Quản trị viên" : "Kiểm duyệt viên"}
                 </div>
               </div>
-              <Button 
-                variant="ghost" 
-                size="icon" 
+              <Button
+                variant="ghost"
+                size="icon"
                 onClick={() => signOut({ callbackUrl: "/login" })}
                 title="Đăng xuất"
               >
@@ -128,9 +128,9 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
               </Button>
             </div>
           ) : (
-            <Button 
-              variant="ghost" 
-              size="icon" 
+            <Button
+              variant="ghost"
+              size="icon"
               className="w-full h-10"
               onClick={() => signOut({ callbackUrl: "/login" })}
               title="Đăng xuất"
@@ -145,9 +145,9 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
       <div className="flex-1 flex flex-col min-w-0">
         {/* Topbar */}
         <header className="h-16 bg-card border-b flex items-center px-6 gap-4 shrink-0 sticky top-0 z-10">
-          <Button 
-            variant="ghost" 
-            size="icon" 
+          <Button
+            variant="ghost"
+            size="icon"
             onClick={() => setSidebarOpen(!sidebarOpen)}
             className="text-muted-foreground"
           >
