@@ -69,7 +69,7 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
           {sidebarOpen && (
             <div className="overflow-hidden">
               <div className="font-bold text-sm whitespace-nowrap text-foreground">
-                Đoàn Thanh Niên Khe Sanh
+                Đoàn xã Khe Sanh
               </div>
               <div className="text-[11px] text-muted-foreground whitespace-nowrap">
                 Số Hóa Di Tích & Du Lịch

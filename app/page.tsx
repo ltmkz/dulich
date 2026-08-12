@@ -18,7 +18,7 @@ export default function LandingPage() {
             <Compass className="h-6 w-6" />
           </div>
           <span className="font-bold text-lg text-slate-800 tracking-tight hidden sm:block">
-            Đoàn Thanh Niên Khe Sanh
+            Đoàn xã Khe Sanh
           </span>
         </div>
         <div className="flex gap-3">
