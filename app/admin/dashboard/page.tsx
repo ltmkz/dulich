@@ -1,10 +1,10 @@
 "use client";
 import { useEffect, useState } from "react";
 import { CATEGORIES, CATEGORY_ICONS, CategoryKey } from "@/lib/constants";
-import { 
-  Card, 
-  CardContent, 
-  CardHeader, 
+import {
+  Card,
+  CardContent,
+  CardHeader,
   CardTitle,
   CardDescription
 } from "@/components/ui/card";
@@ -52,7 +52,7 @@ export default function DashboardPage() {
       <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
         {[
           {
-            title: "Điểm Di Tích",
+            title: "Địa điểm",
             value: stats?.totalPoints ?? 0,
             icon: MapPin,
             color: "text-blue-600",
@@ -117,10 +117,10 @@ export default function DashboardPage() {
                     <div
                       className={cn(
                         "w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold shrink-0 shadow-sm",
-                        i === 0 ? "bg-amber-100 text-amber-700 border border-amber-200" 
-                        : i === 1 ? "bg-slate-100 text-slate-700 border border-slate-200"
-                        : i === 2 ? "bg-orange-100 text-orange-700 border border-orange-200"
-                        : "bg-muted text-muted-foreground"
+                        i === 0 ? "bg-amber-100 text-amber-700 border border-amber-200"
+                          : i === 1 ? "bg-slate-100 text-slate-700 border border-slate-200"
+                            : i === 2 ? "bg-orange-100 text-orange-700 border border-orange-200"
+                              : "bg-muted text-muted-foreground"
                       )}
                     >
                       {i + 1}
