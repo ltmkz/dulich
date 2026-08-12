@@ -95,7 +95,7 @@ export default async function PublicPointPage({ params }: Props) {
         <div className="relative z-10 -mt-16 md:-mt-24 mb-8 bg-white rounded-xl shadow-lg p-6 border border-slate-100">
           <div className="mb-3">
             <Badge variant="secondary" className="bg-primary/10 text-primary hover:bg-primary/20 px-3 py-1 text-xs">
-              <span className="mr-1.5 text-sm">{CATEGORY_ICONS[catKey]}</span> 
+              <span className="mr-1.5 text-sm">{CATEGORY_ICONS[catKey]}</span>
               {CATEGORIES[catKey]}
             </Badge>
           </div>
@@ -106,13 +106,13 @@ export default async function PublicPointPage({ params }: Props) {
             <MapPin className="h-5 w-5 shrink-0 text-primary" />
             <span>{point.address}</span>
           </p>
-          
+
           {point.route && (
             <div className="mt-4 pt-4 border-t border-slate-100 flex items-center gap-2 text-sm text-slate-600">
               <span className="font-medium text-slate-700">Tuyến đường:</span>
               <div className="flex items-center gap-1.5 px-2.5 py-1 rounded-full border bg-slate-50">
-                <div 
-                  className="w-2.5 h-2.5 rounded-full" 
+                <div
+                  className="w-2.5 h-2.5 rounded-full"
                   style={{ backgroundColor: point.route.color }}
                 />
                 <span className="font-medium">{point.route.name}</span>
@@ -144,19 +144,19 @@ export default async function PublicPointPage({ params }: Props) {
               <Navigation className="h-5 w-5" /> Chỉ Đường Google Maps
             </Button>
           </a>
-          
+
           <DropdownMenu>
             <DropdownMenuTrigger className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 border border-input shadow-sm hover:bg-accent hover:text-accent-foreground h-12 px-8 flex-1 sm:flex-none w-full sm:w-auto gap-2 text-base bg-white outline-none">
-                <MapIcon className="h-5 w-5 text-primary" /> Bản Đồ Khác
+              <MapIcon className="h-5 w-5 text-primary" /> Bản Đồ Khác
             </DropdownMenuTrigger>
             <DropdownMenuContent align="start" className="w-56">
               <DropdownMenuGroup>
                 <DropdownMenuLabel>Mở bằng ứng dụng</DropdownMenuLabel>
                 <DropdownMenuSeparator />
                 <DropdownMenuItem>
-                  <a 
-                    href={`https://maps.apple.com/?q=${point.latitude},${point.longitude}`} 
-                    target="_blank" 
+                  <a
+                    href={`https://maps.apple.com/?q=${point.latitude},${point.longitude}`}
+                    target="_blank"
                     rel="noopener noreferrer"
                     className="cursor-pointer flex items-center py-1 w-full outline-none"
                   >
@@ -164,9 +164,9 @@ export default async function PublicPointPage({ params }: Props) {
                   </a>
                 </DropdownMenuItem>
                 <DropdownMenuItem>
-                  <a 
-                    href={`https://waze.com/ul?ll=${point.latitude},${point.longitude}&navigate=yes`} 
-                    target="_blank" 
+                  <a
+                    href={`https://waze.com/ul?ll=${point.latitude},${point.longitude}&navigate=yes`}
+                    target="_blank"
                     rel="noopener noreferrer"
                     className="cursor-pointer flex items-center py-1 w-full outline-none"
                   >
@@ -174,8 +174,8 @@ export default async function PublicPointPage({ params }: Props) {
                   </a>
                 </DropdownMenuItem>
                 <DropdownMenuItem>
-                  <a 
-                    href={`geo:${point.latitude},${point.longitude}`} 
+                  <a
+                    href={`geo:${point.latitude},${point.longitude}`}
                     className="cursor-pointer flex items-center py-1 w-full outline-none"
                   >
                     📱 Ứng dụng mặc định (Mobile)
@@ -191,7 +191,7 @@ export default async function PublicPointPage({ params }: Props) {
           <Card className="border-slate-200 shadow-sm overflow-hidden">
             <CardHeader className="bg-slate-50 border-b border-slate-100 pb-4">
               <CardTitle className="flex items-center gap-2 text-lg text-slate-800">
-                <Info className="h-5 w-5 text-primary" /> Thông Tin Lịch Sử
+                <Info className="h-5 w-5 text-primary" /> Thông Tin/ Mô Tả
               </CardTitle>
             </CardHeader>
             <CardContent className="pt-6">
@@ -230,8 +230,8 @@ export default async function PublicPointPage({ params }: Props) {
             <Card className="border-slate-200 shadow-sm overflow-hidden">
               <CardHeader className="bg-slate-50 border-b border-slate-100 pb-4">
                 <CardTitle className="flex items-center gap-2 text-lg text-slate-800">
-                  <div 
-                    className="w-4 h-4 rounded-full flex items-center justify-center shrink-0" 
+                  <div
+                    className="w-4 h-4 rounded-full flex items-center justify-center shrink-0"
                     style={{ backgroundColor: point.route.color }}
                   />
                   Các Điểm Trong Tuyến: {point.route.name}
@@ -248,11 +248,10 @@ export default async function PublicPointPage({ params }: Props) {
                         className="block transition-transform hover:-translate-y-0.5"
                       >
                         <div
-                          className={`flex items-center gap-4 p-3 rounded-xl border ${
-                            isCurrent 
-                              ? "bg-primary/5 border-primary/30 shadow-sm" 
-                              : "bg-white border-slate-100 hover:border-slate-200 hover:shadow-sm"
-                          }`}
+                          className={`flex items-center gap-4 p-3 rounded-xl border ${isCurrent
+                            ? "bg-primary/5 border-primary/30 shadow-sm"
+                            : "bg-white border-slate-100 hover:border-slate-200 hover:shadow-sm"
+                            }`}
                         >
                           <div
                             className="w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold text-white shrink-0 shadow-sm"

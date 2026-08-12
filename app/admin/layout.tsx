@@ -58,7 +58,7 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
       <aside
         className={cn(
           "bg-card border-r flex flex-col transition-all duration-300 ease-in-out shrink-0 sticky top-0 h-screen",
-          sidebarOpen ? "w-[280px]" : "w-[72px]"
+          sidebarOpen ? "w-[300px]" : "w-[72px]"
         )}
       >
         {/* Logo */}
