@@ -20,6 +20,7 @@ const UpdateSchema = z.object({
   latitude: z.number().optional(),
   longitude: z.number().optional(),
   images: z.array(z.string()).optional(),
+  videos: z.array(z.string().url()).optional(),
   routeId: z.string().nullable().optional(),
   isActive: z.boolean().optional(),
 });
@@ -63,6 +64,7 @@ export async function GET(
     return NextResponse.json({
       ...point,
       images: JSON.parse(point.images || "[]"),
+      videos: JSON.parse(point.videos || "[]"),
     });
   } catch (error) {
     console.error(error);
@@ -89,6 +91,9 @@ export async function PUT(
     if (data.images) {
       updateData.images = JSON.stringify(data.images);
     }
+    if (data.videos) {
+      updateData.videos = JSON.stringify(data.videos);
+    }
 
     const point = await prisma.point.update({
       where: { id },
@@ -102,6 +107,7 @@ export async function PUT(
     return NextResponse.json({
       ...point,
       images: JSON.parse(point.images || "[]"),
+      videos: JSON.parse(point.videos || "[]"),
     });
   } catch (error) {
     if (error instanceof z.ZodError) {

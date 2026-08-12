@@ -15,6 +15,7 @@ interface Point {
   latitude: number;
   longitude: number;
   images: string[];
+  videos: string[];
   routeId?: string | null;
   qrCodePath?: string;
   visitCount: number;
@@ -96,6 +97,7 @@ export default function EditPointPage({ params }: { params: Promise<{ id: string
           latitude: point.latitude,
           longitude: point.longitude,
           images,
+          videos: Array.isArray(point.videos) ? point.videos : [],
           routeId: point.routeId,
         }}
       />

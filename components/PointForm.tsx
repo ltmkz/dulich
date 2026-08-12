@@ -4,7 +4,7 @@ import { useRouter } from "next/navigation";
 import dynamic from "next/dynamic";
 import Image from "next/image";
 import { CATEGORIES, CategoryKey } from "@/lib/constants";
-import { Upload, X, Save, ArrowLeft, Loader2, MapPin } from "lucide-react";
+import { Upload, X, Save, ArrowLeft, Loader2, MapPin, Video } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -44,6 +44,7 @@ interface PointFormProps {
     latitude: number;
     longitude: number;
     images: string[];
+    videos?: string[];
     routeId?: string | null;
   };
   mode: "create" | "edit";
@@ -65,6 +66,7 @@ export function PointForm({ initialData, mode }: PointFormProps) {
     latitude: number;
     longitude: number;
     images: string[];
+    videos: string[];
     routeId: string;
   }>({
     name: initialData?.name || "",
@@ -74,6 +76,7 @@ export function PointForm({ initialData, mode }: PointFormProps) {
     latitude: initialData?.latitude || 10.8231,
     longitude: initialData?.longitude || 106.6297,
     images: initialData?.images || [],
+    videos: initialData?.videos || [],
     routeId: initialData?.routeId || "none",
   });
 
@@ -113,6 +116,21 @@ export function PointForm({ initialData, mode }: PointFormProps) {
     setForm((f) => ({ ...f, images: f.images.filter((_, i) => i !== idx) }));
   };
 
+  const addVideo = () => {
+    setForm((f) => ({ ...f, videos: [...f.videos, ""] }));
+  };
+
+  const updateVideo = (idx: number, value: string) => {
+    setForm((f) => ({
+      ...f,
+      videos: f.videos.map((video, i) => (i === idx ? value : video)),
+    }));
+  };
+
+  const removeVideo = (idx: number) => {
+    setForm((f) => ({ ...f, videos: f.videos.filter((_, i) => i !== idx) }));
+  };
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setLoading(true);
@@ -120,6 +138,7 @@ export function PointForm({ initialData, mode }: PointFormProps) {
 
     const payload = {
       ...form,
+      videos: form.videos.map((video) => video.trim()).filter(Boolean),
       latitude: Number(form.latitude),
       longitude: Number(form.longitude),
       routeId: form.routeId === "none" ? null : form.routeId,
@@ -247,6 +266,31 @@ export function PointForm({ initialData, mode }: PointFormProps) {
                     required
                   />
                 </div>
+              </CardContent>
+            </Card>
+
+            <Card>
+              <CardHeader>
+                <CardTitle className="flex items-center gap-2"><Video className="h-5 w-5 text-primary" /> Video</CardTitle>
+                <CardDescription>Thêm liên kết YouTube hoặc đường dẫn trực tiếp tới video MP4.</CardDescription>
+              </CardHeader>
+              <CardContent className="space-y-3">
+                {form.videos.map((video, index) => (
+                  <div key={index} className="flex items-center gap-2">
+                    <Input
+                      type="url"
+                      value={video}
+                      onChange={(e) => updateVideo(index, e.target.value)}
+                      placeholder="https://www.youtube.com/watch?v=... hoặc https://.../video.mp4"
+                    />
+                    <Button type="button" variant="outline" size="icon" onClick={() => removeVideo(index)} aria-label="Xóa video">
+                      <X className="h-4 w-4" />
+                    </Button>
+                  </div>
+                ))}
+                <Button type="button" variant="outline" onClick={addVideo} className="gap-2">
+                  <Video className="h-4 w-4" /> Thêm video
+                </Button>
               </CardContent>
             </Card>
 

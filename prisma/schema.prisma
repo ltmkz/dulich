@@ -38,6 +38,7 @@ model Point {
   latitude    Float
   longitude   Float
   images      String        @default("[]")
+  videos      String        @default("[]")
   qrCodePath  String?
   qrCodeUrl   String?
   visitCount  Int           @default(0)

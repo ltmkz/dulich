@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 import { CATEGORIES, CATEGORY_ICONS, CategoryKey } from "@/lib/constants";
 import Image from "next/image";
 import PublicMapClient from "@/components/PublicMapClient";
-import { Navigation, Map as MapIcon, Info, MapPin } from "lucide-react";
+import { Navigation, Map as MapIcon, Info, MapPin, Video } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -67,6 +67,7 @@ export default async function PublicPointPage({ params }: Props) {
   await prisma.point.update({ where: { id }, data: { visitCount: { increment: 1 } } });
 
   const images = JSON.parse(point.images || "[]") as string[];
+  const videos = JSON.parse(point.videos || "[]") as string[];
   const catKey = point.category as CategoryKey;
   const mapsUrl = `https://maps.google.com/?q=${point.latitude},${point.longitude}`;
 
@@ -201,6 +202,31 @@ export default async function PublicPointPage({ params }: Props) {
             </CardContent>
           </Card>
 
+          {videos.length > 0 && (
+            <Card className="border-slate-200 shadow-sm overflow-hidden">
+              <CardHeader className="bg-slate-50 border-b border-slate-100 pb-4">
+                <CardTitle className="flex items-center gap-2 text-lg text-slate-800">
+                  <Video className="h-5 w-5 text-primary" /> Video giới thiệu
+                </CardTitle>
+              </CardHeader>
+              <CardContent className="space-y-5 pt-6">
+                {videos.map((video, index) => {
+                  const youtubeId = getYoutubeId(video);
+                  return youtubeId ? (
+                    <div key={video} className="aspect-video overflow-hidden rounded-lg bg-slate-900">
+                      <iframe className="h-full w-full" src={`https://www.youtube-nocookie.com/embed/${youtubeId}`} title={`Video ${index + 1} của ${point.name}`} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
+                    </div>
+                  ) : (
+                    <video key={video} controls preload="metadata" className="w-full rounded-lg bg-slate-900">
+                      <source src={video} />
+                      Trình duyệt của bạn không hỗ trợ phát video.
+                    </video>
+                  );
+                })}
+              </CardContent>
+            </Card>
+          )}
+
           {/* Map */}
           <Card className="border-slate-200 shadow-sm overflow-hidden">
             <CardHeader className="bg-slate-50 border-b border-slate-100 pb-4">
@@ -283,4 +309,17 @@ export default async function PublicPointPage({ params }: Props) {
       </div>
     </main>
   );
+}
+
+function getYoutubeId(url: string) {
+  try {
+    const parsed = new URL(url);
+    if (parsed.hostname === "youtu.be") return parsed.pathname.slice(1) || null;
+    if (parsed.hostname === "youtube.com" || parsed.hostname.endsWith(".youtube.com")) {
+      return parsed.searchParams.get("v") || parsed.pathname.match(/^\/(?:embed|shorts)\/([^/]+)/)?.[1] || null;
+    }
+  } catch {
+    return null;
+  }
+  return null;
 }

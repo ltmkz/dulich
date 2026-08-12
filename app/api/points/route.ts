@@ -19,6 +19,7 @@ const PointSchema = z.object({
   latitude: z.number(),
   longitude: z.number(),
   images: z.array(z.string()).default([]),
+  videos: z.array(z.string().url()).default([]),
   routeId: z.string().optional().nullable(),
 });
 
@@ -74,6 +75,7 @@ export async function POST(req: NextRequest) {
       data: {
         ...data,
         images: JSON.stringify(data.images),
+        videos: JSON.stringify(data.videos),
         createdById: session.user.id,
       },
     });
