@@ -5,6 +5,10 @@ import { CATEGORIES, CATEGORY_ICONS, CategoryKey } from "@/lib/constants";
 import Image from "next/image";
 import PublicMapClient from "@/components/PublicMapClient";
 import { Navigation, Map as MapIcon, Info, MapPin, Video } from "lucide-react";
+import { LanguageSwitcher } from "@/components/LanguageSwitcher";
+import { AudioPlayer } from "@/components/AudioPlayer";
+import { NearbyPoints } from "@/components/NearbyPoints";
+import { getDistance } from "@/lib/utils";
 
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -21,6 +25,7 @@ import {
 
 interface Props {
   params: Promise<{ id: string }>;
+  searchParams: Promise<{ [key: string]: string | string[] | undefined }>;
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -43,8 +48,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-export default async function PublicPointPage({ params }: Props) {
+export default async function PublicPointPage({ params, searchParams }: Props) {
   const { id } = await params;
+  const resolvedSearchParams = await searchParams;
+  const lang = (resolvedSearchParams?.lang as string) || "vi";
 
   const point = await prisma.point.findUnique({
     where: { id, isActive: true },
@@ -71,8 +78,26 @@ export default async function PublicPointPage({ params }: Props) {
   const catKey = point.category as CategoryKey;
   const mapsUrl = `https://maps.google.com/?q=${point.latitude},${point.longitude}`;
 
+  // Find nearby points
+  const allPoints = await prisma.point.findMany({
+    where: { isActive: true, id: { not: id } },
+    select: { id: true, name: true, nameEn: true, category: true, images: true, latitude: true, longitude: true },
+  });
+
+  const nearbyPoints = allPoints
+    .map((p) => ({
+      ...p,
+      distanceKm: getDistance(point.latitude, point.longitude, p.latitude, p.longitude),
+    }))
+    .sort((a, b) => a.distanceKm - b.distanceKm)
+    .slice(0, 3); // Get 3 closest
+
+  const displayName = lang === "en" && point.nameEn ? point.nameEn : point.name;
+  const displayDesc = lang === "en" && point.descriptionEn ? point.descriptionEn : point.description;
+
   return (
     <main className="min-h-screen bg-slate-50 text-slate-900 pb-12">
+      <LanguageSwitcher />
       {/* Hero images */}
       {images.length > 0 ? (
         <div className="relative h-[320px] md:h-[400px] w-full overflow-hidden">
@@ -101,7 +126,7 @@ export default async function PublicPointPage({ params }: Props) {
             </Badge>
           </div>
           <h1 className="text-2xl md:text-4xl font-bold tracking-tight text-slate-900 mb-3 leading-tight">
-            {point.name}
+            {displayName}
           </h1>
           <p className="text-slate-600 flex items-start gap-2 text-sm md:text-base">
             <MapPin className="h-5 w-5 shrink-0 text-primary" />
@@ -192,12 +217,17 @@ export default async function PublicPointPage({ params }: Props) {
           <Card className="border-slate-200 shadow-sm overflow-hidden">
             <CardHeader className="bg-slate-50 border-b border-slate-100 pb-4">
               <CardTitle className="flex items-center gap-2 text-lg text-slate-800">
-                <Info className="h-5 w-5 text-primary" /> Thông Tin/ Mô Tả
+                <Info className="h-5 w-5 text-primary" /> {lang === "en" ? "Information / Description" : "Thông Tin/ Mô Tả"}
               </CardTitle>
             </CardHeader>
             <CardContent className="pt-6">
+              <AudioPlayer 
+                audioUrl={point.audioUrl} 
+                text={displayDesc} 
+                lang={lang} 
+              />
               <div className="prose prose-slate prose-p:leading-relaxed max-w-none">
-                <p className="whitespace-pre-wrap text-slate-700">{point.description}</p>
+                <p className="whitespace-pre-wrap text-slate-700">{displayDesc}</p>
               </div>
             </CardContent>
           </Card>
@@ -304,6 +334,13 @@ export default async function PublicPointPage({ params }: Props) {
                 </div>
               </CardContent>
             </Card>
+          )}
+
+          {/* Nearby Points */}
+          {nearbyPoints.length > 0 && (
+            <div className="pt-4">
+              <NearbyPoints points={nearbyPoints} lang={lang} />
+            </div>
           )}
         </div>
       </div>

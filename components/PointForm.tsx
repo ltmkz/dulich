@@ -38,13 +38,16 @@ interface PointFormProps {
   initialData?: {
     id?: string;
     name: string;
+    nameEn?: string | null;
     description: string;
+    descriptionEn?: string | null;
     category: string;
     address: string;
     latitude: number;
     longitude: number;
     images: string[];
     videos?: string[];
+    audioUrl?: string | null;
     routeId?: string | null;
   };
   mode: "create" | "edit";
@@ -60,23 +63,29 @@ export function PointForm({ initialData, mode }: PointFormProps) {
 
   const [form, setForm] = useState<{
     name: string;
+    nameEn: string;
     description: string;
+    descriptionEn: string;
     category: string;
     address: string;
     latitude: number;
     longitude: number;
     images: string[];
     videos: string[];
+    audioUrl: string;
     routeId: string;
   }>({
     name: initialData?.name || "",
+    nameEn: initialData?.nameEn || "",
     description: initialData?.description || "",
+    descriptionEn: initialData?.descriptionEn || "",
     category: initialData?.category || "HISTORICAL_SITE",
     address: initialData?.address || "",
     latitude: initialData?.latitude || 10.8231,
     longitude: initialData?.longitude || 106.6297,
     images: initialData?.images || [],
     videos: initialData?.videos || [],
+    audioUrl: initialData?.audioUrl || "",
     routeId: initialData?.routeId || "none",
   });
 
@@ -265,6 +274,44 @@ export function PointForm({ initialData, mode }: PointFormProps) {
                     placeholder="Mô tả chi tiết về lịch sử, ý nghĩa của địa điểm này..."
                     required
                   />
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card>
+              <CardHeader>
+                <CardTitle>Bản Dịch Tiếng Anh (Tùy chọn)</CardTitle>
+                <CardDescription>Hỗ trợ đa ngôn ngữ cho du khách quốc tế.</CardDescription>
+              </CardHeader>
+              <CardContent className="space-y-4">
+                <div className="space-y-2">
+                  <Label htmlFor="nameEn">Tên điểm (Tiếng Anh)</Label>
+                  <Input 
+                    id="nameEn"
+                    value={form.nameEn} 
+                    onChange={(e) => setForm((f) => ({ ...f, nameEn: e.target.value }))} 
+                    placeholder="VD: Thach That Communal House" 
+                  />
+                </div>
+                <div className="space-y-2">
+                  <Label htmlFor="descEn">Mô tả (Tiếng Anh)</Label>
+                  <Textarea
+                    id="descEn"
+                    rows={4}
+                    value={form.descriptionEn}
+                    onChange={(e) => setForm((f) => ({ ...f, descriptionEn: e.target.value }))}
+                    placeholder="Detailed description in English..."
+                  />
+                </div>
+                <div className="space-y-2 mt-2">
+                  <Label htmlFor="audioUrl">Link Audio Thuyết minh (Tùy chọn)</Label>
+                  <Input 
+                    id="audioUrl"
+                    value={form.audioUrl} 
+                    onChange={(e) => setForm((f) => ({ ...f, audioUrl: e.target.value }))} 
+                    placeholder="https://.../audio.mp3" 
+                  />
+                  <p className="text-xs text-muted-foreground mt-1">Nếu không có, hệ thống sẽ tự động dùng giọng đọc AI mặc định.</p>
                 </div>
               </CardContent>
             </Card>

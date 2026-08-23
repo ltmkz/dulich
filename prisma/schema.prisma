@@ -19,34 +19,39 @@ model User {
 }
 
 model TouristRoute {
-  id          String   @id @default(cuid())
-  name        String
-  description String?
-  color       String   @default("#FF6B35")
-  isActive    Boolean  @default(true)
-  createdAt   DateTime @default(now())
-  updatedAt   DateTime @updatedAt
-  points      Point[]
+  id            String   @id @default(cuid())
+  name          String
+  nameEn        String?
+  description   String?
+  descriptionEn String?
+  color         String   @default("#FF6B35")
+  isActive      Boolean  @default(true)
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+  points        Point[]
 }
 
 model Point {
-  id          String        @id @default(cuid())
-  name        String
-  description String
-  category    String
-  address     String
-  latitude    Float
-  longitude   Float
-  images      String        @default("[]")
-  videos      String        @default("[]")
-  qrCodePath  String?
-  qrCodeUrl   String?
-  visitCount  Int           @default(0)
-  isActive    Boolean       @default(true)
-  routeId     String?
-  route       TouristRoute? @relation(fields: [routeId], references: [id])
-  createdById String
-  createdBy   User          @relation(fields: [createdById], references: [id])
-  createdAt   DateTime      @default(now())
-  updatedAt   DateTime      @updatedAt
+  id            String        @id @default(cuid())
+  name          String
+  nameEn        String?
+  description   String
+  descriptionEn String?
+  category      String
+  address       String
+  latitude      Float
+  longitude     Float
+  images        String        @default("[]")
+  videos        String        @default("[]")
+  audioUrl      String?
+  qrCodePath    String?
+  qrCodeUrl     String?
+  visitCount    Int           @default(0)
+  isActive      Boolean       @default(true)
+  routeId       String?
+  route         TouristRoute? @relation(fields: [routeId], references: [id])
+  createdById   String
+  createdBy     User          @relation(fields: [createdById], references: [id])
+  createdAt     DateTime      @default(now())
+  updatedAt     DateTime      @updatedAt
 }

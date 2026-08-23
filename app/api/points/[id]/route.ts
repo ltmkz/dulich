@@ -5,8 +5,11 @@ import { authOptions } from "@/lib/auth";
 import { z } from "zod";
 
 const UpdateSchema = z.object({
-  name: z.string().min(1).optional(),
-  description: z.string().min(1).optional(),
+  name: z.string().min(1, "Tên không được để trống"),
+  nameEn: z.string().optional().nullable(),
+  description: z.string().min(1, "Mô tả không được để trống"),
+  descriptionEn: z.string().optional().nullable(),
+  audioUrl: z.string().optional().nullable(),
   category: z
     .enum([
       "HISTORICAL_SITE",
