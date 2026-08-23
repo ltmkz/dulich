@@ -44,6 +44,27 @@ export function AudioPlayer({ audioUrl, text, lang = "vi" }: AudioPlayerProps) {
         } else {
           const utterance = new SpeechSynthesisUtterance(text);
           utterance.lang = lang === "en" ? "en-US" : "vi-VN";
+          
+          // Lấy danh sách giọng đọc hiện có trên thiết bị
+          const voices = synthRef.current.getVoices();
+          const targetLang = lang === "en" ? "en" : "vi";
+          const availableVoices = voices.filter(v => v.lang.includes(targetLang) || v.lang.includes(targetLang.toUpperCase()));
+          
+          if (availableVoices.length > 0) {
+            // Cố gắng tìm giọng đọc xịn hơn (Google hoặc Premium/Enhanced của Apple)
+            const preferredVoice = availableVoices.find(v => 
+              v.name.includes('Google') || 
+              v.name.includes('Premium') || 
+              v.name.includes('Enhanced') ||
+              v.name.includes('Linh') // Giọng chuẩn iOS
+            ) || availableVoices[0];
+            utterance.voice = preferredVoice;
+          }
+
+          // Điều chỉnh tốc độ đọc cho tự nhiên hơn một chút
+          utterance.rate = 0.95;
+          utterance.pitch = 1;
+
           utterance.onend = () => setIsPlaying(false);
           utteranceRef.current = utterance;
           synthRef.current.speak(utterance);
