@@ -23,10 +23,18 @@ function createCategoryIcon(category: string) {
 function AutoFitBounds({ points }: { points: { latitude: number; longitude: number }[] }) {
   const map = useMap();
   useEffect(() => {
+    const t1 = setTimeout(() => map.invalidateSize(), 100);
+    const t2 = setTimeout(() => map.invalidateSize(), 500);
+
     if (points.length > 0) {
       const bounds = L.latLngBounds(points.map((p) => [p.latitude, p.longitude]));
       map.fitBounds(bounds, { padding: [40, 40] });
     }
+
+    return () => {
+      clearTimeout(t1);
+      clearTimeout(t2);
+    };
   }, [points, map]);
   return null;
 }

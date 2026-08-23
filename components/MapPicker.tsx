@@ -16,7 +16,13 @@ function ClickHandler({ onSelect }: { onSelect: (lat: number, lng: number) => vo
 function MapUpdater({ lat, lng }: { lat: number; lng: number }) {
   const map = useMap();
   useEffect(() => {
+    const t1 = setTimeout(() => map.invalidateSize(), 100);
+    const t2 = setTimeout(() => map.invalidateSize(), 500);
     map.setView([lat, lng]);
+    return () => {
+      clearTimeout(t1);
+      clearTimeout(t2);
+    };
   }, [lat, lng, map]);
   return null;
 }

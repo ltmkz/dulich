@@ -1,9 +1,22 @@
 "use client";
 import { useEffect } from "react";
-import { MapContainer, TileLayer, Marker, Popup, Polyline } from "react-leaflet";
+import { MapContainer, TileLayer, Marker, Popup, Polyline, useMap } from "react-leaflet";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 import { CATEGORY_ICONS, CategoryKey } from "@/lib/constants";
+
+function MapUpdater() {
+  const map = useMap();
+  useEffect(() => {
+    const t1 = setTimeout(() => map.invalidateSize(), 100);
+    const t2 = setTimeout(() => map.invalidateSize(), 500);
+    return () => {
+      clearTimeout(t1);
+      clearTimeout(t2);
+    };
+  }, [map]);
+  return null;
+}
 
 interface PublicMapProps {
   point: { lat: number; lng: number; name: string };
@@ -42,6 +55,7 @@ export default function PublicMap({ point, routePoints, routeColor }: PublicMapP
 
   return (
     <MapContainer center={[point.lat, point.lng]} zoom={15} style={{ height: "100%", width: "100%" }}>
+      <MapUpdater />
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
