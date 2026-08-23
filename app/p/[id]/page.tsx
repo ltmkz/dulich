@@ -9,6 +9,7 @@ import { LanguageSwitcher } from "@/components/LanguageSwitcher";
 import { AudioPlayer } from "@/components/AudioPlayer";
 import { NearbyPoints } from "@/components/NearbyPoints";
 import { getDistance } from "@/lib/utils";
+import { translateText } from "@/lib/translate";
 
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -92,8 +93,20 @@ export default async function PublicPointPage({ params, searchParams }: Props) {
     .sort((a, b) => a.distanceKm - b.distanceKm)
     .slice(0, 3); // Get 3 closest
 
-  const displayName = lang === "en" && point.nameEn ? point.nameEn : point.name;
-  const displayDesc = lang === "en" && point.descriptionEn ? point.descriptionEn : point.description;
+  let displayName = point.name;
+  let displayDesc = point.description;
+  
+  if (lang === "en") {
+    displayName = point.nameEn || await translateText(point.name, "vi", "en");
+    displayDesc = point.descriptionEn || await translateText(point.description, "vi", "en");
+    
+    // Translate nearby points names
+    for (let i = 0; i < nearbyPoints.length; i++) {
+      if (!nearbyPoints[i].nameEn) {
+        nearbyPoints[i].nameEn = await translateText(nearbyPoints[i].name, "vi", "en");
+      }
+    }
+  }
 
   return (
     <main className="min-h-screen bg-slate-50 text-slate-900 pb-12">
