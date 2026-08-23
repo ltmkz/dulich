@@ -2,7 +2,6 @@
 import { useEffect } from "react";
 import { MapContainer, TileLayer, Marker, useMapEvents, useMap } from "react-leaflet";
 import L from "leaflet";
-import "leaflet/dist/leaflet.css";
 
 function ClickHandler({ onSelect }: { onSelect: (lat: number, lng: number) => void }) {
   useMapEvents({
@@ -47,7 +46,7 @@ export default function MapPicker({ lat, lng, onSelect }: MapPickerProps) {
     <MapContainer
       center={[lat, lng]}
       zoom={14}
-      style={{ height: "100%", width: "100%", background: "#1a1a2e" }}
+      style={{ height: "100%", width: "100%", background: "#1a1a2e", zIndex: 0 }}
     >
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'

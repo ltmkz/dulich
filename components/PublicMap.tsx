@@ -2,7 +2,6 @@
 import { useEffect } from "react";
 import { MapContainer, TileLayer, Marker, Popup, Polyline, useMap } from "react-leaflet";
 import L from "leaflet";
-import "leaflet/dist/leaflet.css";
 import { CATEGORY_ICONS, CategoryKey } from "@/lib/constants";
 
 function MapUpdater() {
@@ -54,7 +53,7 @@ export default function PublicMap({ point, routePoints, routeColor }: PublicMapP
   });
 
   return (
-    <MapContainer center={[point.lat, point.lng]} zoom={15} style={{ height: "100%", width: "100%" }}>
+    <MapContainer center={[point.lat, point.lng]} zoom={15} style={{ height: "100%", width: "100%", zIndex: 0 }}>
       <MapUpdater />
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'

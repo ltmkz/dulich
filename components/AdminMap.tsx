@@ -2,7 +2,6 @@
 import { useEffect } from "react";
 import { MapContainer, TileLayer, Marker, Popup, useMap } from "react-leaflet";
 import L from "leaflet";
-import "leaflet/dist/leaflet.css";
 import Link from "next/link";
 import { CATEGORY_COLORS, CATEGORY_ICONS, CategoryKey } from "@/lib/constants";
 
@@ -64,7 +63,7 @@ export default function AdminMap({ points }: { points: Point[] }) {
     : [10.8231, 106.6297];
 
   return (
-    <MapContainer center={center} zoom={13} style={{ height: "100%", width: "100%" }}>
+    <MapContainer center={center} zoom={13} style={{ height: "100%", width: "100%", zIndex: 0 }}>
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
