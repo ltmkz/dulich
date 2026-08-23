@@ -6,6 +6,14 @@ export const CATEGORIES = {
   CULTURAL_HERITAGE: "Di sản văn hóa",
 } as const;
 
+export const CATEGORIES_EN = {
+  HISTORICAL_SITE: "Historical Site",
+  RED_ADDRESS: "Red Address",
+  TOURIST_SPOT: "Tourist Spot",
+  COMMUNITY_CENTER: "Community Center",
+  CULTURAL_HERITAGE: "Cultural Heritage",
+} as const;
+
 export type CategoryKey = keyof typeof CATEGORIES;
 
 export const CATEGORY_COLORS: Record<CategoryKey, string> = {

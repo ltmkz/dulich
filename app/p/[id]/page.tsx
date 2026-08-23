@@ -1,7 +1,7 @@
 import { prisma } from "@/lib/prisma";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { CATEGORIES, CATEGORY_ICONS, CategoryKey } from "@/lib/constants";
+import { CATEGORIES, CATEGORIES_EN, CATEGORY_ICONS, CategoryKey } from "@/lib/constants";
 import Image from "next/image";
 import PublicMapClient from "@/components/PublicMapClient";
 import { Navigation, Map as MapIcon, Info, MapPin, Video } from "lucide-react";
@@ -134,7 +134,7 @@ export default async function PublicPointPage({ params, searchParams }: Props) {
           <div className="mb-3">
             <Badge variant="secondary" className="bg-primary/10 text-primary hover:bg-primary/20 px-3 py-1 text-xs">
               <span className="mr-1.5 text-sm">{CATEGORY_ICONS[catKey]}</span>
-              {CATEGORIES[catKey]}
+              {lang === "en" ? CATEGORIES_EN[catKey] : CATEGORIES[catKey]}
             </Badge>
           </div>
           <h1 className="text-2xl md:text-4xl font-bold tracking-tight text-slate-900 mb-3 leading-tight">
@@ -147,7 +147,7 @@ export default async function PublicPointPage({ params, searchParams }: Props) {
 
           {point.route && (
             <div className="mt-4 pt-4 border-t border-slate-100 flex items-center gap-2 text-sm text-slate-600">
-              <span className="font-medium text-slate-700">Tuyến đường:</span>
+              <span className="font-medium text-slate-700">{lang === "en" ? "Route:" : "Tuyến đường:"}</span>
               <div className="flex items-center gap-1.5 px-2.5 py-1 rounded-full border bg-slate-50">
                 <div
                   className="w-2.5 h-2.5 rounded-full"
@@ -179,17 +179,17 @@ export default async function PublicPointPage({ params, searchParams }: Props) {
         <div className="flex flex-wrap gap-3 mb-8">
           <a href={mapsUrl} target="_blank" rel="noopener noreferrer" className="flex-1 sm:flex-none">
             <Button size="lg" className="w-full sm:w-auto gap-2 h-12 text-base">
-              <Navigation className="h-5 w-5" /> Chỉ Đường Google Maps
+              <Navigation className="h-5 w-5" /> {lang === "en" ? "Get Directions" : "Chỉ Đường Google Maps"}
             </Button>
           </a>
 
           <DropdownMenu>
             <DropdownMenuTrigger className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 border border-input shadow-sm hover:bg-accent hover:text-accent-foreground h-12 px-8 flex-1 sm:flex-none w-full sm:w-auto gap-2 text-base bg-white outline-none">
-              <MapIcon className="h-5 w-5 text-primary" /> Bản Đồ Khác
+              <MapIcon className="h-5 w-5 text-primary" /> {lang === "en" ? "Other Maps" : "Bản Đồ Khác"}
             </DropdownMenuTrigger>
             <DropdownMenuContent align="start" className="w-56">
               <DropdownMenuGroup>
-                <DropdownMenuLabel>Mở bằng ứng dụng</DropdownMenuLabel>
+                <DropdownMenuLabel>{lang === "en" ? "Open with app" : "Mở bằng ứng dụng"}</DropdownMenuLabel>
                 <DropdownMenuSeparator />
                 <DropdownMenuItem>
                   <a
@@ -216,7 +216,7 @@ export default async function PublicPointPage({ params, searchParams }: Props) {
                     href={`geo:${point.latitude},${point.longitude}`}
                     className="cursor-pointer flex items-center py-1 w-full outline-none"
                   >
-                    📱 Ứng dụng mặc định (Mobile)
+                    📱 {lang === "en" ? "Default app (Mobile)" : "Ứng dụng mặc định (Mobile)"}
                   </a>
                 </DropdownMenuItem>
               </DropdownMenuGroup>
@@ -243,7 +243,7 @@ export default async function PublicPointPage({ params, searchParams }: Props) {
             <Card className="border-slate-200 shadow-sm overflow-hidden">
               <CardHeader className="bg-slate-50 border-b border-slate-100 pb-4">
                 <CardTitle className="flex items-center gap-2 text-lg text-slate-800">
-                  <Video className="h-5 w-5 text-primary" /> Video giới thiệu
+                  <Video className="h-5 w-5 text-primary" /> {lang === "en" ? "Introduction Videos" : "Video giới thiệu"}
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-5 pt-6">
@@ -268,7 +268,7 @@ export default async function PublicPointPage({ params, searchParams }: Props) {
           <Card className="border-slate-200 shadow-sm overflow-hidden">
             <CardHeader className="bg-slate-50 border-b border-slate-100 pb-4">
               <CardTitle className="flex items-center gap-2 text-lg text-slate-800">
-                <MapIcon className="h-5 w-5 text-primary" /> Vị Trí Trên Bản Đồ
+                <MapIcon className="h-5 w-5 text-primary" /> {lang === "en" ? "Location on Map" : "Vị Trí Trên Bản Đồ"}
               </CardTitle>
             </CardHeader>
             <CardContent className="p-0">
@@ -297,7 +297,7 @@ export default async function PublicPointPage({ params, searchParams }: Props) {
                     className="w-4 h-4 rounded-full flex items-center justify-center shrink-0"
                     style={{ backgroundColor: point.route.color }}
                   />
-                  Các Điểm Trong Tuyến: {point.route.name}
+                  {lang === "en" ? "Route Stops:" : "Các Điểm Trong Tuyến:"} {point.route.name}
                 </CardTitle>
               </CardHeader>
               <CardContent className="pt-6">
@@ -307,7 +307,7 @@ export default async function PublicPointPage({ params, searchParams }: Props) {
                     return (
                       <a
                         key={p.id}
-                        href={`/p/${p.id}`}
+                        href={`/p/${p.id}${lang === "en" ? "?lang=en" : ""}`}
                         className="block transition-transform hover:-translate-y-0.5"
                       >
                         <div
@@ -330,7 +330,7 @@ export default async function PublicPointPage({ params, searchParams }: Props) {
                             {isCurrent && (
                               <div className="text-[11px] font-semibold text-primary mt-0.5 flex items-center gap-1">
                                 <div className="w-1.5 h-1.5 rounded-full bg-primary animate-pulse" />
-                                BẠN ĐANG Ở ĐÂY
+                                {lang === "en" ? "YOU ARE HERE" : "BẠN ĐANG Ở ĐÂY"}
                               </div>
                             )}
                           </div>
