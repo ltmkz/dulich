@@ -6,6 +6,7 @@ import Image from "next/image";
 import PublicMapClient from "@/components/PublicMapClient";
 import { Navigation, Map as MapIcon, Info, MapPin, Video } from "lucide-react";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
+import { AudioPlayer } from "@/components/AudioPlayer";
 import { NearbyPoints } from "@/components/NearbyPoints";
 import { getDistance } from "@/lib/utils";
 import { translateText } from "@/lib/translate";
@@ -233,6 +234,11 @@ export default async function PublicPointPage({ params, searchParams }: Props) {
               </CardTitle>
             </CardHeader>
             <CardContent className="pt-6">
+              <AudioPlayer
+                text={displayDesc}
+                audioUrl={point.audioUrl}
+                lang={lang}
+              />
               <div className="prose prose-slate prose-p:leading-relaxed max-w-none">
                 <p className="whitespace-pre-wrap text-slate-700">{displayDesc}</p>
               </div>

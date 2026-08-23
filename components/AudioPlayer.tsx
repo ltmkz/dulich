@@ -1,75 +1,87 @@
 "use client";
 
-import { useState, useRef, useEffect } from "react";
-import { Play, Pause, Volume2 } from "lucide-react";
+import { useState, useRef, useEffect, useCallback } from "react";
+import { Play, Pause, Volume2, Loader2 } from "lucide-react";
 import { Button } from "./ui/button";
 
 interface AudioPlayerProps {
-  audioUrl?: string | null;
   text: string;
-  lang?: string; // "vi" or "en"
+  audioUrl?: string | null; // Nếu có file audio sẵn thì dùng luôn
+  lang?: string;
 }
 
-export function AudioPlayer({ audioUrl, text, lang = "vi" }: AudioPlayerProps) {
+export function AudioPlayer({ text, audioUrl: staticAudioUrl, lang = "vi" }: AudioPlayerProps) {
   const [isPlaying, setIsPlaying] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
+  const [generatedAudioUrl, setGeneratedAudioUrl] = useState<string | null>(null);
   const audioRef = useRef<HTMLAudioElement | null>(null);
-  const synthRef = useRef<SpeechSynthesis | null>(null);
-  const utteranceRef = useRef<SpeechSynthesisUtterance | null>(null);
 
+  // Cleanup khi unmount
   useEffect(() => {
-    if (typeof window !== "undefined") {
-      synthRef.current = window.speechSynthesis;
-    }
     return () => {
-      if (synthRef.current) {
-        synthRef.current.cancel();
+      if (audioRef.current) {
+        audioRef.current.pause();
       }
     };
   }, []);
 
-  const togglePlay = () => {
-    if (isPlaying) {
-      if (audioUrl && audioRef.current) {
-        audioRef.current.pause();
-      } else if (synthRef.current) {
-        synthRef.current.pause();
-      }
-      setIsPlaying(false);
-    } else {
-      if (audioUrl && audioRef.current) {
-        audioRef.current.play();
-      } else if (synthRef.current) {
-        if (synthRef.current.paused) {
-          synthRef.current.resume();
-        } else {
-          const utterance = new SpeechSynthesisUtterance(text);
-          utterance.lang = lang === "en" ? "en-US" : "vi-VN";
-          
-          // Lấy danh sách giọng đọc hiện có trên thiết bị
-          const voices = synthRef.current.getVoices();
-          const targetLang = lang === "en" ? "en" : "vi";
-          const availableVoices = voices.filter(v => v.lang.includes(targetLang) || v.lang.includes(targetLang.toUpperCase()));
-          
-          if (availableVoices.length > 0) {
-            // Cố gắng tìm giọng đọc xịn hơn (Google hoặc Premium/Enhanced của Apple)
-            const preferredVoice = availableVoices.find(v => 
-              v.name.includes('Google') || 
-              v.name.includes('Premium') || 
-              v.name.includes('Enhanced') ||
-              v.name.includes('Linh') // Giọng chuẩn iOS
-            ) || availableVoices[0];
-            utterance.voice = preferredVoice;
-          }
+  const getAudioUrl = useCallback(async (): Promise<string | null> => {
+    // Ưu tiên dùng file audio tĩnh nếu có sẵn
+    if (staticAudioUrl) return staticAudioUrl;
 
-          // Điều chỉnh tốc độ đọc cho tự nhiên hơn một chút
-          utterance.rate = 0.95;
-          utterance.pitch = 1;
+    // Nếu đã generate rồi thì dùng lại
+    if (generatedAudioUrl) return generatedAudioUrl;
 
-          utterance.onend = () => setIsPlaying(false);
-          utteranceRef.current = utterance;
-          synthRef.current.speak(utterance);
+    // Chỉ dùng VietTTS cho Tiếng Việt
+    if (lang === "vi") {
+      setIsLoading(true);
+      try {
+        const res = await fetch("/api/tts", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ text: text.slice(0, 500) }),
+        });
+        if (res.ok) {
+          const { audioUrl } = await res.json();
+          setGeneratedAudioUrl(audioUrl);
+          return audioUrl;
         }
+      } catch (e) {
+        console.error("TTS error:", e);
+      } finally {
+        setIsLoading(false);
       }
+    }
+    return null;
+  }, [staticAudioUrl, generatedAudioUrl, lang, text]);
+
+  const togglePlay = async () => {
+    if (isPlaying) {
+      audioRef.current?.pause();
+      setIsPlaying(false);
+      return;
+    }
+
+    const url = await getAudioUrl();
+    if (url) {
+      if (!audioRef.current) {
+        audioRef.current = new Audio(url);
+        audioRef.current.onended = () => setIsPlaying(false);
+        audioRef.current.onpause = () => setIsPlaying(false);
+      } else {
+        audioRef.current.src = url;
+      }
+      await audioRef.current.play();
+      setIsPlaying(true);
+    } else {
+      // Fallback về Web Speech API nếu VietTTS thất bại
+      const synth = window.speechSynthesis;
+      synth.cancel();
+      const utterance = new SpeechSynthesisUtterance(text.slice(0, 500));
+      utterance.lang = lang === "en" ? "en-US" : "vi-VN";
+      utterance.rate = 0.9;
+      utterance.onend = () => setIsPlaying(false);
+      synth.speak(utterance);
       setIsPlaying(true);
     }
   };
@@ -80,9 +92,16 @@ export function AudioPlayer({ audioUrl, text, lang = "vi" }: AudioPlayerProps) {
         variant="default"
         size="icon"
         onClick={togglePlay}
+        disabled={isLoading}
         className="rounded-xl h-10 w-10 shrink-0 shadow-sm bg-primary hover:bg-primary/90"
       >
-        {isPlaying ? <Pause className="h-5 w-5" /> : <Play className="h-5 w-5 ml-1" />}
+        {isLoading ? (
+          <Loader2 className="h-5 w-5 animate-spin" />
+        ) : isPlaying ? (
+          <Pause className="h-5 w-5" />
+        ) : (
+          <Play className="h-5 w-5 ml-0.5" />
+        )}
       </Button>
       <div className="flex flex-col">
         <div className="text-sm font-semibold text-primary flex items-center gap-1.5">
@@ -90,19 +109,15 @@ export function AudioPlayer({ audioUrl, text, lang = "vi" }: AudioPlayerProps) {
           {lang === "en" ? "Audio Guide" : "Nghe thuyết minh"}
         </div>
         <div className="text-xs text-slate-500 font-medium">
-          {audioUrl ? (lang === "en" ? "Official recording" : "Bản thu âm chính thức") : (lang === "en" ? "AI Voice" : "Giọng đọc AI tự động")}
+          {isLoading
+            ? (lang === "en" ? "Generating audio..." : "Đang tạo âm thanh...")
+            : staticAudioUrl
+            ? (lang === "en" ? "Official recording" : "Bản thu âm chính thức")
+            : lang === "vi"
+            ? "VietTTS AI"
+            : "AI Voice"}
         </div>
       </div>
-      {audioUrl && (
-        <audio
-          ref={audioRef}
-          src={audioUrl}
-          onEnded={() => setIsPlaying(false)}
-          onPause={() => setIsPlaying(false)}
-          onPlay={() => setIsPlaying(true)}
-          className="hidden"
-        />
-      )}
     </div>
   );
 }
