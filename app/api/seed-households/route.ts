@@ -32,10 +32,33 @@ export async function POST(request: Request) {
       "Hộ cận nghèo": 30,
       "Hộ nghèo": 12
     };
+    
+    // First, insert the REAL households from extractedQrData so they match exactly when scanned
+    for (const [key, info] of Object.entries(extractedQrData)) {
+      if (info.type === 'household') {
+        let status = "Hộ bình thường";
+        
+        households.push({
+          id: `house-${idCounter++}`,
+          headName: info.value, // Must match the QR code data exactly
+          address: key,
+          status: status,
+          memberCount: Math.floor(Math.random() * 5) + 2,
+          // Random coordinates around Khe Sanh center
+          latitude: 16.62 + (Math.random() * 0.02 - 0.01),
+          longitude: 106.73 + (Math.random() * 0.02 - 0.01),
+        });
+        
+        // Deduct from the padding budget if it's in Thôn 3A
+        if (!key.includes("Thôn Lương Lễ") && thon3ARoads.includes(key)) {
+          thon3AStats[status as keyof typeof thon3AStats]--;
+        }
+      }
+    }
 
+    // Then, pad the remaining counts for Thôn 3A to match the exact mockup stats
     for (const [status, count] of Object.entries(thon3AStats)) {
       for (let i = 0; i < count; i++) {
-        // Randomly pick a road in Thôn 3A
         const road = thon3ARoads[Math.floor(Math.random() * thon3ARoads.length)] || "Thôn 3A";
         households.push({
           id: `house-${idCounter++}`,
@@ -43,7 +66,6 @@ export async function POST(request: Request) {
           address: road,
           status: status,
           memberCount: Math.floor(Math.random() * 5) + 2,
-          // Random coordinates around Khe Sanh center
           latitude: 16.62 + (Math.random() * 0.02 - 0.01),
           longitude: 106.73 + (Math.random() * 0.02 - 0.01),
         });
