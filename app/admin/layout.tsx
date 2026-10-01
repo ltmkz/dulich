@@ -13,7 +13,8 @@ import {
   PanelLeftClose,
   PanelLeftOpen,
   ExternalLink,
-  Compass
+  Compass,
+  Users
 } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
@@ -25,6 +26,7 @@ const navItems = [
   { href: "/admin/points", icon: MapPin, label: "Địa Điểm" },
   { href: "/admin/routes", icon: RouteIcon, label: "Tuyến Đường" },
   { href: "/admin/map", icon: MapIcon, label: "Bản Đồ Tổng Quan" },
+  { href: "/quan-ly-khu-vuc", icon: Users, label: "Quản lý Hộ gia đình" },
 ];
 
 export default function AdminLayout({ children }: { children: React.ReactNode }) {

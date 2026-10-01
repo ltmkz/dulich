@@ -56,9 +56,14 @@ export default function LandingPage() {
               <ShieldCheck className="h-5 w-5" /> Quản Trị Hệ Thống
             </Button>
           </Link>
+          <Link href="/quan-ly-khu-vuc" className="w-full sm:w-auto">
+            <Button variant="secondary" size="lg" className="w-full sm:w-auto h-14 px-8 text-base shadow-xl transition-all gap-2 rounded-xl bg-blue-100 text-blue-700 hover:bg-blue-200">
+              <MapIcon className="h-5 w-5" /> Thôn Thông Minh
+            </Button>
+          </Link>
           <Link href="/login" className="w-full sm:w-auto">
             <Button variant="outline" size="lg" className="w-full sm:w-auto h-14 px-8 text-base bg-white hover:bg-slate-50 transition-all gap-2 rounded-xl border-slate-200">
-              <LogIn className="h-5 w-5 text-slate-500" /> Đăng Nhập Quản Lý
+              <LogIn className="h-5 w-5 text-slate-500" /> Đăng Nhập
             </Button>
           </Link>
         </div>
