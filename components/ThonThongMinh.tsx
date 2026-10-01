@@ -42,20 +42,6 @@ export default function ThonThongMinh({ slugKhuVuc }: { slugKhuVuc?: string }) {
   
   const [showOverview, setShowOverview] = useState(overviewKeys.includes(initialKhuVuc));
 
-  // Determine village for fetching to optimize payload
-  let villageToFetch = "all";
-  if (initialKhuVuc) {
-    if (initialKhuVuc.includes('Lương Lễ')) {
-      villageToFetch = "Thôn Lương Lễ";
-    } else if (initialKhuVuc.includes('3A')) {
-      villageToFetch = "Thôn 3A";
-    } else {
-      villageToFetch = initialKhuVuc;
-    }
-  }
-
-  // Removed useEffect that resets focusedHouseholdId on selectedAddress change
-
   const thonLuongLeRoads = [
     "Xóm Tà Đủ - Thôn Lương Lễ",
     "Xóm 5 - Thôn Lương Lễ",
@@ -64,6 +50,18 @@ export default function ThonThongMinh({ slugKhuVuc }: { slugKhuVuc?: string }) {
     "Xóm 2 - Thôn Lương Lễ",
     "Xóm 1 - Thôn Lương Lễ"
   ];
+
+  // Determine village for fetching to optimize payload (Village level)
+  let villageToFetch = "all";
+  if (initialKhuVuc) {
+    if (initialKhuVuc.includes('Lương Lễ') || thonLuongLeRoads.includes(initialKhuVuc)) {
+      villageToFetch = "Thôn Lương Lễ";
+    } else {
+      villageToFetch = "Thôn 3A";
+    }
+  }
+
+  // Removed useEffect that resets focusedHouseholdId on selectedAddress change
 
   // Fetch all households ...
   useEffect(() => {
