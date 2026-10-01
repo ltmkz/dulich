@@ -6,9 +6,15 @@ export async function GET(request: Request) {
     const { searchParams } = new URL(request.url);
     const khuVuc = searchParams.get('khuVuc');
     
-    let whereClause = {};
+    let whereClause: any = {};
     if (khuVuc && khuVuc !== 'all') {
-      whereClause = { address: { contains: khuVuc } };
+      if (khuVuc === "Thôn Lương Lễ") {
+        whereClause = { address: { contains: "Thôn Lương Lễ" } };
+      } else if (khuVuc === "Thôn 3A") {
+        whereClause = { address: { not: { contains: "Thôn Lương Lễ" } } };
+      } else {
+        whereClause = { address: { contains: khuVuc } };
+      }
     }
 
     let households = await prisma.household.findMany({
