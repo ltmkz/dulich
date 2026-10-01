@@ -1,35 +1,42 @@
 "use client";
 
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { MapPin, X, Search, Home, ChevronRight, List } from "lucide-react";
 
-// Mock Data
-const households = [
-  { id: 1, name: "Hồ Thị Thu Hương", type: "Hộ bình thường", address: "Ngõ 171 Lê Duẩn", members: 4, x: 500, y: 350 },
-  { id: 2, name: "Hoàng Minh Hải", type: "Hộ bình thường", address: "Ngõ 171 Lê Duẩn", members: 5, x: 300, y: 420 },
-  { id: 3, name: "Hoàng Thị Kim Yến", type: "Hộ bình thường", address: "Ngõ 171 Lê Duẩn", members: 2, x: 250, y: 520 },
-  { id: 4, name: "Phan Như Ý", type: "Hộ bình thường", address: "Ngõ 171 Lê Duẩn", members: 4, x: 600, y: 650 },
-  { id: 5, name: "Phan Thị Lệ Ninh", type: "Hộ nghèo", address: "Ngõ 171 Lê Duẩn", members: 3, x: 450, y: 550 },
-  { id: 6, name: "Hồ Thị Don", type: "Hộ bình thường", address: "Ngõ 171 Lê Duẩn", members: 2, x: 400, y: 250 },
-];
-
-const stats = [
-  { label: "HỘ BÌNH THƯỜNG", count: "05", color: "text-[#0047b3]", bg: "bg-[#f2f7ff]", border: "border-[#cce0ff]" },
-  { label: "HỘ CẬN NGHÈO", count: "00", color: "text-[#b37700]", bg: "bg-[#fffcf2]", border: "border-[#ffebb3]" },
-  { label: "HỘ NGHÈO", count: "01", color: "text-[#dc2626]", bg: "bg-[#fef2f2]", border: "border-[#fecaca]" },
-  { label: "CHƯA PHÂN LOẠI", count: "00", color: "text-[#64748b]", bg: "bg-[#f8fafc]", border: "border-[#e2e8f0]" },
-];
-
 export default function ThonThongMinh() {
+  const [households, setHouseholds] = useState<any[]>([]);
   const [selectedHouse, setSelectedHouse] = useState<any>(null);
   const [showList, setShowList] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
+  const [loading, setLoading] = useState(true);
   const mapRef = useRef(null);
 
+  useEffect(() => {
+    fetch('/api/households')
+      .then(res => res.json())
+      .then(data => {
+        if (Array.isArray(data)) {
+          setHouseholds(data);
+        }
+        setLoading(false);
+      })
+      .catch(err => {
+        console.error("Failed to fetch households:", err);
+        setLoading(false);
+      });
+  }, []);
+
   const filteredHouseholds = households.filter((h) =>
-    h.name.toLowerCase().includes(searchQuery.toLowerCase())
+    h.headName.toLowerCase().includes(searchQuery.toLowerCase())
   );
+
+  const stats = [
+    { label: "HỘ BÌNH THƯỜNG", count: households.filter(h => h.status === "Hộ bình thường").length.toString().padStart(2, '0'), color: "text-[#0047b3]", bg: "bg-[#f2f7ff]", border: "border-[#cce0ff]" },
+    { label: "HỘ CẬN NGHÈO", count: households.filter(h => h.status === "Hộ cận nghèo").length.toString().padStart(2, '0'), color: "text-[#b37700]", bg: "bg-[#fffcf2]", border: "border-[#ffebb3]" },
+    { label: "HỘ NGHÈO", count: households.filter(h => h.status === "Hộ nghèo").length.toString().padStart(2, '0'), color: "text-[#dc2626]", bg: "bg-[#fef2f2]", border: "border-[#fecaca]" },
+    { label: "CHƯA PHÂN LOẠI", count: households.filter(h => h.status === "Chưa phân loại").length.toString().padStart(2, '0'), color: "text-[#64748b]", bg: "bg-[#f8fafc]", border: "border-[#e2e8f0]" },
+  ];
 
   return (
     <div className="w-full h-screen bg-[#f1f3f4] flex justify-center items-center overflow-hidden font-sans">
@@ -77,15 +84,15 @@ export default function ThonThongMinh() {
               <div 
                 key={house.id} 
                 className="absolute flex flex-col items-center gap-1 transform -translate-x-1/2 -translate-y-1/2 cursor-pointer z-10"
-                style={{ left: house.x, top: house.y }}
+                style={{ left: house.latitude * 10, top: house.longitude * 10 }}
                 onClick={() => setSelectedHouse(house)}
               >
                 {/* Marker Name Label */}
                 <div className="bg-white px-3 py-1 rounded-full shadow-md border border-gray-100 text-sm font-semibold text-slate-800 whitespace-nowrap">
-                  {house.name}
+                  {house.headName}
                 </div>
                 {/* Marker Icon */}
-                <div className={`w-8 h-8 rounded-full flex items-center justify-center text-white shadow-lg border-2 border-white ${house.type === 'Hộ nghèo' ? 'bg-[#ef4444]' : 'bg-[#3b82f6]'}`}>
+                <div className={`w-8 h-8 rounded-full flex items-center justify-center text-white shadow-lg border-2 border-white ${house.status === 'Hộ nghèo' ? 'bg-[#ef4444]' : 'bg-[#3b82f6]'}`}>
                   <Home size={16} />
                 </div>
               </div>
@@ -107,13 +114,13 @@ export default function ThonThongMinh() {
                 >
                   <X size={16} />
                 </button>
-                <h2 className="text-xl font-bold text-slate-900 pr-8">{selectedHouse.name}</h2>
+                <h2 className="text-xl font-bold text-slate-900 pr-8">{selectedHouse.headName}</h2>
                 <p className="text-slate-600 mt-2 text-sm">
-                  {selectedHouse.address} &middot; Số nhân khẩu: {selectedHouse.members}
+                  {selectedHouse.address} &middot; Số nhân khẩu: {selectedHouse.memberCount}
                 </p>
                 <div className="mt-4 inline-block">
-                  <span className={`px-4 py-1.5 rounded-lg text-sm font-semibold text-white ${selectedHouse.type === 'Hộ nghèo' ? 'bg-[#ef4444]' : 'bg-[#3b82f6]'}`}>
-                    {selectedHouse.type}
+                  <span className={`px-4 py-1.5 rounded-lg text-sm font-semibold text-white ${selectedHouse.status === 'Hộ nghèo' ? 'bg-[#ef4444]' : 'bg-[#3b82f6]'}`}>
+                    {selectedHouse.status}
                   </span>
                 </div>
               </motion.div>
@@ -175,29 +182,35 @@ export default function ThonThongMinh() {
 
               {/* List */}
               <div className="flex-1 overflow-y-auto px-5 pb-20 space-y-3">
-                {filteredHouseholds.map((house) => (
-                  <div 
-                    key={house.id} 
-                    className="flex items-center justify-between p-4 bg-white border border-slate-100 shadow-sm rounded-2xl active:bg-slate-50 transition cursor-pointer"
-                    onClick={() => {
-                      setSelectedHouse(house);
-                      setShowList(false);
-                    }}
-                  >
-                    <div className="flex items-center gap-4">
-                      <div className="w-10 h-10 rounded-xl bg-[#f2f7ff] flex items-center justify-center text-[#002b80]">
-                        <Home size={20} />
+                {loading ? (
+                  <div className="flex justify-center p-10 text-slate-500">Đang tải...</div>
+                ) : filteredHouseholds.length === 0 ? (
+                  <div className="flex justify-center p-10 text-slate-500">Không tìm thấy hộ nào.</div>
+                ) : (
+                  filteredHouseholds.map((house) => (
+                    <div 
+                      key={house.id} 
+                      className="flex items-center justify-between p-4 bg-white border border-slate-100 shadow-sm rounded-2xl active:bg-slate-50 transition cursor-pointer"
+                      onClick={() => {
+                        setSelectedHouse(house);
+                        setShowList(false);
+                      }}
+                    >
+                      <div className="flex items-center gap-4">
+                        <div className="w-10 h-10 rounded-xl bg-[#f2f7ff] flex items-center justify-center text-[#002b80]">
+                          <Home size={20} />
+                        </div>
+                        <div className="font-bold text-slate-900 text-lg">{house.headName}</div>
                       </div>
-                      <div className="font-bold text-slate-900 text-lg">{house.name}</div>
+                      <div className="flex items-center gap-2">
+                        <span className={`px-3 py-1 rounded-full text-xs font-bold text-white ${house.status === 'Hộ nghèo' ? 'bg-[#ef4444]' : 'bg-[#3b82f6]'}`}>
+                          {house.status}
+                        </span>
+                        <ChevronRight size={18} className="text-slate-400" />
+                      </div>
                     </div>
-                    <div className="flex items-center gap-2">
-                      <span className={`px-3 py-1 rounded-full text-xs font-bold text-white ${house.type === 'Hộ nghèo' ? 'bg-[#ef4444]' : 'bg-[#3b82f6]'}`}>
-                        {house.type}
-                      </span>
-                      <ChevronRight size={18} className="text-slate-400" />
-                    </div>
-                  </div>
-                ))}
+                  ))
+                )}
               </div>
 
               {/* Search Bar */}
