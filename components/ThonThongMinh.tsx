@@ -20,28 +20,37 @@ export default function ThonThongMinh() {
   const [loading, setLoading] = useState(true);
   const [selectedAddress, setSelectedAddress] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState("");
+  const [staticMapUrl, setStaticMapUrl] = useState<string | null>(null);
 
   useEffect(() => {
-    // Fetch all households
-    fetch(`/api/households?khuVuc=all`)
-      .then(res => res.json())
-      .then(data => {
-        if (Array.isArray(data)) {
-          setHouseholds(data);
-          // If a specific address is passed in the URL, select it
-          if (initialKhuVuc) {
-            const exists = data.some(h => h.address === initialKhuVuc);
-            if (exists) {
-              setSelectedAddress(initialKhuVuc);
+    // Check if initialKhuVuc is actually a static map
+    import('@/lib/regionData').then(({ extractedQrData }) => {
+      const info = extractedQrData[initialKhuVuc];
+      if (info && info.type === 'map') {
+        setStaticMapUrl(info.value);
+        setLoading(false);
+      } else {
+        // Fetch all households for interactive map
+        fetch(`/api/households?khuVuc=all`)
+          .then(res => res.json())
+          .then(data => {
+            if (Array.isArray(data)) {
+              setHouseholds(data);
+              if (initialKhuVuc) {
+                const exists = data.some(h => h.address === initialKhuVuc);
+                if (exists) {
+                  setSelectedAddress(initialKhuVuc);
+                }
+              }
             }
-          }
-        }
-        setLoading(false);
-      })
-      .catch(e => {
-        console.error(e);
-        setLoading(false);
-      });
+            setLoading(false);
+          })
+          .catch(e => {
+            console.error(e);
+            setLoading(false);
+          });
+      }
+    });
   }, [initialKhuVuc]);
 
   const filteredHouseholds = households
@@ -66,18 +75,30 @@ export default function ThonThongMinh() {
       </div>
 
       {/* Main Map Area */}
-      <div className="flex-1 w-full h-full relative z-0">
-        {!loading && (
+      <div className="flex-1 w-full h-full relative z-0 bg-slate-800">
+        {!loading && staticMapUrl ? (
+          <div className="absolute inset-0 flex items-center justify-center p-4">
+            <img 
+              src={staticMapUrl} 
+              alt="Map Background" 
+              className="w-full h-full object-contain rounded-3xl"
+            />
+          </div>
+        ) : !loading ? (
           <SmartVillageMap 
             households={households} 
             selectedAddress={selectedAddress}
             onSelectAddress={setSelectedAddress} 
           />
+        ) : (
+          <div className="absolute inset-0 flex items-center justify-center">
+            <div className="w-12 h-12 border-4 border-blue-500 border-t-transparent rounded-full animate-spin"></div>
+          </div>
         )}
       </div>
 
-      {/* Floating Button if no address is selected */}
-      {!selectedAddress && (
+      {/* Floating Button if no address is selected (Only for interactive map) */}
+      {!selectedAddress && !staticMapUrl && (
         <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10">
           <Button className="bg-blue-800 hover:bg-blue-900 rounded-full shadow-xl font-bold px-6 py-6 text-base" onClick={() => {
             if (households.length > 0) setSelectedAddress(households[0].address);
@@ -88,11 +109,12 @@ export default function ThonThongMinh() {
       )}
 
       {/* Bottom Sheet (Danh sách hộ gia đình) */}
-      <div className={cn(
-        "absolute bottom-0 left-0 right-0 z-20 bg-white rounded-t-3xl shadow-[0_-10px_40px_rgba(0,0,0,0.1)] transition-transform duration-500 flex flex-col",
-        selectedAddress ? "translate-y-0 h-[65vh]" : "translate-y-full h-[65vh]"
-      )}>
-        {/* Drag handle */}
+      {!staticMapUrl && (
+        <div className={cn(
+          "absolute bottom-0 left-0 right-0 z-20 bg-white rounded-t-3xl shadow-[0_-10px_40px_rgba(0,0,0,0.1)] transition-transform duration-500 flex flex-col",
+          selectedAddress ? "translate-y-0 h-[65vh]" : "translate-y-full h-[65vh]"
+        )}>
+          {/* Drag handle */}
         <div className="w-full flex justify-center pt-3 pb-1 cursor-pointer" onClick={() => setSelectedAddress(null)}>
           <div className="w-12 h-1.5 bg-slate-300 rounded-full"></div>
         </div>
@@ -171,6 +193,7 @@ export default function ThonThongMinh() {
           </div>
         </div>
       </div>
+      )}
     </div>
   );
 }
