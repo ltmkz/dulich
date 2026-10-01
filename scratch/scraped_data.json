@@ -1,0 +1,250 @@
+{
+  "Sơ đồ địa giới - Thôn Lương Lễ": {
+    "type": "map",
+    "value": "Số 1",
+    "nhanKhau": 1,
+    "hoStatus": "Hộ bình thường",
+    "khuVuc": "Sơ đồ địa giới - Thôn Lương Lễ",
+    "mapUrl": "https://assets.icheck.vn/image/2026/app/8/25/9de5f5b0f37a69ffcbc4c88918687809.png"
+  },
+  "Sơ đồ địa giới - Thôn 3A": {
+    "type": "map",
+    "value": "Số 1",
+    "nhanKhau": 1,
+    "hoStatus": "Hộ bình thường",
+    "khuVuc": "Sơ đồ địa giới - Thôn 3A",
+    "mapUrl": "https://assets.icheck.vn/image/2026/app/8/25/9de5f5b0f37a69ffcbc4c88918687809.png"
+  },
+  "Thôn Lương Lễ - xã Khe Sanh": {
+    "type": "map",
+    "value": "Số 1",
+    "nhanKhau": 1,
+    "hoStatus": "Hộ bình thường",
+    "khuVuc": "Thôn Lương Lễ - xã Khe Sanh",
+    "mapUrl": "https://assets.icheck.vn/image/2026/app/8/25/9de5f5b0f37a69ffcbc4c88918687809.png"
+  },
+  "Thôn 3A - Xã Khe Sanh": {
+    "type": "map",
+    "value": "Số 1",
+    "nhanKhau": 1,
+    "hoStatus": "Hộ bình thường",
+    "khuVuc": "Thôn 3A - Xã Khe Sanh",
+    "mapUrl": "https://assets.icheck.vn/image/2026/app/8/25/9de5f5b0f37a69ffcbc4c88918687809.png"
+  },
+  "Xóm Tà Đủ - Thôn Lương Lễ": {
+    "type": "household",
+    "value": "Số 1",
+    "nhanKhau": 1,
+    "hoStatus": "Hộ bình thường",
+    "khuVuc": "Xóm Tà Đủ - Thôn Lương Lễ",
+    "mapUrl": "https://assets.icheck.vn/image/2026/app/8/25/9de5f5b0f37a69ffcbc4c88918687809.png"
+  },
+  "Xóm 5 - Thôn Lương Lễ": {
+    "type": "household",
+    "value": "Số 1",
+    "nhanKhau": 1,
+    "hoStatus": "Hộ bình thường",
+    "khuVuc": "Xóm 5 - Thôn Lương Lễ",
+    "mapUrl": "https://assets.icheck.vn/image/2026/app/8/25/9de5f5b0f37a69ffcbc4c88918687809.png"
+  },
+  "Xóm 4 - Thôn Lương Lễ": {
+    "type": "household",
+    "value": "Số 1",
+    "nhanKhau": 1,
+    "hoStatus": "Hộ bình thường",
+    "khuVuc": "Xóm 4 - Thôn Lương Lễ",
+    "mapUrl": "https://assets.icheck.vn/image/2026/app/8/25/9de5f5b0f37a69ffcbc4c88918687809.png"
+  },
+  "Xóm 3 - Thôn Lương Lễ": {
+    "type": "household",
+    "value": "Số 1",
+    "nhanKhau": 1,
+    "hoStatus": "Hộ bình thường",
+    "khuVuc": "Xóm 3 - Thôn Lương Lễ",
+    "mapUrl": "https://assets.icheck.vn/image/2026/app/8/25/9de5f5b0f37a69ffcbc4c88918687809.png"
+  },
+  "Xóm 2 - Thôn Lương Lễ": {
+    "type": "household",
+    "value": "Số 1",
+    "nhanKhau": 1,
+    "hoStatus": "Hộ bình thường",
+    "khuVuc": "Xóm 2 - Thôn Lương Lễ",
+    "mapUrl": "https://assets.icheck.vn/image/2026/app/8/25/9de5f5b0f37a69ffcbc4c88918687809.png"
+  },
+  "Xóm 1 - Thôn Lương Lễ": {
+    "type": "household",
+    "value": "Số 1",
+    "nhanKhau": 1,
+    "hoStatus": "Hộ bình thường",
+    "khuVuc": "Xóm 1 - Thôn Lương Lễ",
+    "mapUrl": "https://assets.icheck.vn/image/2026/app/8/25/9de5f5b0f37a69ffcbc4c88918687809.png"
+  },
+  "Đường Trần Nguyên Hãn": {
+    "type": "household",
+    "value": "Số 1",
+    "nhanKhau": 1,
+    "hoStatus": "Hộ bình thường",
+    "khuVuc": "Đường Trần Nguyên Hãn",
+    "mapUrl": "https://assets.icheck.vn/image/2026/app/8/25/9de5f5b0f37a69ffcbc4c88918687809.png"
+  },
+  "Đường Hồ Sỹ Thản": {
+    "type": "household",
+    "value": "Số 1",
+    "nhanKhau": 1,
+    "hoStatus": "Hộ bình thường",
+    "khuVuc": "Đường Hồ Sỹ Thản",
+    "mapUrl": "https://assets.icheck.vn/image/2026/app/8/25/9de5f5b0f37a69ffcbc4c88918687809.png"
+  },
+  "Đường Nguyễn Văn Linh": {
+    "type": "household",
+    "value": "Số 1",
+    "nhanKhau": 1,
+    "hoStatus": "Hộ bình thường",
+    "khuVuc": "Đường Nguyễn Văn Linh",
+    "mapUrl": "https://assets.icheck.vn/image/2026/app/8/25/9de5f5b0f37a69ffcbc4c88918687809.png"
+  },
+  "Ngõ 01 - Hà Huy Tập": {
+    "type": "household",
+    "value": "Số 1",
+    "nhanKhau": 1,
+    "hoStatus": "Hộ bình thường",
+    "khuVuc": "Ngõ 01 - Hà Huy Tập",
+    "mapUrl": "https://assets.icheck.vn/image/2026/app/8/25/9de5f5b0f37a69ffcbc4c88918687809.png"
+  },
+  "Đường Hà Huy Tập": {
+    "type": "household",
+    "value": "Số 1",
+    "nhanKhau": 1,
+    "hoStatus": "Hộ bình thường",
+    "khuVuc": "Đường Hà Huy Tập",
+    "mapUrl": "https://assets.icheck.vn/image/2026/app/8/25/9de5f5b0f37a69ffcbc4c88918687809.png"
+  },
+  "Ngõ 01 - Bùi Thị Xuân": {
+    "type": "household",
+    "value": "Số 1",
+    "nhanKhau": 1,
+    "hoStatus": "Hộ bình thường",
+    "khuVuc": "Ngõ 01 - Bùi Thị Xuân",
+    "mapUrl": "https://assets.icheck.vn/image/2026/app/8/25/9de5f5b0f37a69ffcbc4c88918687809.png"
+  },
+  "Đường Bùi Thị Xuân": {
+    "type": "household",
+    "value": "Số 1",
+    "nhanKhau": 1,
+    "hoStatus": "Hộ bình thường",
+    "khuVuc": "Đường Bùi Thị Xuân",
+    "mapUrl": "https://assets.icheck.vn/image/2026/app/8/25/9de5f5b0f37a69ffcbc4c88918687809.png"
+  },
+  "Ngõ 02 - Đường Ngô Sỹ Liên": {
+    "type": "household",
+    "value": "Số 1",
+    "nhanKhau": 1,
+    "hoStatus": "Hộ bình thường",
+    "khuVuc": "Ngõ 02 - Đường Ngô Sỹ Liên",
+    "mapUrl": "https://assets.icheck.vn/image/2026/app/8/25/9de5f5b0f37a69ffcbc4c88918687809.png"
+  },
+  "Ngõ 01 - Đường Ngô Sỹ Liên": {
+    "type": "household",
+    "value": "Số 1",
+    "nhanKhau": 1,
+    "hoStatus": "Hộ bình thường",
+    "khuVuc": "Ngõ 01 - Đường Ngô Sỹ Liên",
+    "mapUrl": "https://assets.icheck.vn/image/2026/app/8/25/9de5f5b0f37a69ffcbc4c88918687809.png"
+  },
+  "Đường Ngô Sỹ Liên": {
+    "type": "household",
+    "value": "Số 1",
+    "nhanKhau": 1,
+    "hoStatus": "Hộ bình thường",
+    "khuVuc": "Đường Ngô Sỹ Liên",
+    "mapUrl": "https://assets.icheck.vn/image/2026/app/8/25/9de5f5b0f37a69ffcbc4c88918687809.png"
+  },
+  "Kiệt 35 - Đường Ngô Sỹ Liên": {
+    "type": "household",
+    "value": "Số 1",
+    "nhanKhau": 1,
+    "hoStatus": "Hộ bình thường",
+    "khuVuc": "Kiệt 35 - Đường Ngô Sỹ Liên",
+    "mapUrl": "https://assets.icheck.vn/image/2026/app/8/25/9de5f5b0f37a69ffcbc4c88918687809.png"
+  },
+  "Đường Hai Bà Trưng": {
+    "type": "household",
+    "value": "Số 1",
+    "nhanKhau": 1,
+    "hoStatus": "Hộ bình thường",
+    "khuVuc": "Đường Hai Bà Trưng",
+    "mapUrl": "https://assets.icheck.vn/image/2026/app/8/25/9de5f5b0f37a69ffcbc4c88918687809.png"
+  },
+  "Đường Nguyễn Trãi": {
+    "type": "household",
+    "value": "Số 1",
+    "nhanKhau": 1,
+    "hoStatus": "Hộ bình thường",
+    "khuVuc": "Đường Nguyễn Trãi",
+    "mapUrl": "https://assets.icheck.vn/image/2026/app/8/25/9de5f5b0f37a69ffcbc4c88918687809.png"
+  },
+  "Đường Trần Hữu Dực": {
+    "type": "household",
+    "value": "Số 1",
+    "nhanKhau": 1,
+    "hoStatus": "Hộ bình thường",
+    "khuVuc": "Đường Trần Hữu Dực",
+    "mapUrl": "https://assets.icheck.vn/image/2026/app/8/25/9de5f5b0f37a69ffcbc4c88918687809.png"
+  },
+  "Đường Đặng Thai Mai": {
+    "type": "household",
+    "value": "Số 1",
+    "nhanKhau": 1,
+    "hoStatus": "Hộ bình thường",
+    "khuVuc": "Đường Đặng Thai Mai",
+    "mapUrl": "https://assets.icheck.vn/image/2026/app/8/25/9de5f5b0f37a69ffcbc4c88918687809.png"
+  },
+  "Đường Lê Hành": {
+    "type": "household",
+    "value": "Số 1",
+    "nhanKhau": 1,
+    "hoStatus": "Hộ bình thường",
+    "khuVuc": "Đường Lê Hành",
+    "mapUrl": "https://assets.icheck.vn/image/2026/app/8/25/9de5f5b0f37a69ffcbc4c88918687809.png"
+  },
+  "Đường Hùng Vương": {
+    "type": "household",
+    "value": "Số 1",
+    "nhanKhau": 1,
+    "hoStatus": "Hộ bình thường",
+    "khuVuc": "Đường Hùng Vương",
+    "mapUrl": "https://assets.icheck.vn/image/2026/app/8/25/9de5f5b0f37a69ffcbc4c88918687809.png"
+  },
+  "Ngõ 22 - Hùng Vương": {
+    "type": "household",
+    "value": "Số 1",
+    "nhanKhau": 1,
+    "hoStatus": "Hộ bình thường",
+    "khuVuc": "Ngõ 22 - Hùng Vương",
+    "mapUrl": "https://assets.icheck.vn/image/2026/app/8/25/9de5f5b0f37a69ffcbc4c88918687809.png"
+  },
+  "Ngõ 30 - Hùng Vương": {
+    "type": "household",
+    "value": "Số 1",
+    "nhanKhau": 1,
+    "hoStatus": "Hộ bình thường",
+    "khuVuc": "Ngõ 30 - Hùng Vương",
+    "mapUrl": "https://assets.icheck.vn/image/2026/app/8/25/9de5f5b0f37a69ffcbc4c88918687809.png"
+  },
+  "Đường Lê Duẩn": {
+    "type": "household",
+    "value": "Số 1",
+    "nhanKhau": 1,
+    "hoStatus": "Hộ bình thường",
+    "khuVuc": "Đường Lê Duẩn",
+    "mapUrl": "https://assets.icheck.vn/image/2026/app/8/25/9de5f5b0f37a69ffcbc4c88918687809.png"
+  },
+  "Ngõ 171 Lê Duẩn": {
+    "type": "household",
+    "value": "Số 1",
+    "nhanKhau": 1,
+    "hoStatus": "Hộ bình thường",
+    "khuVuc": "Ngõ 171 Lê Duẩn",
+    "mapUrl": "https://assets.icheck.vn/image/2026/app/8/25/9de5f5b0f37a69ffcbc4c88918687809.png"
+  }
+}

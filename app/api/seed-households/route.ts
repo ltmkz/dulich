@@ -36,14 +36,15 @@ export async function POST(request: Request) {
     // First, insert the REAL households from extractedQrData so they match exactly when scanned
     for (const [key, info] of Object.entries(extractedQrData)) {
       if (info.type === 'household') {
-        let status = "Hộ bình thường";
+        let status = info.hoStatus || "Hộ bình thường";
+        let memberCount = info.nhanKhau || (Math.floor(Math.random() * 5) + 2);
         
         households.push({
           id: `house-${idCounter++}`,
           headName: info.value, // Must match the QR code data exactly
           address: key,
           status: status,
-          memberCount: Math.floor(Math.random() * 5) + 2,
+          memberCount: memberCount,
           // Random coordinates around Khe Sanh center
           latitude: 16.62 + (Math.random() * 0.02 - 0.01),
           longitude: 106.73 + (Math.random() * 0.02 - 0.01),
@@ -51,7 +52,9 @@ export async function POST(request: Request) {
         
         // Deduct from the padding budget if it's in Thôn 3A
         if (!key.includes("Thôn Lương Lễ") && thon3ARoads.includes(key)) {
-          thon3AStats[status as keyof typeof thon3AStats]--;
+          if (thon3AStats[status as keyof typeof thon3AStats] > 0) {
+            thon3AStats[status as keyof typeof thon3AStats]--;
+          }
         }
       }
     }
