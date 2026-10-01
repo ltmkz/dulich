@@ -3,6 +3,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { MapPin, X, Search, Home, ChevronRight, List } from "lucide-react";
+import { extractedQrData } from "@/lib/regionData";
 
 export default function ThonThongMinh({ khuVuc }: { khuVuc: string }) {
   const [households, setHouseholds] = useState<any[]>([]);
@@ -11,6 +12,7 @@ export default function ThonThongMinh({ khuVuc }: { khuVuc: string }) {
   const [searchQuery, setSearchQuery] = useState("");
   const [loading, setLoading] = useState(true);
   const mapRef = useRef(null);
+  const regionInfo = extractedQrData[khuVuc];
 
   useEffect(() => {
     fetch(`/api/households?khuVuc=${encodeURIComponent(khuVuc)}`)
@@ -58,26 +60,36 @@ export default function ThonThongMinh({ khuVuc }: { khuVuc: string }) {
             dragConstraints={mapRef}
             initial={{ x: -200, y: -100 }}
           >
-            {/* Draw some roads to simulate map */}
-            <svg className="w-full h-full absolute inset-0 opacity-50" xmlns="http://www.w3.org/2000/svg">
-              <path d="M 100 0 L 300 1200" stroke="#ffffff" strokeWidth="30" fill="none" strokeLinecap="round" />
-              <path d="M 800 0 L 400 1200" stroke="#ffffff" strokeWidth="40" fill="none" strokeLinecap="round" />
-              <path d="M 0 400 L 1200 800" stroke="#ffffff" strokeWidth="25" fill="none" strokeLinecap="round" />
-              <path d="M 200 800 L 800 200" stroke="#ffffff" strokeWidth="20" fill="none" strokeLinecap="round" />
-              <rect x="250" y="300" width="150" height="150" fill="#e2e6e9" rx="10" />
-              <rect x="550" y="450" width="200" height="100" fill="#e2e6e9" rx="10" transform="rotate(30 550 450)" />
-              <rect x="650" y="700" width="100" height="120" fill="#e2e6e9" rx="10" transform="rotate(-15 650 700)" />
-            </svg>
+            {regionInfo?.type === 'map' ? (
+              <img 
+                src={regionInfo.value} 
+                alt={khuVuc}
+                className="w-full h-full absolute inset-0 object-contain opacity-90"
+              />
+            ) : (
+              <>
+                {/* Draw some roads to simulate map if no map image */}
+                <svg className="w-full h-full absolute inset-0 opacity-50" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M 100 0 L 300 1200" stroke="#ffffff" strokeWidth="30" fill="none" strokeLinecap="round" />
+                  <path d="M 800 0 L 400 1200" stroke="#ffffff" strokeWidth="40" fill="none" strokeLinecap="round" />
+                  <path d="M 0 400 L 1200 800" stroke="#ffffff" strokeWidth="25" fill="none" strokeLinecap="round" />
+                  <path d="M 200 800 L 800 200" stroke="#ffffff" strokeWidth="20" fill="none" strokeLinecap="round" />
+                  <rect x="250" y="300" width="150" height="150" fill="#e2e6e9" rx="10" />
+                  <rect x="550" y="450" width="200" height="100" fill="#e2e6e9" rx="10" transform="rotate(30 550 450)" />
+                  <rect x="650" y="700" width="100" height="120" fill="#e2e6e9" rx="10" transform="rotate(-15 650 700)" />
+                </svg>
 
-            {/* Other map markers (shops etc, just decorative) */}
-            <div className="absolute left-[400px] top-[200px] flex items-center gap-1">
-              <div className="bg-sky-500 rounded-full p-1 text-white"><MapPin size={12}/></div>
-              <span className="text-sky-600 text-xs font-semibold bg-white/80 px-1 rounded">Đại Lý Bia - Nước Giải Khát</span>
-            </div>
-            <div className="absolute left-[550px] top-[150px] flex items-center gap-1">
-              <div className="bg-orange-400 rounded-full p-1 text-white"><MapPin size={12}/></div>
-              <span className="text-orange-600 text-xs font-semibold bg-white/80 px-1 rounded">Gấu Nhỏ Bakery</span>
-            </div>
+                {/* Other map markers (shops etc, just decorative) */}
+                <div className="absolute left-[400px] top-[200px] flex items-center gap-1">
+                  <div className="bg-sky-500 rounded-full p-1 text-white"><MapPin size={12}/></div>
+                  <span className="text-sky-600 text-xs font-semibold bg-white/80 px-1 rounded">Đại Lý Bia - Nước Giải Khát</span>
+                </div>
+                <div className="absolute left-[550px] top-[150px] flex items-center gap-1">
+                  <div className="bg-orange-400 rounded-full p-1 text-white"><MapPin size={12}/></div>
+                  <span className="text-orange-600 text-xs font-semibold bg-white/80 px-1 rounded">Gấu Nhỏ Bakery</span>
+                </div>
+              </>
+            )}
 
             {/* Households */}
             {households.map((house) => (
