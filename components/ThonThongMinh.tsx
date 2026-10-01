@@ -8,6 +8,7 @@ import { Input } from "@/components/ui/input";
 import dynamic from 'next/dynamic';
 import { cn, generateSlug } from "@/lib/utils";
 import { extractedQrData } from "@/lib/regionData";
+import ThonThongMinhOverview from "./ThonThongMinhOverview";
 
 // Dynamically import Leaflet Map to avoid SSR issues
 const SmartVillageMap = dynamic(() => import('./SmartVillageMap'), { ssr: false });
@@ -31,6 +32,28 @@ export default function ThonThongMinh({ slugKhuVuc }: { slugKhuVuc?: string }) {
   const [searchQuery, setSearchQuery] = useState("");
   const [focusedHouseholdId, setFocusedHouseholdId] = useState<string | null>(null);
 
+  // List of keys that should show the Overview UI first
+  const overviewKeys = [
+    "Sơ đồ địa giới - Thôn Lương Lễ",
+    "Sơ đồ địa giới - Thôn 3A",
+    "Thôn Lương Lễ - xã Khe Sanh",
+    "Thôn 3A - Xã Khe Sanh"
+  ];
+  
+  const [showOverview, setShowOverview] = useState(overviewKeys.includes(initialKhuVuc));
+
+  // Determine village for fetching to optimize payload
+  let villageToFetch = "all";
+  if (initialKhuVuc) {
+    if (initialKhuVuc.includes('Lương Lễ')) {
+      villageToFetch = "Thôn Lương Lễ";
+    } else if (initialKhuVuc.includes('3A')) {
+      villageToFetch = "Thôn 3A";
+    } else {
+      villageToFetch = initialKhuVuc;
+    }
+  }
+
   // Removed useEffect that resets focusedHouseholdId on selectedAddress change
 
   const thonLuongLeRoads = [
@@ -44,7 +67,7 @@ export default function ThonThongMinh({ slugKhuVuc }: { slugKhuVuc?: string }) {
 
   // Fetch all households ...
   useEffect(() => {
-    fetch(`/api/households?khuVuc=all`)
+    fetch(`/api/households?khuVuc=${encodeURIComponent(villageToFetch)}`)
       .then(res => res.json())
       .then(data => {
         if (Array.isArray(data)) {
@@ -68,7 +91,7 @@ export default function ThonThongMinh({ slugKhuVuc }: { slugKhuVuc?: string }) {
         console.error(e);
         setLoading(false);
       });
-  }, [initialKhuVuc]);
+  }, [initialKhuVuc, villageToFetch]);
 
   const getFilteredBase = () => {
     if (selectedAddress === "Thôn Lương Lễ") return households.filter(h => thonLuongLeRoads.includes(h.address));
@@ -85,6 +108,20 @@ export default function ThonThongMinh({ slugKhuVuc }: { slugKhuVuc?: string }) {
   const normalCount = baseHouseholds.filter(h => h.status === 'Hộ bình thường').length;
   const nearPoorCount = baseHouseholds.filter(h => h.status === 'Hộ cận nghèo').length;
   const poorCount = baseHouseholds.filter(h => h.status === 'Hộ nghèo').length;
+
+  if (showOverview) {
+    const title = initialKhuVuc.includes('3A') ? "Thôn 3A - Xã Khe Sanh" : "Thôn Lương Lễ - Xã Khe Sanh";
+    return (
+      <ThonThongMinhOverview
+        title={title}
+        normalCount={normalCount}
+        nearPoorCount={nearPoorCount}
+        poorCount={poorCount}
+        mapUrl={extractedQrData[initialKhuVuc]?.mapUrl}
+        onViewMap={() => setShowOverview(false)}
+      />
+    );
+  }
 
   return (
     <div className="flex flex-col h-screen bg-slate-50 relative overflow-hidden font-sans">
