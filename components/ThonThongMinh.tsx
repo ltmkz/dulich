@@ -4,7 +4,7 @@ import React, { useState, useRef, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { MapPin, X, Search, Home, ChevronRight, List } from "lucide-react";
 
-export default function ThonThongMinh() {
+export default function ThonThongMinh({ khuVuc }: { khuVuc: string }) {
   const [households, setHouseholds] = useState<any[]>([]);
   const [selectedHouse, setSelectedHouse] = useState<any>(null);
   const [showList, setShowList] = useState(false);
@@ -13,7 +13,7 @@ export default function ThonThongMinh() {
   const mapRef = useRef(null);
 
   useEffect(() => {
-    fetch('/api/households')
+    fetch(`/api/households?khuVuc=${encodeURIComponent(khuVuc)}`)
       .then(res => res.json())
       .then(data => {
         if (Array.isArray(data)) {
@@ -46,7 +46,7 @@ export default function ThonThongMinh() {
         {/* Header */}
         <div className="bg-[#002b80] text-white p-4 flex items-center gap-2 z-10 shadow-md">
           <MapPin size={20} />
-          <h1 className="text-lg font-bold">Ngõ 171 Lê Duẩn</h1>
+          <h1 className="text-lg font-bold line-clamp-1">{khuVuc}</h1>
         </div>
 
         {/* Map Area */}
