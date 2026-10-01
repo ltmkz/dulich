@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import { Map, QrCode, ArrowRight, Home } from "lucide-react";
 import { extractedQrData } from "@/lib/regionData";
-import { generateSlug } from "@/components/ThonThongMinh";
+import { generateSlug } from "@/lib/utils";
 
 export default function QuanLyKhuVucPage() {
   const maps = Object.entries(extractedQrData).filter(([k, v]) => v.type === 'map');

@@ -6,7 +6,7 @@ import { MapPin, ArrowLeft, Search, X, Home, Users } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import dynamic from 'next/dynamic';
-import { cn } from "@/lib/utils";
+import { cn, generateSlug } from "@/lib/utils";
 import { extractedQrData } from "@/lib/regionData";
 
 // Dynamically import Leaflet Map to avoid SSR issues
@@ -185,16 +185,4 @@ export default function ThonThongMinh({ slugKhuVuc }: { slugKhuVuc?: string }) {
       </div>
     </div>
   );
-}
-
-// Utility to generate URL-safe slugs
-export function generateSlug(text: string) {
-  return text
-    .toLowerCase()
-    .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "") // remove diacritics
-    .replace(/đ/g, "d")
-    .replace(/[^a-z0-9\s-]/g, "") // remove special chars
-    .trim()
-    .replace(/\s+/g, "-"); // replace spaces with hyphens
 }
