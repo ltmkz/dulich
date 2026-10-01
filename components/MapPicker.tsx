@@ -50,7 +50,7 @@ export default function MapPicker({ lat, lng, onSelect }: MapPickerProps) {
     >
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
-        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+        url="https://mt1.google.com/vt/lyrs=m&x={x}&y={y}&z={z}"
       />
       <MapUpdater lat={lat} lng={lng} />
       <ClickHandler onSelect={onSelect} />
