@@ -8,42 +8,17 @@ export async function GET(request: Request) {
     const khuVuc = searchParams.get('khuVuc') || "Ngõ 171 Lê Duẩn";
 
     let households = await prisma.household.findMany({
-      where: { address: khuVuc },
       orderBy: { createdAt: 'desc' }
     });
 
     if (households.length === 0) {
-      // Tự động seed dữ liệu mẫu cho khu vực này nếu chưa có
-      const regionInfo = extractedQrData[khuVuc];
-      let mockHouseholds = [];
-
-      if (regionInfo && regionInfo.type === 'household') {
-        mockHouseholds.push({
-          headName: regionInfo.value,
-          status: "Hộ bình thường",
-          address: khuVuc,
-          memberCount: 4,
-          latitude: 50,
-          longitude: 50
+      // Nếu chưa có, seed từ file
+      const res = await fetch(new URL('/api/seed-households', request.url).toString(), { method: 'POST' });
+      if (res.ok) {
+        households = await prisma.household.findMany({
+          orderBy: { createdAt: 'desc' }
         });
-      } else {
-        mockHouseholds = [
-          { headName: `Nguyễn Văn A (${khuVuc})`, status: "Hộ bình thường", address: khuVuc, memberCount: 4, latitude: 50, longitude: 35 },
-          { headName: `Trần Thị B (${khuVuc})`, status: "Hộ cận nghèo", address: khuVuc, memberCount: 5, latitude: 30, longitude: 42 },
-          { headName: `Lê Văn C (${khuVuc})`, status: "Hộ bình thường", address: khuVuc, memberCount: 2, latitude: 25, longitude: 52 },
-          { headName: `Phạm Thị D (${khuVuc})`, status: "Hộ nghèo", address: khuVuc, memberCount: 4, latitude: 60, longitude: 65 },
-          { headName: `Hoàng Văn E (${khuVuc})`, status: "Chưa phân loại", address: khuVuc, memberCount: 3, latitude: 45, longitude: 55 },
-        ];
       }
-
-      await prisma.household.createMany({
-        data: mockHouseholds
-      });
-      
-      households = await prisma.household.findMany({
-        where: { address: khuVuc },
-        orderBy: { createdAt: 'desc' }
-      });
     }
 
     return NextResponse.json(households);

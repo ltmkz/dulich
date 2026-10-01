@@ -20,6 +20,10 @@ export default function ThonThongMinh({ khuVuc }: { khuVuc: string }) {
       .then(data => {
         if (Array.isArray(data)) {
           setHouseholds(data);
+          if (regionInfo && regionInfo.type === 'household') {
+            const match = data.find(h => h.address === khuVuc);
+            if (match) setSelectedHouse(match);
+          }
         }
         setLoading(false);
       })
@@ -60,9 +64,9 @@ export default function ThonThongMinh({ khuVuc }: { khuVuc: string }) {
             dragConstraints={mapRef}
             initial={{ x: -200, y: -100 }}
           >
-            {regionInfo?.type === 'map' ? (
+            {regionInfo?.type === 'map' || regionInfo?.mapUrl ? (
               <img 
-                src={regionInfo.value} 
+                src={regionInfo.type === 'map' ? regionInfo.value : regionInfo.mapUrl} 
                 alt={khuVuc}
                 className="w-full h-full absolute inset-0 object-contain opacity-90"
               />
