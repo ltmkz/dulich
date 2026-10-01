@@ -1,0 +1,7756 @@
+[
+  {
+    "headName": "Hồ Pỉ Pằn",
+    "address": "Xóm Tà Đủ - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.636167,
+    "longitude": 106.758665
+  },
+  {
+    "headName": "Hồ Hồi",
+    "address": "Xóm Tà Đủ - Thôn Lương Lễ",
+    "status": "Hộ cận nghèo",
+    "memberCount": 3,
+    "latitude": 16.636553,
+    "longitude": 106.758549
+  },
+  {
+    "headName": "Hồ Ta Cô",
+    "address": "Xóm Tà Đủ - Thôn Lương Lễ",
+    "status": "Hộ cận nghèo",
+    "memberCount": 4,
+    "latitude": 16.639743,
+    "longitude": 106.755122
+  },
+  {
+    "headName": "Hồ Văn An",
+    "address": "Xóm Tà Đủ - Thôn Lương Lễ",
+    "status": "Hộ cận nghèo",
+    "memberCount": 7,
+    "latitude": 16.639901,
+    "longitude": 106.755884
+  },
+  {
+    "headName": "Hồ A Ta",
+    "address": "Xóm Tà Đủ - Thôn Lương Lễ",
+    "status": "Hộ nghèo",
+    "memberCount": 4,
+    "latitude": 16.640511,
+    "longitude": 106.759849
+  },
+  {
+    "headName": "Hồ Téc",
+    "address": "Xóm Tà Đủ - Thôn Lương Lễ",
+    "status": "Hộ cận nghèo",
+    "memberCount": 6,
+    "latitude": 16.639771,
+    "longitude": 106.756865
+  },
+  {
+    "headName": "Hồ Thị Ta Nên",
+    "address": "Xóm Tà Đủ - Thôn Lương Lễ",
+    "status": "Hộ nghèo",
+    "memberCount": 4,
+    "latitude": 16.639721,
+    "longitude": 106.755989
+  },
+  {
+    "headName": "Hồ A Giác",
+    "address": "Xóm Tà Đủ - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.640466,
+    "longitude": 106.759651
+  },
+  {
+    "headName": "Hồ A Phơi",
+    "address": "Xóm Tà Đủ - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.639686,
+    "longitude": 106.756091
+  },
+  {
+    "headName": "Hồ Văn Xa Rừm",
+    "address": "Xóm Tà Đủ - Thôn Lương Lễ",
+    "status": "Hộ cận nghèo",
+    "memberCount": 2,
+    "latitude": 16.639905,
+    "longitude": 106.755399
+  },
+  {
+    "headName": "Hồ Văn Miệt",
+    "address": "Xóm Tà Đủ - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.639656,
+    "longitude": 106.756412
+  },
+  {
+    "headName": "Hồ Văn Dương",
+    "address": "Xóm Tà Đủ - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.640195,
+    "longitude": 106.758475
+  },
+  {
+    "headName": "Hồ Pả Ring",
+    "address": "Xóm Tà Đủ - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 2,
+    "latitude": 16.639578,
+    "longitude": 106.755938
+  },
+  {
+    "headName": "Hồ Chinh",
+    "address": "Xóm Tà Đủ - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.640466,
+    "longitude": 106.759651
+  },
+  {
+    "headName": "Hồ Tiếu",
+    "address": "Xóm Tà Đủ - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 7,
+    "latitude": 16.639763,
+    "longitude": 106.756841
+  },
+  {
+    "headName": "Hồ Thị Pỉ Hâm",
+    "address": "Xóm Tà Đủ - Thôn Lương Lễ",
+    "status": "Hộ cận nghèo",
+    "memberCount": 6,
+    "latitude": 16.640448,
+    "longitude": 106.759545
+  },
+  {
+    "headName": "Hồ Văn Thu",
+    "address": "Xóm Tà Đủ - Thôn Lương Lễ",
+    "status": "Hộ cận nghèo",
+    "memberCount": 2,
+    "latitude": 16.639776,
+    "longitude": 106.756858
+  },
+  {
+    "headName": "Hồ Văn Xanh",
+    "address": "Xóm Tà Đủ - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.639402,
+    "longitude": 106.750581
+  },
+  {
+    "headName": "Hồ Văn Tình",
+    "address": "Xóm Tà Đủ - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 7,
+    "latitude": 16.640189,
+    "longitude": 106.758703
+  },
+  {
+    "headName": "Hồ Thanh Táo",
+    "address": "Xóm Tà Đủ - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.639139,
+    "longitude": 106.757165
+  },
+  {
+    "headName": "Trương Văn Lĩnh",
+    "address": "Xóm Tà Đủ - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.640139,
+    "longitude": 106.757972
+  },
+  {
+    "headName": "Hồ Văn Phơm",
+    "address": "Xóm Tà Đủ - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.639771,
+    "longitude": 106.756858
+  },
+  {
+    "headName": "Hồ Văn Lát",
+    "address": "Xóm Tà Đủ - Thôn Lương Lễ",
+    "status": "Hộ nghèo",
+    "memberCount": 6,
+    "latitude": 16.640509,
+    "longitude": 106.759849
+  },
+  {
+    "headName": "Hồ Văn Loi",
+    "address": "Xóm Tà Đủ - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.640505,
+    "longitude": 106.759841
+  },
+  {
+    "headName": "Hồ Văn Ring",
+    "address": "Xóm Tà Đủ - Thôn Lương Lễ",
+    "status": "Hộ cận nghèo",
+    "memberCount": 4,
+    "latitude": 16.639799,
+    "longitude": 106.756894
+  },
+  {
+    "headName": "Hồ Miệt",
+    "address": "Xóm Tà Đủ - Thôn Lương Lễ",
+    "status": "Hộ cận nghèo",
+    "memberCount": 5,
+    "latitude": 16.640511,
+    "longitude": 106.758296
+  },
+  {
+    "headName": "Hồ Khu",
+    "address": "Xóm Tà Đủ - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.639609,
+    "longitude": 106.755905
+  },
+  {
+    "headName": "Hồ xế",
+    "address": "Xóm Tà Đủ - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.640448,
+    "longitude": 106.759545
+  },
+  {
+    "headName": "Hồ Phương",
+    "address": "Xóm Tà Đủ - Thôn Lương Lễ",
+    "status": "Hộ cận nghèo",
+    "memberCount": 5,
+    "latitude": 16.640143,
+    "longitude": 106.757971
+  },
+  {
+    "headName": "Hồ Văn Thương",
+    "address": "Xóm Tà Đủ - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.639779,
+    "longitude": 106.756866
+  },
+  {
+    "headName": "Hồ Phế",
+    "address": "Xóm Tà Đủ - Thôn Lương Lễ",
+    "status": "Hộ cận nghèo",
+    "memberCount": 5,
+    "latitude": 16.634893,
+    "longitude": 106.756822
+  },
+  {
+    "headName": "Hồ Văn Khư",
+    "address": "Xóm Tà Đủ - Thôn Lương Lễ",
+    "status": "Hộ cận nghèo",
+    "memberCount": 5,
+    "latitude": 16.639666,
+    "longitude": 106.755906
+  },
+  {
+    "headName": "Hồ Pỉ Mát",
+    "address": "Xóm Tà Đủ - Thôn Lương Lễ",
+    "status": "Hộ cận nghèo",
+    "memberCount": 2,
+    "latitude": 16.640508,
+    "longitude": 106.759798
+  },
+  {
+    "headName": "Hồ Văn Khiếp",
+    "address": "Xóm Tà Đủ - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.639743,
+    "longitude": 106.755953
+  },
+  {
+    "headName": "Hồ Văn Nghiệp",
+    "address": "Xóm Tà Đủ - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.639861,
+    "longitude": 106.754988
+  },
+  {
+    "headName": "Hồ Văn Không",
+    "address": "Xóm Tà Đủ - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.640508,
+    "longitude": 106.759846
+  },
+  {
+    "headName": "Hồ Văn Liêu",
+    "address": "Xóm Tà Đủ - Thôn Lương Lễ",
+    "status": "Hộ nghèo",
+    "memberCount": 4,
+    "latitude": 16.639945,
+    "longitude": 106.757164
+  },
+  {
+    "headName": "Hồ Phân",
+    "address": "Xóm Tà Đủ - Thôn Lương Lễ",
+    "status": "Hộ cận nghèo",
+    "memberCount": 4,
+    "latitude": 16.639969,
+    "longitude": 106.757132
+  },
+  {
+    "headName": "Hồ Văn Tiếp",
+    "address": "Xóm Tà Đủ - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.639862,
+    "longitude": 106.754982
+  },
+  {
+    "headName": "Hồ Văn Vinh",
+    "address": "Xóm Tà Đủ - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.639382,
+    "longitude": 106.754123
+  },
+  {
+    "headName": "Hồ Lữ",
+    "address": "Xóm Tà Đủ - Thôn Lương Lễ",
+    "status": "Hộ nghèo",
+    "memberCount": 5,
+    "latitude": 16.639721,
+    "longitude": 106.755978
+  },
+  {
+    "headName": "Hồ Văn Thức",
+    "address": "Xóm Tà Đủ - Thôn Lương Lễ",
+    "status": "Hộ nghèo",
+    "memberCount": 4,
+    "latitude": 16.639627,
+    "longitude": 106.757971
+  },
+  {
+    "headName": "Hồ Minh",
+    "address": "Xóm Tà Đủ - Thôn Lương Lễ",
+    "status": "Hộ nghèo",
+    "memberCount": 3,
+    "latitude": 16.635199,
+    "longitude": 106.756123
+  },
+  {
+    "headName": "Hồ Y May",
+    "address": "Xóm Tà Đủ - Thôn Lương Lễ",
+    "status": "Hộ cận nghèo",
+    "memberCount": 7,
+    "latitude": 16.640189,
+    "longitude": 106.758443
+  },
+  {
+    "headName": "Hồ Líp Na",
+    "address": "Xóm Tà Đủ - Thôn Lương Lễ",
+    "status": "Hộ cận nghèo",
+    "memberCount": 4,
+    "latitude": 16.640186,
+    "longitude": 106.758296
+  },
+  {
+    "headName": "Hồ Văn Nam",
+    "address": "Xóm Tà Đủ - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.639181,
+    "longitude": 106.755973
+  },
+  {
+    "headName": "Hồ Văn Phung",
+    "address": "Xóm Tà Đủ - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.639182,
+    "longitude": 106.755971
+  },
+  {
+    "headName": "Trương Minh Nương",
+    "address": "Xóm 5 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 7,
+    "latitude": 16.642647,
+    "longitude": 106.771567
+  },
+  {
+    "headName": "Trương Thị Thuỷ",
+    "address": "Xóm 5 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.642727,
+    "longitude": 106.771631
+  },
+  {
+    "headName": "Lê Công Tuấn",
+    "address": "Xóm 5 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.642885,
+    "longitude": 106.771885
+  },
+  {
+    "headName": "Lê Văn Quang",
+    "address": "Xóm 5 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 7,
+    "latitude": 16.642681,
+    "longitude": 106.772052
+  },
+  {
+    "headName": "Hồ Văn Noàng",
+    "address": "Xóm 5 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.642822,
+    "longitude": 106.772095
+  },
+  {
+    "headName": "Nguyễn Hoàng (Lương Lễ)",
+    "address": "Xóm 5 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.642722,
+    "longitude": 106.772238
+  },
+  {
+    "headName": "Trương Thị Gái",
+    "address": "Xóm 5 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.642683,
+    "longitude": 106.772362
+  },
+  {
+    "headName": "Trương Văn Quang",
+    "address": "Xóm 5 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.642681,
+    "longitude": 106.772385
+  },
+  {
+    "headName": "Nguyễn Lương Bình",
+    "address": "Xóm 5 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.642612,
+    "longitude": 106.772592
+  },
+  {
+    "headName": "Nguyễn Văn Thiên",
+    "address": "Xóm 5 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.642535,
+    "longitude": 106.772861
+  },
+  {
+    "headName": "Nguyễn Thị Lan (Bê)",
+    "address": "Xóm 5 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.642482,
+    "longitude": 106.772981
+  },
+  {
+    "headName": "Nguyễn Đức Cần",
+    "address": "Xóm 5 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.642511,
+    "longitude": 106.772037
+  },
+  {
+    "headName": "Võ Văn Tuấn",
+    "address": "Xóm 5 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.642355,
+    "longitude": 106.773138
+  },
+  {
+    "headName": "Dương Thị Oanh( Tùng)",
+    "address": "Xóm 5 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 7,
+    "latitude": 16.642355,
+    "longitude": 106.773138
+  },
+  {
+    "headName": "Phạm Ngọc Sáng",
+    "address": "Xóm 5 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.642398,
+    "longitude": 106.773337
+  },
+  {
+    "headName": "Hồ Phuôm",
+    "address": "Xóm 5 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.641958,
+    "longitude": 106.773487
+  },
+  {
+    "headName": "Trương Quang",
+    "address": "Xóm 5 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.642261,
+    "longitude": 106.773647
+  },
+  {
+    "headName": "Dương Phước Thiên",
+    "address": "Xóm 5 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.642432,
+    "longitude": 106.774035
+  },
+  {
+    "headName": "Trần Kiếm Thành",
+    "address": "Xóm 5 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.641342,
+    "longitude": 106.776638
+  },
+  {
+    "headName": "Trần Phú",
+    "address": "Xóm 5 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 1,
+    "latitude": 16.641341,
+    "longitude": 106.776639
+  },
+  {
+    "headName": "Nguyễn Xuân Đắc",
+    "address": "Xóm 5 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.640378,
+    "longitude": 106.777732
+  },
+  {
+    "headName": "Nguyễn Thị Lệ",
+    "address": "Xóm 5 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 2,
+    "latitude": 16.639217,
+    "longitude": 106.778152
+  },
+  {
+    "headName": "Đào Thị Tầm",
+    "address": "Xóm 5 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 2,
+    "latitude": 16.639216,
+    "longitude": 106.778151
+  },
+  {
+    "headName": "Nguyễn Hoà",
+    "address": "Xóm 5 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.638871,
+    "longitude": 106.778383
+  },
+  {
+    "headName": "Nguyễn Thị Thắm",
+    "address": "Xóm 5 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.642857,
+    "longitude": 106.771363
+  },
+  {
+    "headName": "Lê Thị Tuyết (Lương Lễ)",
+    "address": "Xóm 5 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.642856,
+    "longitude": 106.771361
+  },
+  {
+    "headName": "Lê Văn Tâm",
+    "address": "Xóm 5 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.642968,
+    "longitude": 106.771587
+  },
+  {
+    "headName": "Nguyễn Tôn Khánh",
+    "address": "Xóm 5 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.643417,
+    "longitude": 106.771301
+  },
+  {
+    "headName": "Hồ Sở",
+    "address": "Xóm 5 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.642823,
+    "longitude": 106.772587
+  },
+  {
+    "headName": "Dương Công Trinh",
+    "address": "Xóm 5 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 7,
+    "latitude": 16.642857,
+    "longitude": 106.772758
+  },
+  {
+    "headName": "Nguyễn Thị Diệp",
+    "address": "Xóm 5 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.642672,
+    "longitude": 106.773098
+  },
+  {
+    "headName": "Trần Kiếm Hiệp",
+    "address": "Xóm 5 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.642568,
+    "longitude": 106.773488
+  },
+  {
+    "headName": "Trương Liễm",
+    "address": "Xóm 5 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.642501,
+    "longitude": 106.773601
+  },
+  {
+    "headName": "Lê Văn Ba (LL)",
+    "address": "Xóm 5 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.642472,
+    "longitude": 106.777778
+  },
+  {
+    "headName": "Dương Thị Kim Chi",
+    "address": "Xóm 5 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.642411,
+    "longitude": 106.773921
+  },
+  {
+    "headName": "Dương Phúc Trai",
+    "address": "Xóm 5 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.642401,
+    "longitude": 106.773923
+  },
+  {
+    "headName": "Dương Phúc Quốc",
+    "address": "Xóm 5 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.642538,
+    "longitude": 106.774143
+  },
+  {
+    "headName": "Nguyễn Khắc Hùng",
+    "address": "Xóm 5 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.642601,
+    "longitude": 106.774205
+  },
+  {
+    "headName": "Nguyễn Xuân Diệp",
+    "address": "Xóm 5 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.642611,
+    "longitude": 106.774533
+  },
+  {
+    "headName": "Trần Đá",
+    "address": "Xóm 5 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.640888,
+    "longitude": 106.777227
+  },
+  {
+    "headName": "Nguyễn Hữu Điệp( ông Hành)",
+    "address": "Xóm 5 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 7,
+    "latitude": 16.640889,
+    "longitude": 106.777228
+  },
+  {
+    "headName": "Nguyễn Đức Nhân",
+    "address": "Xóm 5 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.640152,
+    "longitude": 106.778018
+  },
+  {
+    "headName": "Nguyễn Đức Khương",
+    "address": "Xóm 5 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.639471,
+    "longitude": 106.778431
+  },
+  {
+    "headName": "Trương Văn Tiến",
+    "address": "Xóm 5 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.637372,
+    "longitude": 106.779285
+  },
+  {
+    "headName": "Trương Đức Quyết",
+    "address": "Xóm 4 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.640101,
+    "longitude": 106.766533
+  },
+  {
+    "headName": "Trương Cương",
+    "address": "Xóm 4 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.640149,
+    "longitude": 106.766645
+  },
+  {
+    "headName": "Trương Văn Hùng",
+    "address": "Xóm 4 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.640251,
+    "longitude": 106.766816
+  },
+  {
+    "headName": "Trần Thị Năm",
+    "address": "Xóm 4 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.640389,
+    "longitude": 106.767107
+  },
+  {
+    "headName": "Cao Văn Sơn",
+    "address": "Xóm 4 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.640388,
+    "longitude": 106.767108
+  },
+  {
+    "headName": "Lê Thanh Sơn",
+    "address": "Xóm 4 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.640592,
+    "longitude": 106.767668
+  },
+  {
+    "headName": "Nguyễn Công",
+    "address": "Xóm 4 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 1,
+    "latitude": 16.640799,
+    "longitude": 106.768031
+  },
+  {
+    "headName": "Nguyễn Văn Đức",
+    "address": "Xóm 4 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.640792,
+    "longitude": 106.768148
+  },
+  {
+    "headName": "Phạm Ngọc Lâm",
+    "address": "Xóm 4 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.640802,
+    "longitude": 106.768223
+  },
+  {
+    "headName": "Nguyễn Đức Từ",
+    "address": "Xóm 4 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.640894,
+    "longitude": 106.768261
+  },
+  {
+    "headName": "Trần Thị Thanh",
+    "address": "Xóm 4 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.641011,
+    "longitude": 106.768551
+  },
+  {
+    "headName": "Trần Ngọc Hoá",
+    "address": "Xóm 4 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.641065,
+    "longitude": 106.768643
+  },
+  {
+    "headName": "Cao Văn Minh",
+    "address": "Xóm 4 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 9,
+    "latitude": 16.641081,
+    "longitude": 106.768691
+  },
+  {
+    "headName": "Trần Trọng Bình",
+    "address": "Xóm 4 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.641189,
+    "longitude": 106.768922
+  },
+  {
+    "headName": "Lê Thanh Phú",
+    "address": "Xóm 4 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.641355,
+    "longitude": 106.769337
+  },
+  {
+    "headName": "Lê Thanh Phong",
+    "address": "Xóm 4 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.641395,
+    "longitude": 106.769431
+  },
+  {
+    "headName": "Nguyễn Lê",
+    "address": "Xóm 4 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 7,
+    "latitude": 16.641505,
+    "longitude": 106.769686
+  },
+  {
+    "headName": "Nguyễn Hữu Linh",
+    "address": "Xóm 4 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.641551,
+    "longitude": 106.769814
+  },
+  {
+    "headName": "Nguyễn Thị Hoa (Lùn)",
+    "address": "Xóm 4 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.641636,
+    "longitude": 106.769974
+  },
+  {
+    "headName": "Võ Văn Quốc",
+    "address": "Xóm 4 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.641688,
+    "longitude": 106.770091
+  },
+  {
+    "headName": "Lê Đình Tiến",
+    "address": "Xóm 4 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.641751,
+    "longitude": 106.770157
+  },
+  {
+    "headName": "Nguyễn Quốc Tuấn",
+    "address": "Xóm 4 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.641819,
+    "longitude": 106.77029
+  },
+  {
+    "headName": "Lý Thị Dạ Hương",
+    "address": "Xóm 4 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 2,
+    "latitude": 16.641915,
+    "longitude": 106.770425
+  },
+  {
+    "headName": "Lê Thị Bé (Kim)",
+    "address": "Xóm 4 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 7,
+    "latitude": 16.642147,
+    "longitude": 106.770693
+  },
+  {
+    "headName": "Nguyễn Ngọc Dũng (Liên)",
+    "address": "Xóm 4 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.642213,
+    "longitude": 106.770792
+  },
+  {
+    "headName": "Trần Văn Hùng",
+    "address": "Xóm 4 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.640069,
+    "longitude": 106.766221
+  },
+  {
+    "headName": "Trần Thị Hảo",
+    "address": "Xóm 4 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.640217,
+    "longitude": 106.766456
+  },
+  {
+    "headName": "Lê Thị Luyến (LL)",
+    "address": "Xóm 4 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.640303,
+    "longitude": 106.766623
+  },
+  {
+    "headName": "Lê Thị Phiến",
+    "address": "Xóm 4 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.640406,
+    "longitude": 106.766902
+  },
+  {
+    "headName": "Nguyễn Yên",
+    "address": "Xóm 4 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.640455,
+    "longitude": 106.767018
+  },
+  {
+    "headName": "Nguyễn Thị Mến",
+    "address": "Xóm 4 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.640501,
+    "longitude": 106.767083
+  },
+  {
+    "headName": "Nguyễn Quang Cường (LL)",
+    "address": "Xóm 4 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.640641,
+    "longitude": 106.767456
+  },
+  {
+    "headName": "Nguyễn Quang Tráng",
+    "address": "Xóm 4 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.640622,
+    "longitude": 106.767387
+  },
+  {
+    "headName": "Nguyễn Quốc Thắng",
+    "address": "Xóm 4 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.640716,
+    "longitude": 106.767596
+  },
+  {
+    "headName": "Nguyễn Thị Oanh",
+    "address": "Xóm 4 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 2,
+    "latitude": 16.640742,
+    "longitude": 106.767665
+  },
+  {
+    "headName": "Nguyễn Văn Khánh",
+    "address": "Xóm 4 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.640771,
+    "longitude": 106.767725
+  },
+  {
+    "headName": "Nguyễn Lương Trị",
+    "address": "Xóm 4 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.640885,
+    "longitude": 106.768021
+  },
+  {
+    "headName": "Lê Thanh Trường",
+    "address": "Xóm 4 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.640978,
+    "longitude": 106.768092
+  },
+  {
+    "headName": "Cao Văn Thanh",
+    "address": "Xóm 4 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 7,
+    "latitude": 16.640971,
+    "longitude": 106.768187
+  },
+  {
+    "headName": "Cao Văn An",
+    "address": "Xóm 4 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.641044,
+    "longitude": 106.768354
+  },
+  {
+    "headName": "Nguyễn Lâm",
+    "address": "Xóm 4 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.641086,
+    "longitude": 106.768474
+  },
+  {
+    "headName": "Nguyễn Đức Lộc",
+    "address": "Xóm 4 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.641578,
+    "longitude": 106.769624
+  },
+  {
+    "headName": "Bùi Hoàng( Bùi Như Quang)",
+    "address": "Xóm 4 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 7,
+    "latitude": 16.641648,
+    "longitude": 106.769745
+  },
+  {
+    "headName": "Bùi Như Anh",
+    "address": "Xóm 4 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.641666,
+    "longitude": 106.769828
+  },
+  {
+    "headName": "Hồ Sữa",
+    "address": "Xóm 4 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 7,
+    "latitude": 16.641706,
+    "longitude": 106.769051
+  },
+  {
+    "headName": "Võ Văn Hoàng",
+    "address": "Xóm 4 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.641805,
+    "longitude": 106.770059
+  },
+  {
+    "headName": "Võ Thị Kim Thoa",
+    "address": "Xóm 4 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.641894,
+    "longitude": 106.770214
+  },
+  {
+    "headName": "Phan Hùng",
+    "address": "Xóm 4 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.641947,
+    "longitude": 106.770298
+  },
+  {
+    "headName": "Lưu Ngọc Bắc",
+    "address": "Xóm 4 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.641986,
+    "longitude": 106.770359
+  },
+  {
+    "headName": "Trương Hoá",
+    "address": "Xóm 4 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.642067,
+    "longitude": 106.770457
+  },
+  {
+    "headName": "Nguyễn Thị Nhi",
+    "address": "Xóm 4 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.640605,
+    "longitude": 106.767777
+  },
+  {
+    "headName": "Võ Thị Yến",
+    "address": "Xóm 4 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.640678,
+    "longitude": 106.767812
+  },
+  {
+    "headName": "Nguyễn Đức Hạnh",
+    "address": "Xóm 4 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 7,
+    "latitude": 16.641272,
+    "longitude": 106.769174
+  },
+  {
+    "headName": "Nguyễn Quang Sỹ",
+    "address": "Xóm 4 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.641454,
+    "longitude": 106.769571
+  },
+  {
+    "headName": "Hồng Quyến",
+    "address": "Xóm 4 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.640496,
+    "longitude": 106.768669
+  },
+  {
+    "headName": "Lê Văn Tình( Phượng)",
+    "address": "Xóm 4 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.640549,
+    "longitude": 106.768757
+  },
+  {
+    "headName": "Võ Thị Liên",
+    "address": "Xóm 4 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.640141,
+    "longitude": 106.768098
+  },
+  {
+    "headName": "Ba (Mỹ)",
+    "address": "Xóm 4 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.640022,
+    "longitude": 106.767792
+  },
+  {
+    "headName": "Nguyễn Văn Luân( Dương)",
+    "address": "Xóm 4 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.639993,
+    "longitude": 106.767869
+  },
+  {
+    "headName": "Cao Thị Loan",
+    "address": "Xóm 4 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.639898,
+    "longitude": 106.767684
+  },
+  {
+    "headName": "Trần Kiếm Lưỡng",
+    "address": "Xóm 4 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.639718,
+    "longitude": 106.767479
+  },
+  {
+    "headName": "Nguyễn Thị Hoa (Lượm)",
+    "address": "Xóm 4 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.639641,
+    "longitude": 106.767353
+  },
+  {
+    "headName": "Trương Thị Thuyền",
+    "address": "Xóm 4 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.639528,
+    "longitude": 106.766938
+  },
+  {
+    "headName": "Lê Thanh Sơn (Lương)",
+    "address": "Xóm 4 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.639481,
+    "longitude": 106.766848
+  },
+  {
+    "headName": "Nguyễn Thị Tuyết (LL)",
+    "address": "Xóm 4 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 2,
+    "latitude": 16.642115,
+    "longitude": 106.770525
+  },
+  {
+    "headName": "Võ Thị Ngọc Thuỷ",
+    "address": "Xóm 4 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 2,
+    "latitude": 16.642487,
+    "longitude": 106.770969
+  },
+  {
+    "headName": "Nguyễn Thị Hồng (LL)",
+    "address": "Xóm 4 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.642481,
+    "longitude": 106.770968
+  },
+  {
+    "headName": "Bùi Thị Hằng ( Lưu)",
+    "address": "Xóm 4 - Thôn Lương Lễ",
+    "status": "Hộ nghèo",
+    "memberCount": 4,
+    "latitude": 16.641749,
+    "longitude": 106.769987
+  },
+  {
+    "headName": "Võ Văn Tân",
+    "address": "Xóm 3 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.637262,
+    "longitude": 106.762622
+  },
+  {
+    "headName": "Võ Văn Sữu",
+    "address": "Xóm 3 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.637335,
+    "longitude": 106.762783
+  },
+  {
+    "headName": "Võ Thị Mười",
+    "address": "Xóm 3 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.637284,
+    "longitude": 106.762641
+  },
+  {
+    "headName": "Nguyễn Lương Quyền",
+    "address": "Xóm 3 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.637371,
+    "longitude": 106.762888
+  },
+  {
+    "headName": "Nguyễn Mạnh Phước",
+    "address": "Xóm 3 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.637441,
+    "longitude": 106.763045
+  },
+  {
+    "headName": "Lê Đức Dương",
+    "address": "Xóm 3 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.637432,
+    "longitude": 106.763169
+  },
+  {
+    "headName": "Lê Đức Vỹ",
+    "address": "Xóm 3 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.637594,
+    "longitude": 106.763331
+  },
+  {
+    "headName": "Trương Đức Triệu",
+    "address": "Xóm 3 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.637693,
+    "longitude": 106.763485
+  },
+  {
+    "headName": "Trần Thanh Hội",
+    "address": "Xóm 3 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 1,
+    "latitude": 16.637835,
+    "longitude": 106.763644
+  },
+  {
+    "headName": "Võ Phước Dũng",
+    "address": "Xóm 3 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.637958,
+    "longitude": 106.763842
+  },
+  {
+    "headName": "Lê Hùng",
+    "address": "Xóm 3 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.638109,
+    "longitude": 106.764009
+  },
+  {
+    "headName": "Nguyễn Văn Hướng",
+    "address": "Xóm 3 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.638327,
+    "longitude": 106.764108
+  },
+  {
+    "headName": "Trần Quang Duy",
+    "address": "Xóm 3 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.638422,
+    "longitude": 106.764253
+  },
+  {
+    "headName": "Trịnh Thị Hương",
+    "address": "Xóm 3 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.638362,
+    "longitude": 106.764188
+  },
+  {
+    "headName": "Khổng Hữu Hải",
+    "address": "Xóm 3 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.638474,
+    "longitude": 106.764303
+  },
+  {
+    "headName": "Lê Văn Thuận (Lương Lễ)",
+    "address": "Xóm 3 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.638591,
+    "longitude": 106.764471
+  },
+  {
+    "headName": "Nguyễn Lương Quý",
+    "address": "Xóm 3 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.638826,
+    "longitude": 106.764744
+  },
+  {
+    "headName": "Nguyễn Lương Thái Sơn",
+    "address": "Xóm 3 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.638883,
+    "longitude": 106.176475
+  },
+  {
+    "headName": "Nguyễn Phi Hùng",
+    "address": "Xóm 3 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.638951,
+    "longitude": 106.764831
+  },
+  {
+    "headName": "Nguyễn Phi Quốc",
+    "address": "Xóm 3 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 2,
+    "latitude": 16.639004,
+    "longitude": 106.764869
+  },
+  {
+    "headName": "Nguyễn Bảo Trung",
+    "address": "Xóm 3 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.639111,
+    "longitude": 106.765021
+  },
+  {
+    "headName": "Thái Bình",
+    "address": "Xóm 3 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.639309,
+    "longitude": 106.765268
+  },
+  {
+    "headName": "Lê Thị Thiện",
+    "address": "Xóm 3 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 7,
+    "latitude": 16.639362,
+    "longitude": 106.765459
+  },
+  {
+    "headName": "Nguyễn Thị Lương (LL)",
+    "address": "Xóm 3 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 1,
+    "latitude": 16.639363,
+    "longitude": 106.765462
+  },
+  {
+    "headName": "Nguyễn Hữu Thọ",
+    "address": "Xóm 3 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.639583,
+    "longitude": 106.765692
+  },
+  {
+    "headName": "Nguyễn Phương Duy",
+    "address": "Xóm 3 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 7,
+    "latitude": 16.639558,
+    "longitude": 106.765913
+  },
+  {
+    "headName": "Nguyễn Tường",
+    "address": "Xóm 3 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.639798,
+    "longitude": 106.766045
+  },
+  {
+    "headName": "Nguyễn Thị Thức",
+    "address": "Xóm 3 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.637602,
+    "longitude": 106.762724
+  },
+  {
+    "headName": "Trần Mạnh Hùng",
+    "address": "Xóm 3 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.637621,
+    "longitude": 106.762954
+  },
+  {
+    "headName": "Nguyễn Lương Dỏ",
+    "address": "Xóm 3 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.637879,
+    "longitude": 106.763368
+  },
+  {
+    "headName": "Lê Anh Tuấn (rể dỏ)",
+    "address": "Xóm 3 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.637872,
+    "longitude": 106.763441
+  },
+  {
+    "headName": "Trương Thị Thiểu",
+    "address": "Xóm 3 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 1,
+    "latitude": 16.637934,
+    "longitude": 106.763459
+  },
+  {
+    "headName": "Lâm Thị Phượng",
+    "address": "Xóm 3 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 0,
+    "latitude": 16.637935,
+    "longitude": 106.763458
+  },
+  {
+    "headName": "Nguyễn Văn Thành",
+    "address": "Xóm 3 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.638199,
+    "longitude": 106.763606
+  },
+  {
+    "headName": "Đinh Thị Hạp",
+    "address": "Xóm 3 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.638195,
+    "longitude": 106.763765
+  },
+  {
+    "headName": "Nguyễn Duy Đại",
+    "address": "Xóm 3 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.638259,
+    "longitude": 106.763838
+  },
+  {
+    "headName": "Trần Thị Lệ Xuân",
+    "address": "Xóm 3 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.638521,
+    "longitude": 106.764083
+  },
+  {
+    "headName": "Trần Vinh (Lương Lễ)",
+    "address": "Xóm 3 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.638567,
+    "longitude": 106.764152
+  },
+  {
+    "headName": "Nguyễn Thị Xuân",
+    "address": "Xóm 3 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.638745,
+    "longitude": 106.764343
+  },
+  {
+    "headName": "Trần Văn Đức",
+    "address": "Xóm 3 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.639003,
+    "longitude": 106.764303
+  },
+  {
+    "headName": "Lê Văn Tuấn",
+    "address": "Xóm 3 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.639052,
+    "longitude": 106.764578
+  },
+  {
+    "headName": "Lê Thị Thuỷ (LL)",
+    "address": "Xóm 3 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.639156,
+    "longitude": 106.764761
+  },
+  {
+    "headName": "Nguyễn Văn Minh (LL)",
+    "address": "Xóm 3 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.639219,
+    "longitude": 106.764771
+  },
+  {
+    "headName": "Trần Thị Lệ Thuỷ",
+    "address": "Xóm 3 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.639311,
+    "longitude": 106.764919
+  },
+  {
+    "headName": "Nguyễn Thị Phương (Chạnh)",
+    "address": "Xóm 3 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.639443,
+    "longitude": 106.765025
+  },
+  {
+    "headName": "Lâm Thiên Chánh",
+    "address": "Xóm 3 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.639477,
+    "longitude": 106.765137
+  },
+  {
+    "headName": "Trần Trung Hiếu",
+    "address": "Xóm 3 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.639588,
+    "longitude": 106.765129
+  },
+  {
+    "headName": "Lê Thị Thuỷ (Sữu)",
+    "address": "Xóm 3 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.639153,
+    "longitude": 106.765141
+  },
+  {
+    "headName": "Nguyễn Thị Cúc (LL)",
+    "address": "Xóm 3 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.639859,
+    "longitude": 106.765359
+  },
+  {
+    "headName": "Trần Thị Hồng Đào",
+    "address": "Xóm 3 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.639785,
+    "longitude": 106.765482
+  },
+  {
+    "headName": "Lê Thị Lương",
+    "address": "Xóm 3 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 7,
+    "latitude": 16.639786,
+    "longitude": 106.765692
+  },
+  {
+    "headName": "Nguyễn Bảo Quý( Thuỷ)",
+    "address": "Xóm 3 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.640037,
+    "longitude": 106.765741
+  },
+  {
+    "headName": "Nguyễn Bảo Song",
+    "address": "Xóm 3 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.639952,
+    "longitude": 106.765697
+  },
+  {
+    "headName": "Nguyễn Thị Thất",
+    "address": "Xóm 3 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.640046,
+    "longitude": 106.766163
+  },
+  {
+    "headName": "Nguyễn Quý",
+    "address": "Xóm 3 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.638437,
+    "longitude": 106.763034
+  },
+  {
+    "headName": "Nguyễn Thị Thu ( Hạch)",
+    "address": "Xóm 3 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.638387,
+    "longitude": 106.763128
+  },
+  {
+    "headName": "Nguyễn Thị Lộc",
+    "address": "Xóm 3 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.638507,
+    "longitude": 106.763221
+  },
+  {
+    "headName": "Trần Xuân Học",
+    "address": "Xóm 3 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 2,
+    "latitude": 16.638488,
+    "longitude": 106.763204
+  },
+  {
+    "headName": "Trương Văn Đại",
+    "address": "Xóm 3 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.638761,
+    "longitude": 106.763476
+  },
+  {
+    "headName": "Nguyễn Minh Khánh",
+    "address": "Xóm 3 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.638607,
+    "longitude": 106.763621
+  },
+  {
+    "headName": "Cao Thị Hoa",
+    "address": "Xóm 3 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.638528,
+    "longitude": 106.763565
+  },
+  {
+    "headName": "Nguyễn Duy Quảng",
+    "address": "Xóm 3 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.638845,
+    "longitude": 106.763643
+  },
+  {
+    "headName": "Nguyễn Mậu Hoàng",
+    "address": "Xóm 3 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 2,
+    "latitude": 16.638864,
+    "longitude": 106.763572
+  },
+  {
+    "headName": "Võ Thị Thuyền",
+    "address": "Xóm 3 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.638891,
+    "longitude": 106.763511
+  },
+  {
+    "headName": "Hỗ Sĩ Điền",
+    "address": "Xóm 3 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.641034,
+    "longitude": 106.765049
+  },
+  {
+    "headName": "Lê Thị Mỹ Trang",
+    "address": "Xóm 3 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.640867,
+    "longitude": 106.765089
+  },
+  {
+    "headName": "Uông Quốc Trung",
+    "address": "Xóm 3 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.640689,
+    "longitude": 106.765512
+  },
+  {
+    "headName": "Lê Văn Tiến (LL)",
+    "address": "Xóm 3 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.640587,
+    "longitude": 106.765552
+  },
+  {
+    "headName": "Nguyễn Thị Kim Thu",
+    "address": "Xóm 3 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.640505,
+    "longitude": 106.765623
+  },
+  {
+    "headName": "Nguyễn Thị Sơn",
+    "address": "Xóm 3 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.640883,
+    "longitude": 106.765441
+  },
+  {
+    "headName": "Nguyễn Mậu Tám",
+    "address": "Xóm 3 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.638641,
+    "longitude": 106.765473
+  },
+  {
+    "headName": "Nguyễn Đức Hùng",
+    "address": "Xóm 2 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.635798,
+    "longitude": 106.758183
+  },
+  {
+    "headName": "Nguyễn Đức Quốc",
+    "address": "Xóm 2 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.635786,
+    "longitude": 106.758171
+  },
+  {
+    "headName": "Trần Hoàng Ngọc Thảo",
+    "address": "Xóm 2 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.635825,
+    "longitude": 106.758293
+  },
+  {
+    "headName": "Trần Hoàng Ngọc Nhung",
+    "address": "Xóm 2 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.635891,
+    "longitude": 106.758371
+  },
+  {
+    "headName": "Lê Dũng",
+    "address": "Xóm 2 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.636197,
+    "longitude": 106.758711
+  },
+  {
+    "headName": "Lê Văn Tám",
+    "address": "Xóm 2 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.636357,
+    "longitude": 106.758712
+  },
+  {
+    "headName": "Lê Thị Chi",
+    "address": "Xóm 2 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.636543,
+    "longitude": 106.759217
+  },
+  {
+    "headName": "Trần Thanh Trung",
+    "address": "Xóm 2 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.636591,
+    "longitude": 106.759262
+  },
+  {
+    "headName": "Trần Thanh Hải",
+    "address": "Xóm 2 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 7,
+    "latitude": 16.636532,
+    "longitude": 106.759369
+  },
+  {
+    "headName": "Nguyễn Đức Linh",
+    "address": "Xóm 2 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.636589,
+    "longitude": 106.759573
+  },
+  {
+    "headName": "Nguyễn Đức Minh",
+    "address": "Xóm 2 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 2,
+    "latitude": 16.636647,
+    "longitude": 106.759488
+  },
+  {
+    "headName": "Nguyễn Văn Tiện",
+    "address": "Xóm 2 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 9,
+    "latitude": 16.636701,
+    "longitude": 106.759828
+  },
+  {
+    "headName": "Trần Nhật Hùng",
+    "address": "Xóm 2 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.636765,
+    "longitude": 106.760055
+  },
+  {
+    "headName": "Hạ Quốc Đăng",
+    "address": "Xóm 2 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.636781,
+    "longitude": 106.760167
+  },
+  {
+    "headName": "Nguyễn Sơn Lam",
+    "address": "Xóm 2 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 7,
+    "latitude": 16.636758,
+    "longitude": 106.760323
+  },
+  {
+    "headName": "Lê Văn Tùng",
+    "address": "Xóm 2 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 7,
+    "latitude": 16.636898,
+    "longitude": 106.760328
+  },
+  {
+    "headName": "Nguyễn Thị Hường",
+    "address": "Xóm 2 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 2,
+    "latitude": 16.636922,
+    "longitude": 106.760405
+  },
+  {
+    "headName": "Dương Phúc Lai",
+    "address": "Xóm 2 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.636958,
+    "longitude": 106.760601
+  },
+  {
+    "headName": "Nguyễn Văn Phúc",
+    "address": "Xóm 2 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.637017,
+    "longitude": 106.760968
+  },
+  {
+    "headName": "Phạm Lộng",
+    "address": "Xóm 2 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.636911,
+    "longitude": 106.761225
+  },
+  {
+    "headName": "Phạm Duy Khánh",
+    "address": "Xóm 2 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.636911,
+    "longitude": 106.761225
+  },
+  {
+    "headName": "Phạm Duy Tùng",
+    "address": "Xóm 2 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.636988,
+    "longitude": 106.761353
+  },
+  {
+    "headName": "Hoàng Đình Trung",
+    "address": "Xóm 2 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.637037,
+    "longitude": 106.761372
+  },
+  {
+    "headName": "Lê Thị Ngãi",
+    "address": "Xóm 2 - Thôn Lương Lễ",
+    "status": "Hộ cận nghèo",
+    "memberCount": 5,
+    "latitude": 16.636923,
+    "longitude": 106.761482
+  },
+  {
+    "headName": "Trần Thị Quy",
+    "address": "Xóm 2 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 11,
+    "latitude": 16.637018,
+    "longitude": 106.761712
+  },
+  {
+    "headName": "Nguyễn Chánh Trung",
+    "address": "Xóm 2 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.637032,
+    "longitude": 106.761973
+  },
+  {
+    "headName": "Trần Nhật Hoàng",
+    "address": "Xóm 2 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.637027,
+    "longitude": 106.762147
+  },
+  {
+    "headName": "Trương Thị Tình",
+    "address": "Xóm 2 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.637024,
+    "longitude": 106.762265
+  },
+  {
+    "headName": "Nguyễn Văn Dung",
+    "address": "Xóm 2 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.637161,
+    "longitude": 106.762402
+  },
+  {
+    "headName": "Nguyễn Thái Hùng",
+    "address": "Xóm 2 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.636413,
+    "longitude": 106.762745
+  },
+  {
+    "headName": "Phan Văn Du",
+    "address": "Xóm 2 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 1,
+    "latitude": 16.635235,
+    "longitude": 106.757156
+  },
+  {
+    "headName": "Phan Văn Hóa",
+    "address": "Xóm 2 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.635488,
+    "longitude": 106.757552
+  },
+  {
+    "headName": "Đỗ Khắc Trung",
+    "address": "Xóm 2 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.636587,
+    "longitude": 106.758961
+  },
+  {
+    "headName": "Nguyễn Thị Lan (sơn)",
+    "address": "Xóm 2 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.637137,
+    "longitude": 106.760398
+  },
+  {
+    "headName": "Lê Viết Trung",
+    "address": "Xóm 2 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.637062,
+    "longitude": 106.760487
+  },
+  {
+    "headName": "Lê Thị Thuỳ Trinh",
+    "address": "Xóm 2 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.637131,
+    "longitude": 106.760633
+  },
+  {
+    "headName": "Lê Viết Dũng",
+    "address": "Xóm 2 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.637093,
+    "longitude": 106.760773
+  },
+  {
+    "headName": "Võ Thị Hạnh",
+    "address": "Xóm 2 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 2,
+    "latitude": 16.637233,
+    "longitude": 106.761018
+  },
+  {
+    "headName": "Phạm Thị Hòe",
+    "address": "Xóm 2 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 7,
+    "latitude": 16.637157,
+    "longitude": 106.761158
+  },
+  {
+    "headName": "Nguyễn Thanh Bình",
+    "address": "Xóm 2 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.637625,
+    "longitude": 106.761305
+  },
+  {
+    "headName": "Trương Thị Hằng",
+    "address": "Xóm 2 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.637371,
+    "longitude": 106.761148
+  },
+  {
+    "headName": "Trương Thị Nguyệt",
+    "address": "Xóm 2 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.637351,
+    "longitude": 106.761521
+  },
+  {
+    "headName": "Trương Phi Hùng",
+    "address": "Xóm 2 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.637075,
+    "longitude": 106.761547
+  },
+  {
+    "headName": "Hạ Ngọc Vũ",
+    "address": "Xóm 2 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.637302,
+    "longitude": 106.761802
+  },
+  {
+    "headName": "Nguyễn Thị Bé",
+    "address": "Xóm 2 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.637212,
+    "longitude": 106.761931
+  },
+  {
+    "headName": "Nguyễn Khắc Sơn",
+    "address": "Xóm 2 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.637301,
+    "longitude": 106.762052
+  },
+  {
+    "headName": "Trần Nhật Hòa",
+    "address": "Xóm 2 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 8,
+    "latitude": 16.637235,
+    "longitude": 106.762152
+  },
+  {
+    "headName": "Lê Quang Tuyến",
+    "address": "Xóm 2 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.636345,
+    "longitude": 106.760533
+  },
+  {
+    "headName": "Phan Hải",
+    "address": "Xóm 2 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.636375,
+    "longitude": 106.760713
+  },
+  {
+    "headName": "Dương Phúc Tiến",
+    "address": "Xóm 2 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.636512,
+    "longitude": 106.760712
+  },
+  {
+    "headName": "Phạm Ngọc Phương",
+    "address": "Xóm 2 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.636533,
+    "longitude": 106.761061
+  },
+  {
+    "headName": "Trương Hồng Biên",
+    "address": "Xóm 2 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.636521,
+    "longitude": 106.761247
+  },
+  {
+    "headName": "Phạm Ngọc Tịnh",
+    "address": "Xóm 2 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.636597,
+    "longitude": 106.761757
+  },
+  {
+    "headName": "Trần Cảnh Úy",
+    "address": "Xóm 2 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.636571,
+    "longitude": 106.761891
+  },
+  {
+    "headName": "Lê Ngọc Ninh",
+    "address": "Xóm 2 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.636085,
+    "longitude": 106.762388
+  },
+  {
+    "headName": "Nguyễn Bá Cầu",
+    "address": "Xóm 2 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.636512,
+    "longitude": 106.762235
+  },
+  {
+    "headName": "Trần Thanh Phong",
+    "address": "Xóm 2 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.636122,
+    "longitude": 106.762207
+  },
+  {
+    "headName": "Trương Minh Bang",
+    "address": "Xóm 2 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.636573,
+    "longitude": 106.762293
+  },
+  {
+    "headName": "Phạm Thị Nga",
+    "address": "Xóm 2 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.636152,
+    "longitude": 106.762395
+  },
+  {
+    "headName": "Nguyễn Hữu Chỉnh",
+    "address": "Xóm 1 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.634163,
+    "longitude": 106.749961
+  },
+  {
+    "headName": "Nguyễn Thị Hoài",
+    "address": "Xóm 1 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.634254,
+    "longitude": 106.750222
+  },
+  {
+    "headName": "Lê Tấn Cường",
+    "address": "Xóm 1 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.634108,
+    "longitude": 106.751486
+  },
+  {
+    "headName": "Nguyễn Thị Phượng (châu)",
+    "address": "Xóm 1 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.634071,
+    "longitude": 106.751563
+  },
+  {
+    "headName": "Nguyễn Khắc Khanh",
+    "address": "Xóm 1 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.634076,
+    "longitude": 106.751741
+  },
+  {
+    "headName": "Nguyễn Trung (Tùng)",
+    "address": "Xóm 1 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.634071,
+    "longitude": 106.751824
+  },
+  {
+    "headName": "Nguyễn Khắc Tuấn",
+    "address": "Xóm 1 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.634047,
+    "longitude": 106.751923
+  },
+  {
+    "headName": "Nguyễn Thị Trang",
+    "address": "Xóm 1 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.634025,
+    "longitude": 106.752063
+  },
+  {
+    "headName": "Nguyễn Thị Hoa (điểu)",
+    "address": "Xóm 1 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.633905,
+    "longitude": 106.752697
+  },
+  {
+    "headName": "Nguyễn Văn Điểu",
+    "address": "Xóm 1 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.633899,
+    "longitude": 106.752723
+  },
+  {
+    "headName": "Cao Thị Tuyết",
+    "address": "Xóm 1 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.633924,
+    "longitude": 106.752919
+  },
+  {
+    "headName": "Trần Văn Tính",
+    "address": "Xóm 1 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.633901,
+    "longitude": 106.752998
+  },
+  {
+    "headName": "Nguyễn Văn Tào",
+    "address": "Xóm 1 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.633911,
+    "longitude": 106.753286
+  },
+  {
+    "headName": "Nguyễn Văn Dự",
+    "address": "Xóm 1 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.633912,
+    "longitude": 106.753474
+  },
+  {
+    "headName": "Nguyễn Tùng",
+    "address": "Xóm 1 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.633867,
+    "longitude": 106.753711
+  },
+  {
+    "headName": "Nguyễn Hải Ngọc",
+    "address": "Xóm 1 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.633802,
+    "longitude": 106.753989
+  },
+  {
+    "headName": "Phạm Thị Kiều Diểm",
+    "address": "Xóm 1 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.633786,
+    "longitude": 106.755029
+  },
+  {
+    "headName": "Nguyễn Hữu Toàn",
+    "address": "Xóm 1 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.633826,
+    "longitude": 106.755272
+  },
+  {
+    "headName": "Nguyễn Hữu Miên",
+    "address": "Xóm 1 - Thôn Lương Lễ",
+    "status": "Hộ nghèo",
+    "memberCount": 6,
+    "latitude": 16.633944,
+    "longitude": 106.755448
+  },
+  {
+    "headName": "Nguyễn Thị Loan (H)",
+    "address": "Xóm 1 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.633976,
+    "longitude": 106.755496
+  },
+  {
+    "headName": "Nguyễn Thị Tiền",
+    "address": "Xóm 1 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.634184,
+    "longitude": 106.756113
+  },
+  {
+    "headName": "Nguyễn Đức Trưởng (Chùa LL)",
+    "address": "Xóm 1 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.633658,
+    "longitude": 106.756891
+  },
+  {
+    "headName": "Nguyễn Thị Thùy",
+    "address": "Xóm 1 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.633659,
+    "longitude": 106.756896
+  },
+  {
+    "headName": "Nguyễn Thị Mai Châu",
+    "address": "Xóm 1 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.634407,
+    "longitude": 106.756411
+  },
+  {
+    "headName": "Nguyễn Ngọc Sỹ",
+    "address": "Xóm 1 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.634463,
+    "longitude": 106.756664
+  },
+  {
+    "headName": "Dương Thị Thu",
+    "address": "Xóm 1 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.634295,
+    "longitude": 106.750622
+  },
+  {
+    "headName": "Võ Văn Thành",
+    "address": "Xóm 1 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.634248,
+    "longitude": 106.751264
+  },
+  {
+    "headName": "Phạm Duy Nhị",
+    "address": "Xóm 1 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.634114,
+    "longitude": 106.752126
+  },
+  {
+    "headName": "Nguyễn Đức Hóa",
+    "address": "Xóm 1 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.634113,
+    "longitude": 106.752274
+  },
+  {
+    "headName": "Nguyễn Đức Thành",
+    "address": "Xóm 1 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.634087,
+    "longitude": 106.752376
+  },
+  {
+    "headName": "Lê Thị Táo",
+    "address": "Xóm 1 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.634054,
+    "longitude": 106.752521
+  },
+  {
+    "headName": "Nguyễn Thị Lý",
+    "address": "Xóm 1 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.634121,
+    "longitude": 106.752651
+  },
+  {
+    "headName": "Mai Thành Vũ",
+    "address": "Xóm 1 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.634052,
+    "longitude": 106.752747
+  },
+  {
+    "headName": "Từ Duy Thanh",
+    "address": "Xóm 1 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.634031,
+    "longitude": 106.752828
+  },
+  {
+    "headName": "Nguyễn Văn Quý",
+    "address": "Xóm 1 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.634029,
+    "longitude": 106.752891
+  },
+  {
+    "headName": "Nguyễn Văn Huy",
+    "address": "Xóm 1 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.634021,
+    "longitude": 106.753076
+  },
+  {
+    "headName": "Nguyễn Thị Phương Mai",
+    "address": "Xóm 1 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.633995,
+    "longitude": 106.753203
+  },
+  {
+    "headName": "Nguyễn Văn Mỹ",
+    "address": "Xóm 1 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.633985,
+    "longitude": 106.753501
+  },
+  {
+    "headName": "Dương Thị Như Uyên",
+    "address": "Xóm 1 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.633944,
+    "longitude": 106.753701
+  },
+  {
+    "headName": "Dương Phước Định",
+    "address": "Xóm 1 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.633941,
+    "longitude": 106.753816
+  },
+  {
+    "headName": "Phan Văn Hòa",
+    "address": "Xóm 1 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.633943,
+    "longitude": 106.753819
+  },
+  {
+    "headName": "Dương Phúc Cường",
+    "address": "Xóm 1 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.633888,
+    "longitude": 106.754039
+  },
+  {
+    "headName": "Dương Phúc Trâm",
+    "address": "Xóm 1 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 1,
+    "latitude": 16.633894,
+    "longitude": 106.754145
+  },
+  {
+    "headName": "Mai Thành Long",
+    "address": "Xóm 1 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.633866,
+    "longitude": 106.754227
+  },
+  {
+    "headName": "Nguyễn Văn Bi",
+    "address": "Xóm 1 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.633854,
+    "longitude": 106.754319
+  },
+  {
+    "headName": "Nguyễn Văn Hiệp",
+    "address": "Xóm 1 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.633847,
+    "longitude": 106.754472
+  },
+  {
+    "headName": "Dương Thị Thu Hồng",
+    "address": "Xóm 1 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.633839,
+    "longitude": 106.754516
+  },
+  {
+    "headName": "Dương Thị Thu Thủy",
+    "address": "Xóm 1 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.633825,
+    "longitude": 106.754562
+  },
+  {
+    "headName": "Dương Văn Chiến",
+    "address": "Xóm 1 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 8,
+    "latitude": 16.634014,
+    "longitude": 106.754604
+  },
+  {
+    "headName": "Trần Thị Lương",
+    "address": "Xóm 1 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 1,
+    "latitude": 16.633852,
+    "longitude": 106.755009
+  },
+  {
+    "headName": "Lê Thị Danh",
+    "address": "Xóm 1 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 2,
+    "latitude": 16.634054,
+    "longitude": 106.755168
+  },
+  {
+    "headName": "Nguyễn Thế Chánh",
+    "address": "Xóm 1 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.634111,
+    "longitude": 106.755618
+  },
+  {
+    "headName": "Lê Bá Thành",
+    "address": "Xóm 1 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.634216,
+    "longitude": 106.755956
+  },
+  {
+    "headName": "Lê Xuân Thạo",
+    "address": "Xóm 1 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.634283,
+    "longitude": 106.756098
+  },
+  {
+    "headName": "Nguyễn Thị Luyến",
+    "address": "Xóm 1 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.634364,
+    "longitude": 106.756195
+  },
+  {
+    "headName": "Nguyễn Thế Lộc",
+    "address": "Xóm 1 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.634406,
+    "longitude": 106.756258
+  },
+  {
+    "headName": "Nguyễn Phi Hùng (P)",
+    "address": "Xóm 1 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.634701,
+    "longitude": 106.756559
+  },
+  {
+    "headName": "Dương Thị Thương",
+    "address": "Xóm 1 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.634767,
+    "longitude": 106.756597
+  },
+  {
+    "headName": "Nguyễn Ngọc Dũng (Nga)",
+    "address": "Xóm 1 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.634769,
+    "longitude": 106.756592
+  },
+  {
+    "headName": "Hoàng Trọng Phú (Ca Phê Triệu Mẫn)",
+    "address": "Xóm 1 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.634997,
+    "longitude": 106.756734
+  },
+  {
+    "headName": "Lê Phụ",
+    "address": "Xóm 1 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.635139,
+    "longitude": 106.756854
+  },
+  {
+    "headName": "Nguyễn Thị Liểu",
+    "address": "Xóm 1 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.634434,
+    "longitude": 106.753543
+  },
+  {
+    "headName": "Lê Duy Trinh",
+    "address": "Xóm 1 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.634502,
+    "longitude": 106.754009
+  },
+  {
+    "headName": "Nguyễn Nhất Linh",
+    "address": "Xóm 1 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.634564,
+    "longitude": 106.754346
+  },
+  {
+    "headName": "Nguyễn Quốc An",
+    "address": "Xóm 1 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.634691,
+    "longitude": 106.754892
+  },
+  {
+    "headName": "Nguyễn Thế Long",
+    "address": "Xóm 1 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.634379,
+    "longitude": 106.755002
+  },
+  {
+    "headName": "Nguyễn Văn Quý (Phượng)",
+    "address": "Xóm 1 - Thôn Lương Lễ",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.634371,
+    "longitude": 106.755001
+  },
+  {
+    "headName": "Nguyễn Phong Phú",
+    "address": "Đường Trần Nguyên Hãn",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.623305,
+    "longitude": 106.736746
+  },
+  {
+    "headName": "Trần Thị Phương Lan (TNH)",
+    "address": "Đường Trần Nguyên Hãn",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.622358,
+    "longitude": 106.736948
+  },
+  {
+    "headName": "Nguyễn Đức Long",
+    "address": "Đường Trần Nguyên Hãn",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.62225,
+    "longitude": 106.737281
+  },
+  {
+    "headName": "Phạm Thị Bích Liên (Trần Nguyên Hãn)",
+    "address": "Đường Trần Nguyên Hãn",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.622275,
+    "longitude": 106.737318
+  },
+  {
+    "headName": "Nguyễn Quang Huy",
+    "address": "Đường Trần Nguyên Hãn",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.622038,
+    "longitude": 106.737041
+  },
+  {
+    "headName": "Văn Trọng Tấn",
+    "address": "Đường Trần Nguyên Hãn",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.622118,
+    "longitude": 106.736878
+  },
+  {
+    "headName": "Nguyễn Đăng Cương",
+    "address": "Đường Trần Nguyên Hãn",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.621877,
+    "longitude": 106.737025
+  },
+  {
+    "headName": "Nguyễn Thị Thoan",
+    "address": "Đường Trần Nguyên Hãn",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.621693,
+    "longitude": 106.737109
+  },
+  {
+    "headName": "Hồ Chí Trung",
+    "address": "Đường Hồ Sỹ Thản",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.633571,
+    "longitude": 106.7415
+  },
+  {
+    "headName": "Trương Hồng Quân",
+    "address": "Đường Hồ Sỹ Thản",
+    "status": "Hộ cận nghèo",
+    "memberCount": 5,
+    "latitude": 16.633867,
+    "longitude": 106.741473
+  },
+  {
+    "headName": "Trương Tự Biên",
+    "address": "Đường Hồ Sỹ Thản",
+    "status": "Hộ bình thường",
+    "memberCount": 7,
+    "latitude": 16.633583,
+    "longitude": 106.741283
+  },
+  {
+    "headName": "Nguyễn Thị Xuyên",
+    "address": "Đường Hồ Sỹ Thản",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.633631,
+    "longitude": 106.741623
+  },
+  {
+    "headName": "Lê Văn Thuận",
+    "address": "Đường Hồ Sỹ Thản",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.633117,
+    "longitude": 106.742055
+  },
+  {
+    "headName": "Trần Văn Phú",
+    "address": "Đường Hồ Sỹ Thản",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.633531,
+    "longitude": 106.741126
+  },
+  {
+    "headName": "Lê Văn Linh",
+    "address": "Đường Hồ Sỹ Thản",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.633378,
+    "longitude": 106.741135
+  },
+  {
+    "headName": "Lê Xuân Quý",
+    "address": "Đường Hồ Sỹ Thản",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.633291,
+    "longitude": 106.741207
+  },
+  {
+    "headName": "Nguyễn Tiến Hùng",
+    "address": "Đường Hồ Sỹ Thản",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.633221,
+    "longitude": 106.741318
+  },
+  {
+    "headName": "Phan Văn Quynh (HST)",
+    "address": "Đường Hồ Sỹ Thản",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.633283,
+    "longitude": 106.741511
+  },
+  {
+    "headName": "Nguyễn Thị Tịnh",
+    "address": "Đường Hồ Sỹ Thản",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.633207,
+    "longitude": 106.741592
+  },
+  {
+    "headName": "Nguyễn Văn Côi",
+    "address": "Đường Hồ Sỹ Thản",
+    "status": "Hộ cận nghèo",
+    "memberCount": 4,
+    "latitude": 16.633243,
+    "longitude": 106.741707
+  },
+  {
+    "headName": "Nguyễn Thế Tiến",
+    "address": "Đường Hồ Sỹ Thản",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.633117,
+    "longitude": 106.741735
+  },
+  {
+    "headName": "Hồ Thị Nhi",
+    "address": "Đường Hồ Sỹ Thản",
+    "status": "Hộ nghèo",
+    "memberCount": 4,
+    "latitude": 16.633105,
+    "longitude": 106.741747
+  },
+  {
+    "headName": "Hồ Thị Gái",
+    "address": "Đường Hồ Sỹ Thản",
+    "status": "Hộ bình thường",
+    "memberCount": 7,
+    "latitude": 16.632804,
+    "longitude": 106.74167
+  },
+  {
+    "headName": "Nguyễn Xuân Lâm",
+    "address": "Đường Hồ Sỹ Thản",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.632665,
+    "longitude": 106.741678
+  },
+  {
+    "headName": "Lê Anh Dũng",
+    "address": "Đường Hồ Sỹ Thản",
+    "status": "Hộ cận nghèo",
+    "memberCount": 4,
+    "latitude": 16.632568,
+    "longitude": 106.741754
+  },
+  {
+    "headName": "Nguyễn Thị Ngân",
+    "address": "Đường Hồ Sỹ Thản",
+    "status": "Hộ bình thường",
+    "memberCount": 2,
+    "latitude": 16.632566,
+    "longitude": 106.741739
+  },
+  {
+    "headName": "Hồ Văn Sỹ",
+    "address": "Đường Hồ Sỹ Thản",
+    "status": "Hộ bình thường",
+    "memberCount": 2,
+    "latitude": 16.632736,
+    "longitude": 106.741774
+  },
+  {
+    "headName": "Dương Văn Thành",
+    "address": "Đường Hồ Sỹ Thản",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.632562,
+    "longitude": 106.741773
+  },
+  {
+    "headName": "Lưu Thị Tình",
+    "address": "Đường Hồ Sỹ Thản",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.632511,
+    "longitude": 106.741979
+  },
+  {
+    "headName": "Nguyễn Văn Sỹ (HST)",
+    "address": "Đường Hồ Sỹ Thản",
+    "status": "Hộ bình thường",
+    "memberCount": 2,
+    "latitude": 16.632385,
+    "longitude": 106.742072
+  },
+  {
+    "headName": "Trần Thanh Sang",
+    "address": "Đường Hồ Sỹ Thản",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.632339,
+    "longitude": 106.742096
+  },
+  {
+    "headName": "Lê Thị Liễu",
+    "address": "Đường Hồ Sỹ Thản",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.632352,
+    "longitude": 106.742101
+  },
+  {
+    "headName": "Phạm Văn Khánh",
+    "address": "Đường Hồ Sỹ Thản",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.63234,
+    "longitude": 106.742145
+  },
+  {
+    "headName": "Lê Thị Hường (HST)",
+    "address": "Đường Hồ Sỹ Thản",
+    "status": "Hộ bình thường",
+    "memberCount": 1,
+    "latitude": 16.63221,
+    "longitude": 106.742273
+  },
+  {
+    "headName": "Đỗ Thị Minh",
+    "address": "Đường Hồ Sỹ Thản",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.632058,
+    "longitude": 106.7426
+  },
+  {
+    "headName": "Nguyễn Văn Tuyển",
+    "address": "Đường Hồ Sỹ Thản",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.632111,
+    "longitude": 106.742564
+  },
+  {
+    "headName": "Lê Thị Tú",
+    "address": "Đường Hồ Sỹ Thản",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.632101,
+    "longitude": 106.74271
+  },
+  {
+    "headName": "Phạm Văn Thành",
+    "address": "Đường Hồ Sỹ Thản",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.631987,
+    "longitude": 106.742702
+  },
+  {
+    "headName": "Trần Thị Hiền (HST)",
+    "address": "Đường Hồ Sỹ Thản",
+    "status": "Hộ nghèo",
+    "memberCount": 3,
+    "latitude": 16.631944,
+    "longitude": 106.742784
+  },
+  {
+    "headName": "Trần Thị Tuyết Lan",
+    "address": "Đường Hồ Sỹ Thản",
+    "status": "Hộ bình thường",
+    "memberCount": 1,
+    "latitude": 16.63191,
+    "longitude": 106.742829
+  },
+  {
+    "headName": "Nguyễn Thị Lành",
+    "address": "Đường Hồ Sỹ Thản",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.632033,
+    "longitude": 106.743138
+  },
+  {
+    "headName": "Hoàng Thị Huê",
+    "address": "Đường Hồ Sỹ Thản",
+    "status": "Hộ nghèo",
+    "memberCount": 3,
+    "latitude": 16.631949,
+    "longitude": 106.743039
+  },
+  {
+    "headName": "Trần Văn Thạnh",
+    "address": "Đường Hồ Sỹ Thản",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.631905,
+    "longitude": 106.743118
+  },
+  {
+    "headName": "Đinh Thị Cam",
+    "address": "Đường Hồ Sỹ Thản",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.631588,
+    "longitude": 106.743228
+  },
+  {
+    "headName": "Hoàng Đình Lộc",
+    "address": "Đường Hồ Sỹ Thản",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.631778,
+    "longitude": 106.743588
+  },
+  {
+    "headName": "Trần Thị Tuyết Hà",
+    "address": "Đường Hồ Sỹ Thản",
+    "status": "Hộ cận nghèo",
+    "memberCount": 4,
+    "latitude": 16.631778,
+    "longitude": 106.743588
+  },
+  {
+    "headName": "Lê Văn Hùng",
+    "address": "Đường Hồ Sỹ Thản",
+    "status": "Hộ cận nghèo",
+    "memberCount": 3,
+    "latitude": 16.631739,
+    "longitude": 106.743735
+  },
+  {
+    "headName": "Trần Thị Giang",
+    "address": "Đường Hồ Sỹ Thản",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.63175,
+    "longitude": 106.743729
+  },
+  {
+    "headName": "Trần Thanh",
+    "address": "Đường Hồ Sỹ Thản",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.631799,
+    "longitude": 106.743834
+  },
+  {
+    "headName": "Trương Văn Phúc",
+    "address": "Đường Hồ Sỹ Thản",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.631775,
+    "longitude": 106.744087
+  },
+  {
+    "headName": "Nguyễn Thị Ánh Nhung",
+    "address": "Đường Hồ Sỹ Thản",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.631853,
+    "longitude": 106.744428
+  },
+  {
+    "headName": "Trương Thông",
+    "address": "Đường Hồ Sỹ Thản",
+    "status": "Hộ cận nghèo",
+    "memberCount": 4,
+    "latitude": 16.632315,
+    "longitude": 106.742186
+  },
+  {
+    "headName": "Trần Thị Huệ",
+    "address": "Đường Hồ Sỹ Thản",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.632163,
+    "longitude": 106.742376
+  },
+  {
+    "headName": "Hoàng Văn Khánh (HST)",
+    "address": "Đường Hồ Sỹ Thản",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.631999,
+    "longitude": 106.742667
+  },
+  {
+    "headName": "Đinh Thị Thao",
+    "address": "Đường Hồ Sỹ Thản",
+    "status": "Hộ bình thường",
+    "memberCount": 2,
+    "latitude": 16.631827,
+    "longitude": 106.743188
+  },
+  {
+    "headName": "Hoàng Xuân Đại",
+    "address": "Đường Hồ Sỹ Thản",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.631829,
+    "longitude": 106.74367
+  },
+  {
+    "headName": "Trần Thị Hằng",
+    "address": "Đường Hồ Sỹ Thản",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.631578,
+    "longitude": 106.744397
+  },
+  {
+    "headName": "Phan Văn Quynh (NVL)",
+    "address": "Đường Nguyễn Văn Linh",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.632402,
+    "longitude": 106.740954
+  },
+  {
+    "headName": "Hoàng Thanh Tuân",
+    "address": "Đường Nguyễn Văn Linh",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.632334,
+    "longitude": 106.741254
+  },
+  {
+    "headName": "Hoàng Tấn Phát",
+    "address": "Đường Nguyễn Văn Linh",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.632243,
+    "longitude": 106.741048
+  },
+  {
+    "headName": "Hồ Thị Nàn",
+    "address": "Đường Nguyễn Văn Linh",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.632245,
+    "longitude": 106.741252
+  },
+  {
+    "headName": "Hoàng Đáo",
+    "address": "Đường Nguyễn Văn Linh",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.632148,
+    "longitude": 106.741249
+  },
+  {
+    "headName": "Phạm Xuân Ngợi",
+    "address": "Đường Nguyễn Văn Linh",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.632074,
+    "longitude": 106.741567
+  },
+  {
+    "headName": "Trần Thị Hoa (HHT)",
+    "address": "Ngõ 01 - Hà Huy Tập",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.630987,
+    "longitude": 106.743027
+  },
+  {
+    "headName": "Nguyễn Hữu Nhân",
+    "address": "Ngõ 01 - Hà Huy Tập",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.630966,
+    "longitude": 106.74304
+  },
+  {
+    "headName": "Đinh Ngọc Tấn",
+    "address": "Ngõ 01 - Hà Huy Tập",
+    "status": "Hộ cận nghèo",
+    "memberCount": 5,
+    "latitude": 16.630864,
+    "longitude": 106.742989
+  },
+  {
+    "headName": "Trương Đình Liêu",
+    "address": "Ngõ 01 - Hà Huy Tập",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.630847,
+    "longitude": 106.743081
+  },
+  {
+    "headName": "Trương Anh Quốc",
+    "address": "Ngõ 01 - Hà Huy Tập",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.63075,
+    "longitude": 106.743253
+  },
+  {
+    "headName": "Trần Xuân Vũ",
+    "address": "Ngõ 01 - Hà Huy Tập",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.630783,
+    "longitude": 106.743311
+  },
+  {
+    "headName": "Ngô Thị Lẫm",
+    "address": "Đường Hà Huy Tập",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.631846,
+    "longitude": 106.740913
+  },
+  {
+    "headName": "Nguyễn Thị Hoà",
+    "address": "Đường Hà Huy Tập",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.631888,
+    "longitude": 106.741171
+  },
+  {
+    "headName": "Phan Thị Vân",
+    "address": "Đường Hà Huy Tập",
+    "status": "Hộ bình thường",
+    "memberCount": 7,
+    "latitude": 16.631771,
+    "longitude": 106.741775
+  },
+  {
+    "headName": "Nguyễn Đức Bảo",
+    "address": "Đường Hà Huy Tập",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.631619,
+    "longitude": 106.742057
+  },
+  {
+    "headName": "Nguyễn Đình Thịnh",
+    "address": "Đường Hà Huy Tập",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.631649,
+    "longitude": 106.742212
+  },
+  {
+    "headName": "Nguyễn Thị Hằng (Hà Huy Tập)",
+    "address": "Đường Hà Huy Tập",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.631534,
+    "longitude": 106.742254
+  },
+  {
+    "headName": "Hoàng Đức Thành",
+    "address": "Đường Hà Huy Tập",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.631529,
+    "longitude": 106.742292
+  },
+  {
+    "headName": "Phan Hiền",
+    "address": "Đường Hà Huy Tập",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.631494,
+    "longitude": 106.742443
+  },
+  {
+    "headName": "Hoàng Minh Thiệu",
+    "address": "Đường Hà Huy Tập",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.631472,
+    "longitude": 106.742468
+  },
+  {
+    "headName": "Lê Đức Sữu",
+    "address": "Đường Hà Huy Tập",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.631486,
+    "longitude": 106.742601
+  },
+  {
+    "headName": "Lê Khang",
+    "address": "Đường Hà Huy Tập",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.631464,
+    "longitude": 106.742558
+  },
+  {
+    "headName": "Lê Đức Sỹ",
+    "address": "Đường Hà Huy Tập",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.631363,
+    "longitude": 106.742785
+  },
+  {
+    "headName": "Trương Thị Mỹ Lệ",
+    "address": "Đường Hà Huy Tập",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.631378,
+    "longitude": 106.742915
+  },
+  {
+    "headName": "Đặng Văn Sách",
+    "address": "Đường Hà Huy Tập",
+    "status": "Hộ bình thường",
+    "memberCount": 8,
+    "latitude": 16.631275,
+    "longitude": 106.743362
+  },
+  {
+    "headName": "Lê Văn Phan Thịnh",
+    "address": "Đường Hà Huy Tập",
+    "status": "Hộ bình thường",
+    "memberCount": 8,
+    "latitude": 16.631249,
+    "longitude": 106.743557
+  },
+  {
+    "headName": "Hoàng Đức",
+    "address": "Đường Hà Huy Tập",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.63122,
+    "longitude": 106.743531
+  },
+  {
+    "headName": "Trần Thị Thảnh",
+    "address": "Đường Hà Huy Tập",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.631215,
+    "longitude": 106.743541
+  },
+  {
+    "headName": "Phạm Văn Thảo",
+    "address": "Đường Hà Huy Tập",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.6311,
+    "longitude": 106.74385
+  },
+  {
+    "headName": "Phạm Hồng Nhung",
+    "address": "Đường Hà Huy Tập",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.631041,
+    "longitude": 106.743989
+  },
+  {
+    "headName": "Hoàng Đình Tuấn",
+    "address": "Đường Hà Huy Tập",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.631227,
+    "longitude": 106.743713
+  },
+  {
+    "headName": "Hoàng Thị Hiền",
+    "address": "Đường Hà Huy Tập",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.631154,
+    "longitude": 106.743817
+  },
+  {
+    "headName": "Nguyễn Hải Bình",
+    "address": "Đường Hà Huy Tập",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.631016,
+    "longitude": 106.744186
+  },
+  {
+    "headName": "Hoàng Đình Khanh",
+    "address": "Đường Hà Huy Tập",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.63102,
+    "longitude": 106.744225
+  },
+  {
+    "headName": "Đinh Văn Cả",
+    "address": "Đường Hà Huy Tập",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.630969,
+    "longitude": 106.744233
+  },
+  {
+    "headName": "Võ Quốc Thành",
+    "address": "Đường Hà Huy Tập",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.630945,
+    "longitude": 106.744294
+  },
+  {
+    "headName": "Hồ Thanh Hồng",
+    "address": "Đường Hà Huy Tập",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.631232,
+    "longitude": 106.743697
+  },
+  {
+    "headName": "Nguyễn Thuận",
+    "address": "Đường Hà Huy Tập",
+    "status": "Hộ nghèo",
+    "memberCount": 5,
+    "latitude": 16.630979,
+    "longitude": 106.744267
+  },
+  {
+    "headName": "Lê Thị Loan",
+    "address": "Đường Hà Huy Tập",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.630901,
+    "longitude": 106.744479
+  },
+  {
+    "headName": "Trần Văn Tám",
+    "address": "Đường Hà Huy Tập",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.630833,
+    "longitude": 106.744534
+  },
+  {
+    "headName": "Đinh Thị Hương",
+    "address": "Đường Hà Huy Tập",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.630338,
+    "longitude": 106.745054
+  },
+  {
+    "headName": "Phan Khắc Sơn",
+    "address": "Đường Hà Huy Tập",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.630299,
+    "longitude": 106.745097
+  },
+  {
+    "headName": "Trương Sỹ Lưu",
+    "address": "Đường Hà Huy Tập",
+    "status": "Hộ cận nghèo",
+    "memberCount": 5,
+    "latitude": 16.630296,
+    "longitude": 106.745096
+  },
+  {
+    "headName": "Trương Thị Huệ",
+    "address": "Đường Hà Huy Tập",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.630221,
+    "longitude": 106.745111
+  },
+  {
+    "headName": "Tạ Hùng Vỹ",
+    "address": "Đường Hà Huy Tập",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.629869,
+    "longitude": 106.74824
+  },
+  {
+    "headName": "Võ Đình Tuấn",
+    "address": "Đường Hà Huy Tập",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.629691,
+    "longitude": 106.748048
+  },
+  {
+    "headName": "Hồ Thị Thể",
+    "address": "Đường Hà Huy Tập",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.629616,
+    "longitude": 106.747725
+  },
+  {
+    "headName": "Đào Thị Hoa",
+    "address": "Đường Hà Huy Tập",
+    "status": "Hộ cận nghèo",
+    "memberCount": 6,
+    "latitude": 16.62937,
+    "longitude": 106.747269
+  },
+  {
+    "headName": "Đào Thị Nguyên",
+    "address": "Đường Hà Huy Tập",
+    "status": "Hộ bình thường",
+    "memberCount": 2,
+    "latitude": 16.628926,
+    "longitude": 106.746577
+  },
+  {
+    "headName": "Hoàng Thị Bé",
+    "address": "Đường Hà Huy Tập",
+    "status": "Hộ nghèo",
+    "memberCount": 3,
+    "latitude": 16.627751,
+    "longitude": 106.747506
+  },
+  {
+    "headName": "Hồ Thị Muôi",
+    "address": "Đường Hà Huy Tập",
+    "status": "Hộ cận nghèo",
+    "memberCount": 2,
+    "latitude": 16.628197,
+    "longitude": 106.74696
+  },
+  {
+    "headName": "Trương Thị Mỹ Hạnh",
+    "address": "Đường Hà Huy Tập",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.628856,
+    "longitude": 106.746473
+  },
+  {
+    "headName": "Trần Đăng Khoa",
+    "address": "Đường Hà Huy Tập",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.628793,
+    "longitude": 106.746302
+  },
+  {
+    "headName": "Nguyễn Thị Ngọc Hà",
+    "address": "Đường Hà Huy Tập",
+    "status": "Hộ nghèo",
+    "memberCount": 3,
+    "latitude": 16.628751,
+    "longitude": 106.746178
+  },
+  {
+    "headName": "Lê Văn Lâm",
+    "address": "Đường Hà Huy Tập",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.631662,
+    "longitude": 106.741795
+  },
+  {
+    "headName": "Lê Thị Kiều Trang",
+    "address": "Đường Hà Huy Tập",
+    "status": "Hộ bình thường",
+    "memberCount": 2,
+    "latitude": 16.631642,
+    "longitude": 106.741883
+  },
+  {
+    "headName": "Lê Kiều Tiên",
+    "address": "Đường Hà Huy Tập",
+    "status": "Hộ bình thường",
+    "memberCount": 2,
+    "latitude": 16.631699,
+    "longitude": 106.7419
+  },
+  {
+    "headName": "Lê Văn Lục",
+    "address": "Đường Hà Huy Tập",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.631613,
+    "longitude": 106.741969
+  },
+  {
+    "headName": "Võ Minh Hải",
+    "address": "Đường Hà Huy Tập",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.631613,
+    "longitude": 106.741963
+  },
+  {
+    "headName": "Bùi Thị Diệp",
+    "address": "Đường Hà Huy Tập",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.631609,
+    "longitude": 106.742153
+  },
+  {
+    "headName": "Lê Văn Anh",
+    "address": "Đường Hà Huy Tập",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.631617,
+    "longitude": 106.742236
+  },
+  {
+    "headName": "Lê Thị Hồng Gấm",
+    "address": "Đường Hà Huy Tập",
+    "status": "Hộ nghèo",
+    "memberCount": 2,
+    "latitude": 16.631339,
+    "longitude": 106.742239
+  },
+  {
+    "headName": "Trần Thị Tăm",
+    "address": "Đường Hà Huy Tập",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.631547,
+    "longitude": 106.74232
+  },
+  {
+    "headName": "Lê Đức Dưỡng",
+    "address": "Đường Hà Huy Tập",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.631515,
+    "longitude": 106.742406
+  },
+  {
+    "headName": "Hoàng Thị Sanh",
+    "address": "Đường Hà Huy Tập",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.631033,
+    "longitude": 106.742467
+  },
+  {
+    "headName": "Hoàng Minh Khánh",
+    "address": "Đường Hà Huy Tập",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.628983,
+    "longitude": 106.745536
+  },
+  {
+    "headName": "Lê Thị Mỹ Nhung",
+    "address": "Đường Hà Huy Tập",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.629025,
+    "longitude": 106.74538
+  },
+  {
+    "headName": "Lê Đình Cảnh",
+    "address": "Đường Hà Huy Tập",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.631423,
+    "longitude": 106.742596
+  },
+  {
+    "headName": "Trần Thị Tường Vy",
+    "address": "Đường Hà Huy Tập",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.631433,
+    "longitude": 106.74275
+  },
+  {
+    "headName": "Hoàng Minh",
+    "address": "Đường Hà Huy Tập",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.631393,
+    "longitude": 106.742677
+  },
+  {
+    "headName": "Đinh Tư Duy",
+    "address": "Đường Hà Huy Tập",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.631287,
+    "longitude": 106.74303
+  },
+  {
+    "headName": "Lê Đức Tẩn",
+    "address": "Đường Hà Huy Tập",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.630878,
+    "longitude": 106.74438
+  },
+  {
+    "headName": "Trần Văn Bảy",
+    "address": "Đường Hà Huy Tập",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.630911,
+    "longitude": 106.74432
+  },
+  {
+    "headName": "Hoàng Thanh Nguyên",
+    "address": "Đường Hà Huy Tập",
+    "status": "Hộ bình thường",
+    "memberCount": 7,
+    "latitude": 16.630205,
+    "longitude": 106.745102
+  },
+  {
+    "headName": "Nguyễn Thị Em",
+    "address": "Đường Hà Huy Tập",
+    "status": "Hộ bình thường",
+    "memberCount": 2,
+    "latitude": 16.630116,
+    "longitude": 106.745207
+  },
+  {
+    "headName": "Lê Thị Thuỷ",
+    "address": "Đường Hà Huy Tập",
+    "status": "Hộ bình thường",
+    "memberCount": 2,
+    "latitude": 16.631226,
+    "longitude": 106.743634
+  },
+  {
+    "headName": "Đinh Thị Thơi",
+    "address": "Đường Hà Huy Tập",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.631227,
+    "longitude": 106.743702
+  },
+  {
+    "headName": "Nguyễn Minh Đạo",
+    "address": "Đường Hà Huy Tập",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.631096,
+    "longitude": 106.743861
+  },
+  {
+    "headName": "Nguyễn Khanh (HHT)",
+    "address": "Đường Hà Huy Tập",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.631088,
+    "longitude": 106.743913
+  },
+  {
+    "headName": "Đinh Thị Xuân",
+    "address": "Đường Hà Huy Tập",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.630988,
+    "longitude": 106.744144
+  },
+  {
+    "headName": "Trần Thị Linh",
+    "address": "Đường Hà Huy Tập",
+    "status": "Hộ cận nghèo",
+    "memberCount": 6,
+    "latitude": 16.630581,
+    "longitude": 106.744095
+  },
+  {
+    "headName": "Lê Thị Ánh Nguyệt",
+    "address": "Ngõ 01 - Bùi Thị Xuân",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.631067,
+    "longitude": 106.74156
+  },
+  {
+    "headName": "Lê Thị Ái",
+    "address": "Ngõ 01 - Bùi Thị Xuân",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.631094,
+    "longitude": 106.741527
+  },
+  {
+    "headName": "Võ Văn Chinh",
+    "address": "Ngõ 01 - Bùi Thị Xuân",
+    "status": "Hộ nghèo",
+    "memberCount": 1,
+    "latitude": 16.631007,
+    "longitude": 106.741694
+  },
+  {
+    "headName": "Trần Thị Trang",
+    "address": "Ngõ 01 - Bùi Thị Xuân",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.630787,
+    "longitude": 106.741805
+  },
+  {
+    "headName": "Hồ Thị Tình",
+    "address": "Ngõ 01 - Bùi Thị Xuân",
+    "status": "Hộ cận nghèo",
+    "memberCount": 8,
+    "latitude": 16.630864,
+    "longitude": 106.742179
+  },
+  {
+    "headName": "Lê Đức Phong",
+    "address": "Ngõ 01 - Bùi Thị Xuân",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.630801,
+    "longitude": 106.74198
+  },
+  {
+    "headName": "Hồ Thị Chính",
+    "address": "Ngõ 01 - Bùi Thị Xuân",
+    "status": "Hộ bình thường",
+    "memberCount": 2,
+    "latitude": 16.630884000000002,
+    "longitude": 106.741963
+  },
+  {
+    "headName": "Hồ Thị Thuỷ",
+    "address": "Ngõ 01 - Bùi Thị Xuân",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.630905,
+    "longitude": 106.741794
+  },
+  {
+    "headName": "Cao Xuân Kham",
+    "address": "Ngõ 01 - Bùi Thị Xuân",
+    "status": "Hộ bình thường",
+    "memberCount": 8,
+    "latitude": 16.631134,
+    "longitude": 106.741547
+  },
+  {
+    "headName": "Trần Thị Tâm",
+    "address": "Đường Bùi Thị Xuân",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.629994,
+    "longitude": 106.740784
+  },
+  {
+    "headName": "Nguyễn Đăng Thị",
+    "address": "Đường Bùi Thị Xuân",
+    "status": "Hộ bình thường",
+    "memberCount": 7,
+    "latitude": 16.630086,
+    "longitude": 106.740798
+  },
+  {
+    "headName": "Lê Văn Thuỷ",
+    "address": "Đường Bùi Thị Xuân",
+    "status": "Hộ nghèo",
+    "memberCount": 3,
+    "latitude": 16.630299,
+    "longitude": 106.740827
+  },
+  {
+    "headName": "Lê Thị Minh Vương",
+    "address": "Đường Bùi Thị Xuân",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.63029,
+    "longitude": 106.740854
+  },
+  {
+    "headName": "Hồ Thị Bạch Ánh",
+    "address": "Đường Bùi Thị Xuân",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.630258,
+    "longitude": 106.740841
+  },
+  {
+    "headName": "Lê Hồng Thái",
+    "address": "Đường Bùi Thị Xuân",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.630421,
+    "longitude": 106.740888
+  },
+  {
+    "headName": "Hoàng Thị Loan",
+    "address": "Đường Bùi Thị Xuân",
+    "status": "Hộ cận nghèo",
+    "memberCount": 6,
+    "latitude": 16.630478,
+    "longitude": 106.740592
+  },
+  {
+    "headName": "Hoàng Thị Dung",
+    "address": "Đường Bùi Thị Xuân",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.630565,
+    "longitude": 106.740942
+  },
+  {
+    "headName": "Mai Văn Trản",
+    "address": "Đường Bùi Thị Xuân",
+    "status": "Hộ bình thường",
+    "memberCount": 7,
+    "latitude": 16.630705,
+    "longitude": 106.740955
+  },
+  {
+    "headName": "Nguyễn Văn Quế",
+    "address": "Đường Bùi Thị Xuân",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.630781,
+    "longitude": 106.740988
+  },
+  {
+    "headName": "Hồ Thị An",
+    "address": "Đường Bùi Thị Xuân",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.631068,
+    "longitude": 106.741009
+  },
+  {
+    "headName": "Nguyễn Xuân Hải",
+    "address": "Đường Bùi Thị Xuân",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.631626,
+    "longitude": 106.741259
+  },
+  {
+    "headName": "Hoàng Văn Khánh (BTX)",
+    "address": "Đường Bùi Thị Xuân",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.630025,
+    "longitude": 106.740791
+  },
+  {
+    "headName": "Nguyễn Văn Hồng",
+    "address": "Đường Bùi Thị Xuân",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.630169,
+    "longitude": 106.740878
+  },
+  {
+    "headName": "Trần Thị Vân",
+    "address": "Đường Bùi Thị Xuân",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.630308,
+    "longitude": 106.740895
+  },
+  {
+    "headName": "Nguyễn Thịnh",
+    "address": "Đường Bùi Thị Xuân",
+    "status": "Hộ bình thường",
+    "memberCount": 7,
+    "latitude": 16.630304,
+    "longitude": 106.740881
+  },
+  {
+    "headName": "Bùi Trọng Thể",
+    "address": "Đường Bùi Thị Xuân",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.63049,
+    "longitude": 106.740911
+  },
+  {
+    "headName": "Bùi Trọng Trung",
+    "address": "Đường Bùi Thị Xuân",
+    "status": "Hộ bình thường",
+    "memberCount": 1,
+    "latitude": 16.630525,
+    "longitude": 106.740933
+  },
+  {
+    "headName": "Nguyễn Văn Châu",
+    "address": "Đường Bùi Thị Xuân",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.63057,
+    "longitude": 106.740945
+  },
+  {
+    "headName": "Đinh Thị Tịnh",
+    "address": "Đường Bùi Thị Xuân",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.630873,
+    "longitude": 106.741041
+  },
+  {
+    "headName": "Lê Văn Quốc",
+    "address": "Đường Bùi Thị Xuân",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.631159,
+    "longitude": 106.741119
+  },
+  {
+    "headName": "Phạm Thị Thanh Thủy",
+    "address": "Đường Bùi Thị Xuân",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.631417,
+    "longitude": 106.741213
+  },
+  {
+    "headName": "Lê Thị Hiếu Giang",
+    "address": "Đường Bùi Thị Xuân",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.631639,
+    "longitude": 106.741272
+  },
+  {
+    "headName": "Nguyễn Thị Dương",
+    "address": "Đường Bùi Thị Xuân",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.632323,
+    "longitude": 106.74188
+  },
+  {
+    "headName": "Trần Thanh Bình",
+    "address": "Đường Bùi Thị Xuân",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.632441,
+    "longitude": 106.741872
+  },
+  {
+    "headName": "Phan Thị Sam",
+    "address": "Đường Bùi Thị Xuân",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.630041,
+    "longitude": 106.741097
+  },
+  {
+    "headName": "Nguyễn Đăng Hùng",
+    "address": "Đường Bùi Thị Xuân",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.630009,
+    "longitude": 106.741187
+  },
+  {
+    "headName": "Nguyễn Ngọc Quang Huy",
+    "address": "Đường Bùi Thị Xuân",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.630048,
+    "longitude": 106.741104
+  },
+  {
+    "headName": "Nguyễn Xuân Hoàng",
+    "address": "Đường Bùi Thị Xuân",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.630027,
+    "longitude": 106.740969
+  },
+  {
+    "headName": "Phùng Thạch Hàn Ngân",
+    "address": "Ngõ 02 - Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.626627,
+    "longitude": 106.742862
+  },
+  {
+    "headName": "Phùng Hàn Phong",
+    "address": "Ngõ 02 - Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.626559,
+    "longitude": 106.742814
+  },
+  {
+    "headName": "Nguyễn Thị Sáu",
+    "address": "Ngõ 02 - Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.626629,
+    "longitude": 106.74307
+  },
+  {
+    "headName": "Nguyễn Văn Diện",
+    "address": "Ngõ 02 - Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.626704,
+    "longitude": 106.74323
+  },
+  {
+    "headName": "Nguyễn Văn Điện",
+    "address": "Ngõ 02 - Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.626804,
+    "longitude": 106.743261
+  },
+  {
+    "headName": "Nguyễn Văn Kỳ",
+    "address": "Ngõ 02 - Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.626745,
+    "longitude": 106.743299
+  },
+  {
+    "headName": "Đinh Văn Dũng",
+    "address": "Ngõ 02 - Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.626624,
+    "longitude": 106.743115
+  },
+  {
+    "headName": "Đỗ Thị Dung",
+    "address": "Ngõ 02 - Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.626446,
+    "longitude": 106.743135
+  },
+  {
+    "headName": "Hồ Thị Bạch Tý",
+    "address": "Ngõ 02 - Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.626454,
+    "longitude": 106.743329
+  },
+  {
+    "headName": "Nguyễn Thị Lai",
+    "address": "Ngõ 02 - Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.62633,
+    "longitude": 106.743265
+  },
+  {
+    "headName": "Đinh Văn Tốn",
+    "address": "Ngõ 02 - Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.626408,
+    "longitude": 106.74316
+  },
+  {
+    "headName": "Bùi Phòng (NSL)",
+    "address": "Ngõ 02 - Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.626582,
+    "longitude": 106.742991
+  },
+  {
+    "headName": "Bùi Thị Bé",
+    "address": "Ngõ 02 - Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 4
+  },
+  {
+    "headName": "Nguyễn Thái Linh",
+    "address": "Ngõ 01 - Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.627621,
+    "longitude": 106.742134
+  },
+  {
+    "headName": "Hồ Văn Trí",
+    "address": "Ngõ 01 - Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 7,
+    "latitude": 16.627701,
+    "longitude": 106.742209
+  },
+  {
+    "headName": "Nguyễn Ngọc Thái",
+    "address": "Ngõ 01 - Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.627547,
+    "longitude": 106.74231
+  },
+  {
+    "headName": "Đặng Thị Hường",
+    "address": "Ngõ 01 - Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 1,
+    "latitude": 16.627443,
+    "longitude": 106.742475
+  },
+  {
+    "headName": "Nguyễn Ngọc Bảo",
+    "address": "Ngõ 01 - Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 1,
+    "latitude": 16.627416,
+    "longitude": 106.742487
+  },
+  {
+    "headName": "Nguyễn Tuyến",
+    "address": "Ngõ 01 - Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.627364,
+    "longitude": 106.742523
+  },
+  {
+    "headName": "Nguyễn Xuân Định",
+    "address": "Ngõ 01 - Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 8,
+    "latitude": 16.627271,
+    "longitude": 106.742542
+  },
+  {
+    "headName": "Trương Phong Lưu",
+    "address": "Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.629682,
+    "longitude": 106.740478
+  },
+  {
+    "headName": "Nguyễn Thị Hương (NSL)",
+    "address": "Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 2,
+    "latitude": 16.629709,
+    "longitude": 106.740434
+  },
+  {
+    "headName": "Hồ Văn Hùng",
+    "address": "Đường Ngô Sỹ Liên",
+    "status": "Hộ cận nghèo",
+    "memberCount": 3,
+    "latitude": 16.62968,
+    "longitude": 106.740521
+  },
+  {
+    "headName": "Nguyễn Thị Chanh",
+    "address": "Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 2,
+    "latitude": 16.629598,
+    "longitude": 106.740574
+  },
+  {
+    "headName": "Trần Thế Vũ",
+    "address": "Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 1,
+    "latitude": 16.629595,
+    "longitude": 106.740707
+  },
+  {
+    "headName": "Trần Vinh",
+    "address": "Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 9,
+    "latitude": 16.629549,
+    "longitude": 106.740782
+  },
+  {
+    "headName": "Trần Lực",
+    "address": "Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.62953,
+    "longitude": 106.740793
+  },
+  {
+    "headName": "Phan Thị Thanh",
+    "address": "Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.629505,
+    "longitude": 106.740824
+  },
+  {
+    "headName": "Hoàng Quý",
+    "address": "Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.629444,
+    "longitude": 106.740863
+  },
+  {
+    "headName": "Lê Thị Luyến",
+    "address": "Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.629448,
+    "longitude": 106.740932
+  },
+  {
+    "headName": "Lê Văn Lữ",
+    "address": "Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.629455,
+    "longitude": 106.741007
+  },
+  {
+    "headName": "Hồ Thị Lan",
+    "address": "Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.629388,
+    "longitude": 106.741126
+  },
+  {
+    "headName": "Đinh Duy Linh (NSL)",
+    "address": "Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.629284,
+    "longitude": 106.741317
+  },
+  {
+    "headName": "Đinh Hoài Ân (NSL)",
+    "address": "Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.629285,
+    "longitude": 106.741307
+  },
+  {
+    "headName": "Đinh Văn Nông",
+    "address": "Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.629254,
+    "longitude": 106.74136
+  },
+  {
+    "headName": "Lê Văn Cờ",
+    "address": "Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.629225,
+    "longitude": 106.741419
+  },
+  {
+    "headName": "Lê Phi Thiện (NSL)",
+    "address": "Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.629186,
+    "longitude": 106.741655
+  },
+  {
+    "headName": "Nguyễn Hải Hoá",
+    "address": "Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.629191,
+    "longitude": 106.74177
+  },
+  {
+    "headName": "Cao Tiến Dũng",
+    "address": "Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 9,
+    "latitude": 16.629145,
+    "longitude": 106.741703
+  },
+  {
+    "headName": "Lê Thị Mỹ Lệ",
+    "address": "Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.628971,
+    "longitude": 106.741954
+  },
+  {
+    "headName": "Nguyễn Quyền",
+    "address": "Đường Ngô Sỹ Liên",
+    "status": "Hộ cận nghèo",
+    "memberCount": 3,
+    "latitude": 16.629078,
+    "longitude": 106.74174
+  },
+  {
+    "headName": "Tống Viết Sơn Long",
+    "address": "Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 7,
+    "latitude": 16.629003,
+    "longitude": 106.741664
+  },
+  {
+    "headName": "Trần Mót",
+    "address": "Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 7,
+    "latitude": 16.628884,
+    "longitude": 106.741573
+  },
+  {
+    "headName": "Trần Quế Sơn",
+    "address": "Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.628691,
+    "longitude": 106.741809
+  },
+  {
+    "headName": "Nguyễn Thị Kim Cúc",
+    "address": "Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.628723,
+    "longitude": 106.741449
+  },
+  {
+    "headName": "Nguyễn Hoàng Huynh",
+    "address": "Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.628741,
+    "longitude": 106.741446
+  },
+  {
+    "headName": "Hoàng Thị Nguyệt",
+    "address": "Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 2,
+    "latitude": 16.6286,
+    "longitude": 106.741377
+  },
+  {
+    "headName": "Trần Thị Phương Lan (NSL)",
+    "address": "Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.628616,
+    "longitude": 106.741379
+  },
+  {
+    "headName": "Hoàng Thị Kim Nga",
+    "address": "Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.628477,
+    "longitude": 106.741379
+  },
+  {
+    "headName": "Lê Thị Nhung",
+    "address": "Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.628407,
+    "longitude": 106.74135
+  },
+  {
+    "headName": "Trần Xuân Thọ",
+    "address": "Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.628408,
+    "longitude": 106.741344
+  },
+  {
+    "headName": "Trương Văn Quý",
+    "address": "Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.628136,
+    "longitude": 106.741503
+  },
+  {
+    "headName": "Đàm Trọng Tuấn",
+    "address": "Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.628075,
+    "longitude": 106.741504
+  },
+  {
+    "headName": "Đàm Trọng Nam",
+    "address": "Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.628043,
+    "longitude": 106.741508
+  },
+  {
+    "headName": "Lê Đắc Trung",
+    "address": "Đường Ngô Sỹ Liên",
+    "status": "Hộ cận nghèo",
+    "memberCount": 12,
+    "latitude": 16.627752,
+    "longitude": 106.741609
+  },
+  {
+    "headName": "Lê Đắc Bình",
+    "address": "Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 2,
+    "latitude": 16.627508,
+    "longitude": 106.741844
+  },
+  {
+    "headName": "Nguyễn Văn Ngọc (NSL)",
+    "address": "Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.627577,
+    "longitude": 106.741825
+  },
+  {
+    "headName": "Võ Thị Phương Tâm",
+    "address": "Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 13,
+    "latitude": 16.62728,
+    "longitude": 106.74191
+  },
+  {
+    "headName": "Đặng Văn Hoè",
+    "address": "Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.627254,
+    "longitude": 106.74196
+  },
+  {
+    "headName": "Đặng Văn Hoà",
+    "address": "Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 1,
+    "latitude": 16.627151,
+    "longitude": 106.741961
+  },
+  {
+    "headName": "Đào Thị Lựu",
+    "address": "Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.627208,
+    "longitude": 106.741987
+  },
+  {
+    "headName": "Tôn Thất Thức",
+    "address": "Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.627226,
+    "longitude": 106.742268
+  },
+  {
+    "headName": "Nguyễn Hữu Hoà",
+    "address": "Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 7,
+    "latitude": 16.626855,
+    "longitude": 106.742035
+  },
+  {
+    "headName": "Cao Xuân Lệ",
+    "address": "Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 8,
+    "latitude": 16.626715,
+    "longitude": 106.742245
+  },
+  {
+    "headName": "Hồ Thị Thu Thảo",
+    "address": "Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.626538,
+    "longitude": 106.742319
+  },
+  {
+    "headName": "Nguyễn Vũ Nhật Phi",
+    "address": "Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.626477,
+    "longitude": 106.742427
+  },
+  {
+    "headName": "Đoàn Thị Hồng",
+    "address": "Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 2,
+    "latitude": 16.62634,
+    "longitude": 106.742569
+  },
+  {
+    "headName": "Nguyễn Thị Huyền (NSL)",
+    "address": "Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.626251,
+    "longitude": 106.742579
+  },
+  {
+    "headName": "Hoàng Công Thái",
+    "address": "Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.626217,
+    "longitude": 106.742693
+  },
+  {
+    "headName": "Hoàng Công Đức",
+    "address": "Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.626093,
+    "longitude": 106.742826
+  },
+  {
+    "headName": "Trần Đức Bút",
+    "address": "Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.625933,
+    "longitude": 106.743021
+  },
+  {
+    "headName": "Trần Quang Bình",
+    "address": "Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.625948,
+    "longitude": 106.743034
+  },
+  {
+    "headName": "Trần Thị Thu Sương",
+    "address": "Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.62578,
+    "longitude": 106.74331
+  },
+  {
+    "headName": "Trần Thị Huyên",
+    "address": "Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.625791,
+    "longitude": 106.743343
+  },
+  {
+    "headName": "Nguyễn Thị Phanh",
+    "address": "Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 7,
+    "latitude": 16.62575,
+    "longitude": 106.743766
+  },
+  {
+    "headName": "Phan Văn Mùi",
+    "address": "Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 7,
+    "latitude": 16.625633,
+    "longitude": 106.743889
+  },
+  {
+    "headName": "Phan Thái",
+    "address": "Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.625566,
+    "longitude": 106.74395
+  },
+  {
+    "headName": "Lê Hữu Hoàng",
+    "address": "Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.628149,
+    "longitude": 106.741085
+  },
+  {
+    "headName": "Trần Xuân Lộc",
+    "address": "Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.627944,
+    "longitude": 106.741467
+  },
+  {
+    "headName": "Lê Thị Diệu Diễm",
+    "address": "Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.62784,
+    "longitude": 106.741378
+  },
+  {
+    "headName": "Lê Thị Phan Tâm",
+    "address": "Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.627804,
+    "longitude": 106.741294
+  },
+  {
+    "headName": "Trần Bá Hạnh",
+    "address": "Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 8,
+    "latitude": 16.627731,
+    "longitude": 106.74119
+  },
+  {
+    "headName": "Lê Thị Hà (NSL)",
+    "address": "Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.627897,
+    "longitude": 106.741404
+  },
+  {
+    "headName": "Hồ Thị Lý",
+    "address": "Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.627608,
+    "longitude": 106.741566
+  },
+  {
+    "headName": "Lê Đức Tấn (thiệu)",
+    "address": "Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.627587,
+    "longitude": 106.74154
+  },
+  {
+    "headName": "Lê Quang Trung",
+    "address": "Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.627468,
+    "longitude": 106.741779
+  },
+  {
+    "headName": "Nguyễn Ngọc Phúc",
+    "address": "Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.62733,
+    "longitude": 106.741872
+  },
+  {
+    "headName": "Nguyễn Thị Minh Dung",
+    "address": "Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.627236,
+    "longitude": 106.741903
+  },
+  {
+    "headName": "Trần Thị Hương",
+    "address": "Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.627158,
+    "longitude": 106.741919
+  },
+  {
+    "headName": "Hoàng Ngọc Hà",
+    "address": "Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 2,
+    "latitude": 16.62701,
+    "longitude": 106.741954
+  },
+  {
+    "headName": "Nguyễn Ngọc Khánh",
+    "address": "Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 7,
+    "latitude": 16.626611,
+    "longitude": 106.742178
+  },
+  {
+    "headName": "Trần Văn Hoài",
+    "address": "Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.626428,
+    "longitude": 106.742403
+  },
+  {
+    "headName": "Lê Thị Thu Nhân",
+    "address": "Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.626194,
+    "longitude": 106.742615
+  },
+  {
+    "headName": "Hoàng Kim Minh",
+    "address": "Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.625928,
+    "longitude": 106.742954
+  },
+  {
+    "headName": "Trần Văn Thương",
+    "address": "Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.625834,
+    "longitude": 106.743074
+  },
+  {
+    "headName": "Nguyễn Duy Huy(ái)",
+    "address": "Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 2,
+    "latitude": 16.625773,
+    "longitude": 106.743341
+  },
+  {
+    "headName": "Phan Lai",
+    "address": "Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 9,
+    "latitude": 16.625753,
+    "longitude": 106.743449
+  },
+  {
+    "headName": "Đặng Văn Sơn",
+    "address": "Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.625625,
+    "longitude": 106.743817
+  },
+  {
+    "headName": "Đoàn Quang Hồi",
+    "address": "Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.626554,
+    "longitude": 106.7428
+  },
+  {
+    "headName": "Lê Đời",
+    "address": "Kiệt 35 - Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.629388,
+    "longitude": 106.741698
+  },
+  {
+    "headName": "Nguyễn Văn Phước",
+    "address": "Kiệt 35 - Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.629333,
+    "longitude": 106.741845
+  },
+  {
+    "headName": "Nguyễn Tấn Hoàng",
+    "address": "Kiệt 35 - Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.629198,
+    "longitude": 106.742141
+  },
+  {
+    "headName": "Lê Trung Phong",
+    "address": "Kiệt 35 - Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.629112,
+    "longitude": 106.742407
+  },
+  {
+    "headName": "Nùng Tôn Hoa",
+    "address": "Kiệt 35 - Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.629032,
+    "longitude": 106.742465
+  },
+  {
+    "headName": "Phạm Văn Ánh",
+    "address": "Kiệt 35 - Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 1,
+    "latitude": 16.629018,
+    "longitude": 106.742485
+  },
+  {
+    "headName": "Đinh Phước Toàn",
+    "address": "Kiệt 35 - Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.628937,
+    "longitude": 106.742461
+  },
+  {
+    "headName": "Đào Văn Thịnh",
+    "address": "Kiệt 35 - Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.629068,
+    "longitude": 106.742476
+  },
+  {
+    "headName": "Trương Thị Thuận",
+    "address": "Kiệt 35 - Đường Ngô Sỹ Liên",
+    "status": "Hộ cận nghèo",
+    "memberCount": 4,
+    "latitude": 16.628866,
+    "longitude": 106.74298
+  },
+  {
+    "headName": "Nguyễn Khánh (kết)",
+    "address": "Kiệt 35 - Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.628815,
+    "longitude": 106.742952
+  },
+  {
+    "headName": "Nguyễn Thị Mỹ Lệ",
+    "address": "Kiệt 35 - Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.629081,
+    "longitude": 106.742788
+  },
+  {
+    "headName": "Nguyễn Anh Tuấn",
+    "address": "Kiệt 35 - Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.629118,
+    "longitude": 106.742576
+  },
+  {
+    "headName": "Lê Thị Thanh",
+    "address": "Kiệt 35 - Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.629187,
+    "longitude": 106.743181
+  },
+  {
+    "headName": "Lê Đắc Thảo",
+    "address": "Kiệt 35 - Đường Ngô Sỹ Liên",
+    "status": "Hộ cận nghèo",
+    "memberCount": 6,
+    "latitude": 16.629147,
+    "longitude": 106.743221
+  },
+  {
+    "headName": "Lê Trung Dũng",
+    "address": "Kiệt 35 - Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.629293,
+    "longitude": 106.742919
+  },
+  {
+    "headName": "Nguyễn Thị Lương",
+    "address": "Kiệt 35 - Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 2,
+    "latitude": 16.62936,
+    "longitude": 106.742906
+  },
+  {
+    "headName": "Lê Trung Phong",
+    "address": "Kiệt 35 - Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 1,
+    "latitude": 16.629419,
+    "longitude": 106.742918
+  },
+  {
+    "headName": "Nguyễn Thị Nhung",
+    "address": "Kiệt 35 - Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 7,
+    "latitude": 16.62931,
+    "longitude": 106.742713
+  },
+  {
+    "headName": "Phan Thị Hoa",
+    "address": "Kiệt 35 - Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 2,
+    "latitude": 16.629419,
+    "longitude": 106.742627
+  },
+  {
+    "headName": "Nguyễn Văn Mậu",
+    "address": "Kiệt 35 - Đường Ngô Sỹ Liên",
+    "status": "Hộ cận nghèo",
+    "memberCount": 7,
+    "latitude": 16.629478,
+    "longitude": 106.742411
+  },
+  {
+    "headName": "Lê Thị Hương Giang",
+    "address": "Kiệt 35 - Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.629331,
+    "longitude": 106.742456
+  },
+  {
+    "headName": "Lê Thị Phương Thảo",
+    "address": "Kiệt 35 - Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.62922,
+    "longitude": 106.742648
+  },
+  {
+    "headName": "Đinh Minh Hà",
+    "address": "Kiệt 35 - Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.629118,
+    "longitude": 106.74241
+  },
+  {
+    "headName": "Lê Thị Mỹ Vân",
+    "address": "Kiệt 35 - Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.629031,
+    "longitude": 106.742326
+  },
+  {
+    "headName": "Lê Phi Châu",
+    "address": "Kiệt 35 - Đường Ngô Sỹ Liên",
+    "status": "Hộ cận nghèo",
+    "memberCount": 5,
+    "latitude": 16.629193,
+    "longitude": 106.742176
+  },
+  {
+    "headName": "Lê Phi Chiến",
+    "address": "Kiệt 35 - Đường Ngô Sỹ Liên",
+    "status": "Hộ cận nghèo",
+    "memberCount": 10,
+    "latitude": 16.629172,
+    "longitude": 106.742155
+  },
+  {
+    "headName": "Lê Phi Thiện ( Kiệt 35 NSL)",
+    "address": "Kiệt 35 - Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.62923,
+    "longitude": 106.742047
+  },
+  {
+    "headName": "Lê Phi Nam",
+    "address": "Kiệt 35 - Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.629349,
+    "longitude": 106.741999
+  },
+  {
+    "headName": "Lê Phi Lực",
+    "address": "Kiệt 35 - Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.629244,
+    "longitude": 106.74199
+  },
+  {
+    "headName": "Lê Phi Long",
+    "address": "Kiệt 35 - Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.629354,
+    "longitude": 106.741965
+  },
+  {
+    "headName": "Nguyễn Tám",
+    "address": "Kiệt 35 - Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.629488,
+    "longitude": 106.742127
+  },
+  {
+    "headName": "Lê Văn Đông",
+    "address": "Kiệt 35 - Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.629581,
+    "longitude": 106.742166
+  },
+  {
+    "headName": "Lê Thị Ái Mỹ",
+    "address": "Kiệt 35 - Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.629584,
+    "longitude": 106.742213
+  },
+  {
+    "headName": "Nguyễn Thị Hồng Hạnh",
+    "address": "Kiệt 35 - Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 2,
+    "latitude": 16.629638,
+    "longitude": 106.742186
+  },
+  {
+    "headName": "Nguyễn Quang Minh Quý",
+    "address": "Kiệt 35 - Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.629703,
+    "longitude": 106.742488
+  },
+  {
+    "headName": "Nguyễn Quốc Việt",
+    "address": "Kiệt 35 - Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.629692,
+    "longitude": 106.742333
+  },
+  {
+    "headName": "Lê Thị Quỳnh Nhung",
+    "address": "Kiệt 35 - Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.629666,
+    "longitude": 106.742265
+  },
+  {
+    "headName": "Lê Quang Thược",
+    "address": "Kiệt 35 - Đường Ngô Sỹ Liên",
+    "status": "Hộ cận nghèo",
+    "memberCount": 4,
+    "latitude": 16.629642,
+    "longitude": 106.742152
+  },
+  {
+    "headName": "Lê Thị Mai",
+    "address": "Kiệt 35 - Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.629377,
+    "longitude": 106.741927
+  },
+  {
+    "headName": "Hoàng Đình Y",
+    "address": "Kiệt 35 - Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.629403,
+    "longitude": 106.741874
+  },
+  {
+    "headName": "Bùi Thị Kim Quy",
+    "address": "Kiệt 35 - Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.629458,
+    "longitude": 106.741815
+  },
+  {
+    "headName": "Hạ Thị Kim Hương",
+    "address": "Kiệt 35 - Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 2,
+    "latitude": 16.629721,
+    "longitude": 106.741792
+  },
+  {
+    "headName": "Nguyễn Thị Như Thảo",
+    "address": "Kiệt 35 - Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.629977,
+    "longitude": 106.741725
+  },
+  {
+    "headName": "Võ Văn Thái",
+    "address": "Kiệt 35 - Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.629962,
+    "longitude": 106.74196
+  },
+  {
+    "headName": "Nguyễn Minh Hải (NSL)",
+    "address": "Kiệt 35 - Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.629954,
+    "longitude": 106.741867
+  },
+  {
+    "headName": "Huỳnh Thị Ly",
+    "address": "Kiệt 35 - Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.629855,
+    "longitude": 106.741746
+  },
+  {
+    "headName": "Tôn Đức Đại",
+    "address": "Kiệt 35 - Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.629713,
+    "longitude": 106.741777
+  },
+  {
+    "headName": "Trương Thị Thuần",
+    "address": "Kiệt 35 - Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 8,
+    "latitude": 16.629538,
+    "longitude": 106.74173
+  },
+  {
+    "headName": "Đinh Phước Đức",
+    "address": "Kiệt 35 - Đường Ngô Sỹ Liên",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.629066,
+    "longitude": 106.742482
+  },
+  {
+    "headName": "Hoàng Thị Hằng (LD)",
+    "address": "Đường Hai Bà Trưng",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.630145,
+    "longitude": 106.74023
+  },
+  {
+    "headName": "Nguyễn Thị Minh Châu",
+    "address": "Đường Hai Bà Trưng",
+    "status": "Hộ bình thường",
+    "memberCount": 1,
+    "latitude": 16.629042,
+    "longitude": 106.740395
+  },
+  {
+    "headName": "Hoàng Thị Hằng (HBT)",
+    "address": "Đường Hai Bà Trưng",
+    "status": "Hộ bình thường",
+    "memberCount": 1,
+    "latitude": 16.628985,
+    "longitude": 106.740428
+  },
+  {
+    "headName": "Lê Thị Chạy",
+    "address": "Đường Hai Bà Trưng",
+    "status": "Hộ bình thường",
+    "memberCount": 1,
+    "latitude": 16.628873,
+    "longitude": 106.740678
+  },
+  {
+    "headName": "Hoàng Tuấn Vũ",
+    "address": "Đường Hai Bà Trưng",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.628902,
+    "longitude": 106.740702
+  },
+  {
+    "headName": "Nguyễn Đức Tâm",
+    "address": "Đường Hai Bà Trưng",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.628803,
+    "longitude": 106.740715
+  },
+  {
+    "headName": "Trần Thị Toàn",
+    "address": "Đường Hai Bà Trưng",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.628837,
+    "longitude": 106.740766
+  },
+  {
+    "headName": "Hàn Thị Lan",
+    "address": "Đường Hai Bà Trưng",
+    "status": "Hộ bình thường",
+    "memberCount": 7,
+    "latitude": 16.62874,
+    "longitude": 106.741011
+  },
+  {
+    "headName": "Trần Văn Bạch",
+    "address": "Đường Hai Bà Trưng",
+    "status": "Hộ bình thường",
+    "memberCount": 7,
+    "latitude": 16.628633,
+    "longitude": 106.741308
+  },
+  {
+    "headName": "Phan Anh Niêm",
+    "address": "Đường Nguyễn Trãi",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.627455,
+    "longitude": 106.783323
+  },
+  {
+    "headName": "Nguyễn Thị Kim Chi",
+    "address": "Đường Nguyễn Trãi",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.626967,
+    "longitude": 106.739005
+  },
+  {
+    "headName": "Đỗ Văn Liêm",
+    "address": "Đường Nguyễn Trãi",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.626733,
+    "longitude": 106.739155
+  },
+  {
+    "headName": "Phạm Tiến Quân",
+    "address": "Đường Nguyễn Trãi",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.626398,
+    "longitude": 106.738492
+  },
+  {
+    "headName": "Nguyễn Thị Tâm( Dưỡng)",
+    "address": "Đường Nguyễn Trãi",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.626737,
+    "longitude": 106.739806
+  },
+  {
+    "headName": "Đoàn Quang Hoà",
+    "address": "Đường Nguyễn Trãi",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.626603,
+    "longitude": 106.73884
+  },
+  {
+    "headName": "Nguyễn Thị Tâm (thắng)",
+    "address": "Đường Nguyễn Trãi",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.626497,
+    "longitude": 106.739176
+  },
+  {
+    "headName": "Nguyễn Văn Tư",
+    "address": "Đường Nguyễn Trãi",
+    "status": "Hộ bình thường",
+    "memberCount": 10,
+    "latitude": 16.626623,
+    "longitude": 106.739155
+  },
+  {
+    "headName": "Hoàng Thị Trang",
+    "address": "Đường Nguyễn Trãi",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.626508,
+    "longitude": 106.739327
+  },
+  {
+    "headName": "Võ Chiến Thuật",
+    "address": "Đường Trần Hữu Dực",
+    "status": "Hộ bình thường",
+    "memberCount": 2,
+    "latitude": 16.628688,
+    "longitude": 106.740252
+  },
+  {
+    "headName": "Nguyễn Thị Thu",
+    "address": "Đường Trần Hữu Dực",
+    "status": "Hộ bình thường",
+    "memberCount": 2,
+    "latitude": 16.628212,
+    "longitude": 106.7402
+  },
+  {
+    "headName": "Hoàng Đức Trung",
+    "address": "Đường Trần Hữu Dực",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.628662,
+    "longitude": 106.740185
+  },
+  {
+    "headName": "Hoàng Thị Tuý Vân",
+    "address": "Đường Trần Hữu Dực",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.627955,
+    "longitude": 106.740298
+  },
+  {
+    "headName": "Lê Thị Quý",
+    "address": "Đường Trần Hữu Dực",
+    "status": "Hộ bình thường",
+    "memberCount": 2,
+    "latitude": 16.628357,
+    "longitude": 106.740315
+  },
+  {
+    "headName": "Phan Trọng Minh",
+    "address": "Đường Trần Hữu Dực",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.628392,
+    "longitude": 106.740265
+  },
+  {
+    "headName": "Nguyễn Văn Toàn",
+    "address": "Đường Trần Hữu Dực",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.628135,
+    "longitude": 106.740382
+  },
+  {
+    "headName": "Nguyễn Thị Thuyết",
+    "address": "Đường Trần Hữu Dực",
+    "status": "Hộ bình thường",
+    "memberCount": 2,
+    "latitude": 16.627968,
+    "longitude": 106.740532
+  },
+  {
+    "headName": "Hoàng Kim Phượng",
+    "address": "Đường Trần Hữu Dực",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.627841,
+    "longitude": 106.740589
+  },
+  {
+    "headName": "Nguyễn Văn Quang",
+    "address": "Đường Trần Hữu Dực",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.627645,
+    "longitude": 106.740687
+  },
+  {
+    "headName": "Nguyễn Văn Vinh",
+    "address": "Đường Trần Hữu Dực",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.627545,
+    "longitude": 106.740608
+  },
+  {
+    "headName": "Nguyễn Văn Lai",
+    "address": "Đường Trần Hữu Dực",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.627535,
+    "longitude": 106.740655
+  },
+  {
+    "headName": "Thái Tăng Thiện",
+    "address": "Đường Trần Hữu Dực",
+    "status": "Hộ bình thường",
+    "memberCount": 1,
+    "latitude": 16.627398,
+    "longitude": 106.740762
+  },
+  {
+    "headName": "Võ Thị Hằng",
+    "address": "Đường Trần Hữu Dực",
+    "status": "Hộ nghèo",
+    "memberCount": 4,
+    "latitude": 16.627307,
+    "longitude": 106.740793
+  },
+  {
+    "headName": "Phan Thanh",
+    "address": "Đường Trần Hữu Dực",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.627018,
+    "longitude": 106.7407
+  },
+  {
+    "headName": "Phan Thị Xuân",
+    "address": "Đường Trần Hữu Dực",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.627147,
+    "longitude": 106.740907
+  },
+  {
+    "headName": "Phan Chí Đại",
+    "address": "Đường Trần Hữu Dực",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.62705,
+    "longitude": 106.740878
+  },
+  {
+    "headName": "Nguyễn Ngọc Phong",
+    "address": "Đường Trần Hữu Dực",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.627153,
+    "longitude": 106.740962
+  },
+  {
+    "headName": "Nguyễn Thị Ngọc Lâm",
+    "address": "Đường Trần Hữu Dực",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.626792,
+    "longitude": 106.714245
+  },
+  {
+    "headName": "Nguyễn Văn Minh",
+    "address": "Đường Trần Hữu Dực",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.626423,
+    "longitude": 106.741513
+  },
+  {
+    "headName": "Lý Thị Ngọ",
+    "address": "Đường Trần Hữu Dực",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.626359,
+    "longitude": 106.74149
+  },
+  {
+    "headName": "Bùi Thị Phước",
+    "address": "Đường Trần Hữu Dực",
+    "status": "Hộ bình thường",
+    "memberCount": 2,
+    "latitude": 16.626242,
+    "longitude": 106.741702
+  },
+  {
+    "headName": "Nguyễn Quang Dũng (viễn)",
+    "address": "Đường Trần Hữu Dực",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.625848,
+    "longitude": 106.74191
+  },
+  {
+    "headName": "Nguyễn Quang Thành",
+    "address": "Đường Trần Hữu Dực",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.625732,
+    "longitude": 106.742023
+  },
+  {
+    "headName": "Nguyễn Quang Hoài",
+    "address": "Đường Trần Hữu Dực",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.625655,
+    "longitude": 106.742293
+  },
+  {
+    "headName": "Hồ Xuân Quang",
+    "address": "Đường Trần Hữu Dực",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.62858,
+    "longitude": 106.74051
+  },
+  {
+    "headName": "Hồ Xuân Hiệp",
+    "address": "Đường Trần Hữu Dực",
+    "status": "Hộ bình thường",
+    "memberCount": 1,
+    "latitude": 16.628695,
+    "longitude": 106.7406
+  },
+  {
+    "headName": "Dương Thị Tuyết",
+    "address": "Đường Trần Hữu Dực",
+    "status": "Hộ cận nghèo",
+    "memberCount": 10,
+    "latitude": 16.628607,
+    "longitude": 106.740312
+  },
+  {
+    "headName": "Võ Bá Thọ",
+    "address": "Đường Trần Hữu Dực",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.628357,
+    "longitude": 106.740315
+  },
+  {
+    "headName": "Lê Hữu Bình",
+    "address": "Đường Trần Hữu Dực",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.628273,
+    "longitude": 106.740328
+  },
+  {
+    "headName": "Lê Tự Trị",
+    "address": "Đường Trần Hữu Dực",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.628048,
+    "longitude": 106.740665
+  },
+  {
+    "headName": "Nguyễn Thị Hoa",
+    "address": "Đường Trần Hữu Dực",
+    "status": "Hộ bình thường",
+    "memberCount": 1,
+    "latitude": 16.627995,
+    "longitude": 106.740503
+  },
+  {
+    "headName": "Lê Hữu Lân",
+    "address": "Đường Trần Hữu Dực",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.627927,
+    "longitude": 106.74047
+  },
+  {
+    "headName": "Trần Xuân Quyền",
+    "address": "Đường Trần Hữu Dực",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.62786,
+    "longitude": 106.740597
+  },
+  {
+    "headName": "Lê Thị Diệu Yến",
+    "address": "Đường Trần Hữu Dực",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.627718,
+    "longitude": 106.740668
+  },
+  {
+    "headName": "Lê Hữu Ánh",
+    "address": "Đường Trần Hữu Dực",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.627643,
+    "longitude": 106.740645
+  },
+  {
+    "headName": "Nguyễn Minh Tân",
+    "address": "Đường Trần Hữu Dực",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.672427,
+    "longitude": 106.740733
+  },
+  {
+    "headName": "Nguyễn Thị Minh Thuỷ",
+    "address": "Đường Trần Hữu Dực",
+    "status": "Hộ cận nghèo",
+    "memberCount": 5,
+    "latitude": 16.627488,
+    "longitude": 106.741033
+  },
+  {
+    "headName": "Nguyễn Minh Hương",
+    "address": "Đường Trần Hữu Dực",
+    "status": "Hộ bình thường",
+    "memberCount": 2,
+    "latitude": 16.627478,
+    "longitude": 106.741252
+  },
+  {
+    "headName": "Nguyễn Minh Hải (THD)",
+    "address": "Đường Trần Hữu Dực",
+    "status": "Hộ cận nghèo",
+    "memberCount": 4,
+    "latitude": 16.627419,
+    "longitude": 106.740917
+  },
+  {
+    "headName": "Nguyễn Minh Thắng",
+    "address": "Đường Trần Hữu Dực",
+    "status": "Hộ bình thường",
+    "memberCount": 10,
+    "latitude": 16.627183,
+    "longitude": 106.740898
+  },
+  {
+    "headName": "Nguyễn Quang Thanh (khánh)",
+    "address": "Đường Trần Hữu Dực",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.627107,
+    "longitude": 106.741067
+  },
+  {
+    "headName": "Nguyễn Quang Dũng(nhạn)",
+    "address": "Đường Trần Hữu Dực",
+    "status": "Hộ bình thường",
+    "memberCount": 7,
+    "latitude": 16.62701,
+    "longitude": 106.741132
+  },
+  {
+    "headName": "Dương Thị Quyết",
+    "address": "Đường Trần Hữu Dực",
+    "status": "Hộ bình thường",
+    "memberCount": 10,
+    "latitude": 16.626898,
+    "longitude": 106.741173
+  },
+  {
+    "headName": "Lê Văn Hoàng",
+    "address": "Đường Trần Hữu Dực",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.62712,
+    "longitude": 106.741631
+  },
+  {
+    "headName": "Lê Thị Hạnh",
+    "address": "Đường Trần Hữu Dực",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.627127,
+    "longitude": 106.74158
+  },
+  {
+    "headName": "Lê Văn Tý",
+    "address": "Đường Trần Hữu Dực",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.62704,
+    "longitude": 106.741562
+  },
+  {
+    "headName": "Lê Văn Tiến",
+    "address": "Đường Trần Hữu Dực",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.626954,
+    "longitude": 106.74137
+  },
+  {
+    "headName": "Lê Văn Hoá",
+    "address": "Đường Trần Hữu Dực",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.626665,
+    "longitude": 106.741468
+  },
+  {
+    "headName": "Nguyễn Văn Nông",
+    "address": "Đường Trần Hữu Dực",
+    "status": "Hộ bình thường",
+    "memberCount": 2,
+    "latitude": 16.626605,
+    "longitude": 106.741373
+  },
+  {
+    "headName": "Nguyễn Thái Tân Tiến",
+    "address": "Đường Trần Hữu Dực",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.626615,
+    "longitude": 106.741588
+  },
+  {
+    "headName": "Nguyễn Văn Hùng",
+    "address": "Đường Trần Hữu Dực",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.626458,
+    "longitude": 106.741493
+  },
+  {
+    "headName": "Nguyễn Văn Sỹ (THD)",
+    "address": "Đường Trần Hữu Dực",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.626442,
+    "longitude": 106.741567
+  },
+  {
+    "headName": "Trần Hữu Quý (quýt)",
+    "address": "Đường Trần Hữu Dực",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.626372,
+    "longitude": 106.71066
+  },
+  {
+    "headName": "Nguyễn Thị Tương",
+    "address": "Đường Trần Hữu Dực",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.626237,
+    "longitude": 106.741705
+  },
+  {
+    "headName": "Dương Thị Dạn",
+    "address": "Đường Trần Hữu Dực",
+    "status": "Hộ cận nghèo",
+    "memberCount": 6,
+    "latitude": 16.62601,
+    "longitude": 106.741997
+  },
+  {
+    "headName": "Trần Xuân Tánh",
+    "address": "Đường Trần Hữu Dực",
+    "status": "Hộ bình thường",
+    "memberCount": 2,
+    "latitude": 16.62576,
+    "longitude": 106.742045
+  },
+  {
+    "headName": "Hồ Xuân Lực",
+    "address": "Đường Trần Hữu Dực",
+    "status": "Hộ bình thường",
+    "memberCount": 4
+  },
+  {
+    "headName": "Nguyễn Minh Phương",
+    "address": "Đường Trần Hữu Dực",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.6274375,
+    "longitude": 106.7407969
+  },
+  {
+    "headName": "Nguyễn Thị Thuỳ Dương (THD)",
+    "address": "Đường Trần Hữu Dực",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.6271375,
+    "longitude": 106.7412344
+  },
+  {
+    "headName": "Nguyễn Thị Hạnh",
+    "address": "Đường Đặng Thai Mai",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.628173,
+    "longitude": 106.73965
+  },
+  {
+    "headName": "Võ Tiến",
+    "address": "Đường Đặng Thai Mai",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.6283,
+    "longitude": 106.739758
+  },
+  {
+    "headName": "Lê Xuân Thượng",
+    "address": "Đường Đặng Thai Mai",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.628397,
+    "longitude": 106.739722
+  },
+  {
+    "headName": "Lê Thị Xuân Hương",
+    "address": "Đường Đặng Thai Mai",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.628343,
+    "longitude": 106.740005
+  },
+  {
+    "headName": "Nguyễn Lực",
+    "address": "Đường Đặng Thai Mai",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.62868,
+    "longitude": 106.739847
+  },
+  {
+    "headName": "Trần Thị Hiền (ĐTM)",
+    "address": "Đường Đặng Thai Mai",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.628715,
+    "longitude": 106.740112
+  },
+  {
+    "headName": "Châu Văn Hiền",
+    "address": "Đường Lê Hành",
+    "status": "Hộ bình thường",
+    "memberCount": 7,
+    "latitude": 16.628065,
+    "longitude": 106.73956
+  },
+  {
+    "headName": "Nguyễn Hùng Ngọc",
+    "address": "Đường Lê Hành",
+    "status": "Hộ bình thường",
+    "memberCount": 2,
+    "latitude": 16.627137,
+    "longitude": 106.739268
+  },
+  {
+    "headName": "Nguyễn Thị Loan(tiến)",
+    "address": "Đường Lê Hành",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.627128,
+    "longitude": 106.739433
+  },
+  {
+    "headName": "Trần Thị Xuân (sao Băng)",
+    "address": "Đường Lê Hành",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.626998,
+    "longitude": 106.73936
+  },
+  {
+    "headName": "Nguyễn Thị Trưng",
+    "address": "Đường Lê Hành",
+    "status": "Hộ bình thường",
+    "memberCount": 1,
+    "latitude": 16.626947,
+    "longitude": 106.739263
+  },
+  {
+    "headName": "Phạm Thị Thanh Vân",
+    "address": "Đường Lê Hành",
+    "status": "Hộ bình thường",
+    "memberCount": 2,
+    "latitude": 16.626838,
+    "longitude": 106.739315
+  },
+  {
+    "headName": "Hồ Minh Quang",
+    "address": "Đường Lê Hành",
+    "status": "Hộ bình thường",
+    "memberCount": 2,
+    "latitude": 16.626685,
+    "longitude": 106.739713
+  },
+  {
+    "headName": "Lê Thị Han",
+    "address": "Đường Lê Hành",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.626883,
+    "longitude": 106.731588
+  },
+  {
+    "headName": "Hồ Thị Mỹ Bình",
+    "address": "Đường Lê Hành",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.626653,
+    "longitude": 106.7398
+  },
+  {
+    "headName": "Hồ Vinh",
+    "address": "Đường Lê Hành",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.626618,
+    "longitude": 106.739728
+  },
+  {
+    "headName": "Nguyễn Thị Lệ Nnh",
+    "address": "Đường Lê Hành",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.626503,
+    "longitude": 106.739652
+  },
+  {
+    "headName": "Lê Thị Mừng",
+    "address": "Đường Lê Hành",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.626367,
+    "longitude": 106.739997
+  },
+  {
+    "headName": "Trương Thị Hương Uyên",
+    "address": "Đường Lê Hành",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.627048,
+    "longitude": 106.739552
+  },
+  {
+    "headName": "Đoàn Thị Kim Dung",
+    "address": "Đường Lê Hành",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.62719,
+    "longitude": 106.739318
+  },
+  {
+    "headName": "Hồ Xuân Hoàng",
+    "address": "Đường Lê Hành",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.627097,
+    "longitude": 106.739448
+  },
+  {
+    "headName": "Hoàng Thị Thu Hà",
+    "address": "Đường Lê Hành",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.627045,
+    "longitude": 106.73953
+  },
+  {
+    "headName": "Võ Thị Thu Ngọc",
+    "address": "Đường Lê Hành",
+    "status": "Hộ bình thường",
+    "memberCount": 2,
+    "latitude": 16.627237,
+    "longitude": 106.739778
+  },
+  {
+    "headName": "Lê Xuân Thành",
+    "address": "Đường Lê Hành",
+    "status": "Hộ bình thường",
+    "memberCount": 1,
+    "latitude": 16.627117,
+    "longitude": 106.739843
+  },
+  {
+    "headName": "Lê Thanh Chung",
+    "address": "Đường Lê Hành",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.627088,
+    "longitude": 106.739895
+  },
+  {
+    "headName": "Lê Anh Tuấn",
+    "address": "Đường Lê Hành",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.626908,
+    "longitude": 106.739815
+  },
+  {
+    "headName": "Trần Dũng Sỹ",
+    "address": "Đường Lê Hành",
+    "status": "Hộ bình thường",
+    "memberCount": 2,
+    "latitude": 16.627043,
+    "longitude": 106.739551
+  },
+  {
+    "headName": "Trần Ngọc Dũng",
+    "address": "Đường Lê Hành",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.62695,
+    "longitude": 107.73973
+  },
+  {
+    "headName": "Lê Văn Vận",
+    "address": "Đường Lê Hành",
+    "status": "Hộ bình thường",
+    "memberCount": 2,
+    "latitude": 16.626865,
+    "longitude": 106.739852
+  },
+  {
+    "headName": "Hoàng Thị Bòn",
+    "address": "Đường Lê Hành",
+    "status": "Hộ bình thường",
+    "memberCount": 11,
+    "latitude": 16.626718,
+    "longitude": 106.739802
+  },
+  {
+    "headName": "Nguyễn Tấn Đạt",
+    "address": "Đường Lê Hành",
+    "status": "Hộ cận nghèo",
+    "memberCount": 5,
+    "latitude": 16.626687,
+    "longitude": 106.739878
+  },
+  {
+    "headName": "Hoàng Thị Mai Tiền",
+    "address": "Đường Lê Hành",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.626562,
+    "longitude": 106.73991
+  },
+  {
+    "headName": "Phạm Ngọc Viễn",
+    "address": "Đường Lê Hành",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.62665,
+    "longitude": 106.73988
+  },
+  {
+    "headName": "Trần Ngọc Sơn",
+    "address": "Đường Lê Hành",
+    "status": "Hộ bình thường",
+    "memberCount": 7,
+    "latitude": 16.626432,
+    "longitude": 106.739922
+  },
+  {
+    "headName": "Nguyễn Thị Cúc",
+    "address": "Đường Lê Hành",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.626278,
+    "longitude": 106.740108
+  },
+  {
+    "headName": "Hoàng Thị Mỹ Lệ",
+    "address": "Đường Lê Hành",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.626172,
+    "longitude": 106.740204
+  },
+  {
+    "headName": "Phạm Ngọc Hùng",
+    "address": "Đường Lê Hành",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.626428,
+    "longitude": 106.74015
+  },
+  {
+    "headName": "Phạm Thị Thu Huyền",
+    "address": "Đường Lê Hành",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.626523,
+    "longitude": 106.740293
+  },
+  {
+    "headName": "Trần Thị Thu",
+    "address": "Đường Lê Hành",
+    "status": "Hộ bình thường",
+    "memberCount": 1,
+    "latitude": 16.626705,
+    "longitude": 106.74044
+  },
+  {
+    "headName": "Nguyễn Hoàng (Lê Hành)",
+    "address": "Đường Lê Hành",
+    "status": "Hộ cận nghèo",
+    "memberCount": 5,
+    "latitude": 16.626723,
+    "longitude": 106.740273
+  },
+  {
+    "headName": "Nguyễn Thị Hương (Lê Hành)",
+    "address": "Đường Lê Hành",
+    "status": "Hộ bình thường",
+    "memberCount": 7,
+    "latitude": 16.626861,
+    "longitude": 106.740222
+  },
+  {
+    "headName": "Trần Thị Liên (Lê Hành)",
+    "address": "Đường Lê Hành",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.62676,
+    "longitude": 106.740205
+  },
+  {
+    "headName": "Trần Thị Mai Phương",
+    "address": "Đường Lê Hành",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.626433,
+    "longitude": 106.740508
+  },
+  {
+    "headName": "Phạm Văn Thuỳ",
+    "address": "Đường Lê Hành",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.626365,
+    "longitude": 106.74046
+  },
+  {
+    "headName": "Trần Bình Trọng",
+    "address": "Đường Lê Hành",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.626153,
+    "longitude": 106.740463
+  },
+  {
+    "headName": "Nguyễn Huy",
+    "address": "Đường Lê Hành",
+    "status": "Hộ bình thường",
+    "memberCount": 1,
+    "latitude": 16.6261,
+    "longitude": 106.74048
+  },
+  {
+    "headName": "Hoàng Thị Hoà",
+    "address": "Đường Hùng Vương",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.626281,
+    "longitude": 106.737069
+  },
+  {
+    "headName": "Hoàng Thị Lài",
+    "address": "Đường Hùng Vương",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.620808,
+    "longitude": 106.737074
+  },
+  {
+    "headName": "Nguyễn Diệp",
+    "address": "Đường Hùng Vương",
+    "status": "Hộ bình thường",
+    "memberCount": 8,
+    "latitude": 16.626276,
+    "longitude": 106.737115
+  },
+  {
+    "headName": "Nguyễn Đức Anh",
+    "address": "Đường Hùng Vương",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.626047,
+    "longitude": 106.737082
+  },
+  {
+    "headName": "Trương Phương Nhị",
+    "address": "Đường Hùng Vương",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.625999,
+    "longitude": 106.737079
+  },
+  {
+    "headName": "Nguyễn Ngọc Băng Trinh",
+    "address": "Đường Hùng Vương",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.625915,
+    "longitude": 106.737047
+  },
+  {
+    "headName": "Lê Thái Xuân Vũ",
+    "address": "Đường Hùng Vương",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.625878,
+    "longitude": 106.737083
+  },
+  {
+    "headName": "Lê Thái Tường Vy",
+    "address": "Đường Hùng Vương",
+    "status": "Hộ bình thường",
+    "memberCount": 2,
+    "latitude": 16.625759,
+    "longitude": 106.73713
+  },
+  {
+    "headName": "Nguyễn Thị Cẩm Tú",
+    "address": "Đường Hùng Vương",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.625724,
+    "longitude": 106.737091
+  },
+  {
+    "headName": "Bùi Công Toại",
+    "address": "Đường Hùng Vương",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.625628,
+    "longitude": 106.737085
+  },
+  {
+    "headName": "Phan Văn Dũng",
+    "address": "Đường Hùng Vương",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.625577,
+    "longitude": 106.737068
+  },
+  {
+    "headName": "Tống Viết Hoàng(châu)",
+    "address": "Đường Hùng Vương",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.625463,
+    "longitude": 106.737101
+  },
+  {
+    "headName": "Nguyễn Công Thanh",
+    "address": "Đường Hùng Vương",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.625392,
+    "longitude": 106.737018
+  },
+  {
+    "headName": "Trần Văn Sáu",
+    "address": "Đường Hùng Vương",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.625347,
+    "longitude": 106.737031
+  },
+  {
+    "headName": "Nguyễn Văn Ngọc (Hùng Vương)",
+    "address": "Đường Hùng Vương",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.625295,
+    "longitude": 106.737087
+  },
+  {
+    "headName": "Trần Văn Nhất",
+    "address": "Đường Hùng Vương",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.625157,
+    "longitude": 106.737018
+  },
+  {
+    "headName": "Nguyễn Thị Huyền (Hùng Vương)",
+    "address": "Đường Hùng Vương",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.624934,
+    "longitude": 106.737061
+  },
+  {
+    "headName": "Bùi Viết Tiến",
+    "address": "Đường Hùng Vương",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.624811,
+    "longitude": 106.737
+  },
+  {
+    "headName": "Trần Bá Tuấn",
+    "address": "Đường Hùng Vương",
+    "status": "Hộ bình thường",
+    "memberCount": 2,
+    "latitude": 16.624649,
+    "longitude": 106.736971
+  },
+  {
+    "headName": "Hoàng Thị Thu Trang",
+    "address": "Đường Hùng Vương",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.624544,
+    "longitude": 106.736887
+  },
+  {
+    "headName": "Nhà Văn Hoá Thôn 3A",
+    "address": "Đường Hùng Vương",
+    "status": "Hộ bình thường",
+    "memberCount": 0,
+    "latitude": 16.624459,
+    "longitude": 106.736878
+  },
+  {
+    "headName": "Hoàng Thị Kim Huấn",
+    "address": "Đường Hùng Vương",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.62201,
+    "longitude": 106.736409
+  },
+  {
+    "headName": "Ngô Thị Lành",
+    "address": "Đường Hùng Vương",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.621895,
+    "longitude": 106.736424
+  },
+  {
+    "headName": "Đoàn Vương Hạ",
+    "address": "Đường Hùng Vương",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.621763,
+    "longitude": 106.736473
+  },
+  {
+    "headName": "Đinh Hoài Ân (Hùng Vương)",
+    "address": "Đường Hùng Vương",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.621705,
+    "longitude": 106.736452
+  },
+  {
+    "headName": "Nguyễn Thị Mừng",
+    "address": "Đường Hùng Vương",
+    "status": "Hộ cận nghèo",
+    "memberCount": 5,
+    "latitude": 16.621594,
+    "longitude": 106.736483
+  },
+  {
+    "headName": "Nguyễn Thị Hoài Thương",
+    "address": "Đường Hùng Vương",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.62609,
+    "longitude": 106.737023
+  },
+  {
+    "headName": "Trần Văn Thắng",
+    "address": "Đường Hùng Vương",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.621323,
+    "longitude": 106.736535
+  },
+  {
+    "headName": "Đinh Duy Linh (Hùng Vương)",
+    "address": "Đường Hùng Vương",
+    "status": "Hộ bình thường",
+    "memberCount": 2,
+    "latitude": 16.62096,
+    "longitude": 106.736501
+  },
+  {
+    "headName": "Đinh Thị Thu Lan",
+    "address": "Đường Hùng Vương",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.620929,
+    "longitude": 106.736594
+  },
+  {
+    "headName": "Đoàn Thiệu",
+    "address": "Đường Hùng Vương",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.620878,
+    "longitude": 106.736609
+  },
+  {
+    "headName": "Đoàn Thị Sen",
+    "address": "Đường Hùng Vương",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.620625,
+    "longitude": 106.736684
+  },
+  {
+    "headName": "Nguyễn Nam Cường",
+    "address": "Đường Hùng Vương",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.620549,
+    "longitude": 106.736636
+  },
+  {
+    "headName": "Lê Minh Sơn",
+    "address": "Đường Hùng Vương",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.61982,
+    "longitude": 106.736823
+  },
+  {
+    "headName": "Lê Quang Thừa",
+    "address": "Đường Hùng Vương",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.619611,
+    "longitude": 106.736936
+  },
+  {
+    "headName": "Trần Thị Phú",
+    "address": "Đường Hùng Vương",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.619613,
+    "longitude": 106.736963
+  },
+  {
+    "headName": "Nguyễn Gia Hiếu",
+    "address": "Đường Hùng Vương",
+    "status": "Hộ cận nghèo",
+    "memberCount": 5,
+    "latitude": 16.619604,
+    "longitude": 106.73729
+  },
+  {
+    "headName": "Nguyễn Thị Phương Nhi",
+    "address": "Đường Hùng Vương",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.619551,
+    "longitude": 106.737438
+  },
+  {
+    "headName": "Lê Thị Hồng Lan",
+    "address": "Đường Hùng Vương",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.619503,
+    "longitude": 106.737548
+  },
+  {
+    "headName": "Nguyễn Cảnh Thảo",
+    "address": "Đường Hùng Vương",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.619433,
+    "longitude": 106.737576
+  },
+  {
+    "headName": "Lê Thị Long Hải",
+    "address": "Đường Hùng Vương",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.619447,
+    "longitude": 106.73763
+  },
+  {
+    "headName": "Nguyễn Lanh",
+    "address": "Đường Hùng Vương",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.619328,
+    "longitude": 106.737872
+  },
+  {
+    "headName": "Trần Tiến Dũng",
+    "address": "Đường Hùng Vương",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.619194,
+    "longitude": 106.738118
+  },
+  {
+    "headName": "Trần Thị Hoa",
+    "address": "Đường Hùng Vương",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.619289,
+    "longitude": 106.738009
+  },
+  {
+    "headName": "Hồ Vũ Như Quỳnh",
+    "address": "Đường Hùng Vương",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.618941,
+    "longitude": 106.738604
+  },
+  {
+    "headName": "Nguyễn Thị Loan",
+    "address": "Đường Hùng Vương",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.618816,
+    "longitude": 106.738855
+  },
+  {
+    "headName": "Đào Danh Thành",
+    "address": "Đường Hùng Vương",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.618653,
+    "longitude": 106.738866
+  },
+  {
+    "headName": "Nguyễn Văn Thừa",
+    "address": "Đường Hùng Vương",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.619443,
+    "longitude": 106.737458
+  },
+  {
+    "headName": "Trần Văn Duy",
+    "address": "Đường Hùng Vương",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.619186,
+    "longitude": 106.738091
+  },
+  {
+    "headName": "Trần Thị Lục",
+    "address": "Đường Hùng Vương",
+    "status": "Hộ bình thường",
+    "memberCount": 7,
+    "latitude": 16.618994,
+    "longitude": 106.738288
+  },
+  {
+    "headName": "Trần Văn Hưng",
+    "address": "Đường Hùng Vương",
+    "status": "Hộ bình thường",
+    "memberCount": 1,
+    "latitude": 16.619173,
+    "longitude": 106.737905
+  },
+  {
+    "headName": "Hoàng Thị Thuận",
+    "address": "Đường Hùng Vương",
+    "status": "Hộ nghèo",
+    "memberCount": 6,
+    "latitude": 16.618332,
+    "longitude": 106.738959
+  },
+  {
+    "headName": "Lê Thị Thanh Thúy",
+    "address": "Đường Hùng Vương",
+    "status": "Hộ bình thường",
+    "memberCount": 1,
+    "latitude": 16.618757,
+    "longitude": 106.738588
+  },
+  {
+    "headName": "Tống Đình Trung",
+    "address": "Đường Hùng Vương",
+    "status": "Hộ bình thường",
+    "memberCount": 1,
+    "latitude": 16.6254,
+    "longitude": 106.737053
+  },
+  {
+    "headName": "Nguyễn Thị Thanh Thủy",
+    "address": "Đường Hùng Vương",
+    "status": "Hộ bình thường",
+    "memberCount": 1,
+    "latitude": 16.62609,
+    "longitude": 106.73704
+  },
+  {
+    "headName": "Đoàn Quang Bào",
+    "address": "Ngõ 22 - Hùng Vương",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.621194,
+    "longitude": 106.736945
+  },
+  {
+    "headName": "Trần Thị Liên (Hùng Vương)",
+    "address": "Ngõ 22 - Hùng Vương",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.621244,
+    "longitude": 106.736993
+  },
+  {
+    "headName": "Ngô Thiện Chính",
+    "address": "Ngõ 22 - Hùng Vương",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.621211,
+    "longitude": 106.737111
+  },
+  {
+    "headName": "Đinh Thị Hồng",
+    "address": "Ngõ 22 - Hùng Vương",
+    "status": "Hộ bình thường",
+    "memberCount": 2,
+    "latitude": 16.621205,
+    "longitude": 106.737184
+  },
+  {
+    "headName": "Phạm Thị Phượng",
+    "address": "Ngõ 22 - Hùng Vương",
+    "status": "Hộ bình thường",
+    "memberCount": 1,
+    "latitude": 16.621258,
+    "longitude": 106.73719
+  },
+  {
+    "headName": "Cao Đăng Hùng",
+    "address": "Ngõ 22 - Hùng Vương",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.621267,
+    "longitude": 106.737272
+  },
+  {
+    "headName": "Nguyễn Văn Tú",
+    "address": "Ngõ 22 - Hùng Vương",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.621316,
+    "longitude": 106.737392
+  },
+  {
+    "headName": "Nguyễn Thị Hà",
+    "address": "Ngõ 22 - Hùng Vương",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.621182,
+    "longitude": 106.737503
+  },
+  {
+    "headName": "Hoàng Thị Nhật Hà",
+    "address": "Ngõ 22 - Hùng Vương",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.621174,
+    "longitude": 106.737496
+  },
+  {
+    "headName": "Phạm Mạnh Dũng",
+    "address": "Ngõ 22 - Hùng Vương",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.621315,
+    "longitude": 106.737582
+  },
+  {
+    "headName": "Đoàn Xuân Hào",
+    "address": "Ngõ 22 - Hùng Vương",
+    "status": "Hộ bình thường",
+    "memberCount": 2,
+    "latitude": 16.621381,
+    "longitude": 106.737999
+  },
+  {
+    "headName": "Cao Xuân Thanh",
+    "address": "Ngõ 22 - Hùng Vương",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.621284,
+    "longitude": 106.737674
+  },
+  {
+    "headName": "Trương Văn Sơn",
+    "address": "Ngõ 22 - Hùng Vương",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.621312,
+    "longitude": 106.737981
+  },
+  {
+    "headName": "Lê Văn Ba",
+    "address": "Ngõ 22 - Hùng Vương",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.621358,
+    "longitude": 106.738059
+  },
+  {
+    "headName": "Phùng Ngọc Hùng",
+    "address": "Ngõ 30 - Hùng Vương",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.621834,
+    "longitude": 106.737021
+  },
+  {
+    "headName": "Nguyễn Hưng",
+    "address": "Ngõ 30 - Hùng Vương",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.621755,
+    "longitude": 106.736892
+  },
+  {
+    "headName": "Đoàn Thị Hà",
+    "address": "Ngõ 30 - Hùng Vương",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.621787,
+    "longitude": 106.737021
+  },
+  {
+    "headName": "Phạm Thị Hương",
+    "address": "Ngõ 30 - Hùng Vương",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.621909,
+    "longitude": 106.737603
+  },
+  {
+    "headName": "Lý Thị Lệ",
+    "address": "Ngõ 30 - Hùng Vương",
+    "status": "Hộ bình thường",
+    "memberCount": 2,
+    "latitude": 16.621875,
+    "longitude": 106.737839
+  },
+  {
+    "headName": "Hoàng Thuý Hiên",
+    "address": "Ngõ 30 - Hùng Vương",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.621979,
+    "longitude": 106.737514
+  },
+  {
+    "headName": "Phạm Văn Nhi",
+    "address": "Ngõ 30 - Hùng Vương",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.621945,
+    "longitude": 106.737472
+  },
+  {
+    "headName": "Nguyễn Phúc Dũng",
+    "address": "Ngõ 30 - Hùng Vương",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.621892,
+    "longitude": 106.737328
+  },
+  {
+    "headName": "Đoàn Thị Lưu",
+    "address": "Ngõ 30 - Hùng Vương",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.621795,
+    "longitude": 106.737027
+  },
+  {
+    "headName": "Lê Hoài Phương",
+    "address": "Đường Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 2,
+    "latitude": 16.634646,
+    "longitude": 106.741712
+  },
+  {
+    "headName": "Nguyễn Phúc",
+    "address": "Đường Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 2,
+    "latitude": 16.634222,
+    "longitude": 106.741372
+  },
+  {
+    "headName": "Nguyễn Xuân Huê",
+    "address": "Đường Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.63435,
+    "longitude": 106.74143
+  },
+  {
+    "headName": "Trần Thị Hường",
+    "address": "Đường Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.634266,
+    "longitude": 106.741408
+  },
+  {
+    "headName": "Nguyễn Phúc",
+    "address": "Đường Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.634419,
+    "longitude": 106.741473
+  },
+  {
+    "headName": "Nguyễn Thị Cam",
+    "address": "Đường Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.633901,
+    "longitude": 106.741199
+  },
+  {
+    "headName": "Nguyễn Thị Hằng (Lê Duẩn)",
+    "address": "Đường Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 1,
+    "latitude": 16.633784,
+    "longitude": 106.741128
+  },
+  {
+    "headName": "Trần Thị Tuyết",
+    "address": "Đường Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.633739,
+    "longitude": 106.741183
+  },
+  {
+    "headName": "Lê Hồng Thương",
+    "address": "Đường Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.63367,
+    "longitude": 106.741136
+  },
+  {
+    "headName": "Nguyễn Hà Phương",
+    "address": "Đường Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.633575,
+    "longitude": 106.74109
+  },
+  {
+    "headName": "Lê Thị Vinh",
+    "address": "Đường Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.633418,
+    "longitude": 106.74104
+  },
+  {
+    "headName": "Nguyễn Khanh (LD)",
+    "address": "Đường Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 7,
+    "latitude": 16.633085,
+    "longitude": 106.740855
+  },
+  {
+    "headName": "Bùi Hưng Tài",
+    "address": "Đường Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.632996,
+    "longitude": 106.740871
+  },
+  {
+    "headName": "Nguyễn Thị Tuyến",
+    "address": "Đường Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.633075,
+    "longitude": 106.740537
+  },
+  {
+    "headName": "Nguyễn Đức Phương",
+    "address": "Đường Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.632856,
+    "longitude": 106.740896
+  },
+  {
+    "headName": "Đặng Thị Thuỷ",
+    "address": "Đường Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 7,
+    "latitude": 16.632584,
+    "longitude": 106.740808
+  },
+  {
+    "headName": "Dương Thị Trung",
+    "address": "Đường Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.632471,
+    "longitude": 106.740634
+  },
+  {
+    "headName": "Nguyễn Thị Khánh Hoà",
+    "address": "Đường Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.632312,
+    "longitude": 106.740581
+  },
+  {
+    "headName": "Trương Văn Công",
+    "address": "Đường Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.632274,
+    "longitude": 106.740674
+  },
+  {
+    "headName": "Nguyễn Mạnh Hưng",
+    "address": "Đường Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.632248,
+    "longitude": 106.740713
+  },
+  {
+    "headName": "Hoàng Minh Phước",
+    "address": "Đường Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 8,
+    "latitude": 16.63221,
+    "longitude": 106.740678
+  },
+  {
+    "headName": "Lê Đức Khả",
+    "address": "Đường Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 2,
+    "latitude": 16.632027,
+    "longitude": 106.740539
+  },
+  {
+    "headName": "Tống Viết Hưng",
+    "address": "Đường Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 9,
+    "latitude": 16.632084,
+    "longitude": 106.740712
+  },
+  {
+    "headName": "Đặng Thị Thanh",
+    "address": "Đường Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.63192,
+    "longitude": 106.740587
+  },
+  {
+    "headName": "Lê Thị Mến",
+    "address": "Đường Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.631761,
+    "longitude": 106.740612
+  },
+  {
+    "headName": "Đặng Quang Lợi",
+    "address": "Đường Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.631886,
+    "longitude": 106.740628
+  },
+  {
+    "headName": "Nguyễn Hữu Lãnh",
+    "address": "Đường Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.631497,
+    "longitude": 106.740883
+  },
+  {
+    "headName": "Nguyễn Thị Mùi",
+    "address": "Đường Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 8,
+    "latitude": 16.631316,
+    "longitude": 106.740736
+  },
+  {
+    "headName": "Lê Thị Thanh Ka",
+    "address": "Đường Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.631302,
+    "longitude": 106.740746
+  },
+  {
+    "headName": "Nguyễn Văn Thiện",
+    "address": "Đường Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.63121,
+    "longitude": 106.740643
+  },
+  {
+    "headName": "Phạm Thị Bích Liên (LD)",
+    "address": "Đường Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.631064,
+    "longitude": 106.740472
+  },
+  {
+    "headName": "Lê Bá Lâm",
+    "address": "Đường Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.630996,
+    "longitude": 106.740401
+  },
+  {
+    "headName": "Nguyễn Đắc Công",
+    "address": "Đường Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.630928,
+    "longitude": 106.740369
+  },
+  {
+    "headName": "Lê Á",
+    "address": "Đường Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.630792,
+    "longitude": 106.740395
+  },
+  {
+    "headName": "Đinh Thị Nguyệt",
+    "address": "Đường Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.631022,
+    "longitude": 106.740432
+  },
+  {
+    "headName": "Đoàn Anh Tú",
+    "address": "Đường Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.630612,
+    "longitude": 106.740386
+  },
+  {
+    "headName": "Trần Văn Dũng",
+    "address": "Đường Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 7,
+    "latitude": 16.630192,
+    "longitude": 106.740488
+  },
+  {
+    "headName": "Lê Thị Thanh Thuỷ",
+    "address": "Đường Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.630237,
+    "longitude": 106.740433
+  },
+  {
+    "headName": "Hoàng Thị Hằng (LD)",
+    "address": "Đường Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.630145,
+    "longitude": 106.74023
+  },
+  {
+    "headName": "Lê Thị Tuyết (LD)",
+    "address": "Đường Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.630105,
+    "longitude": 106.740116
+  },
+  {
+    "headName": "Dư Bảo Cường",
+    "address": "Đường Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.628973,
+    "longitude": 106.739818
+  },
+  {
+    "headName": "Dư Bá Hùng",
+    "address": "Đường Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.628781,
+    "longitude": 106.739701
+  },
+  {
+    "headName": "Lê Đình Mong",
+    "address": "Đường Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.628606,
+    "longitude": 106.73966
+  },
+  {
+    "headName": "Nguyễn Hoá",
+    "address": "Đường Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.628531,
+    "longitude": 106.739494
+  },
+  {
+    "headName": "Nguyễn Văn Kỷ",
+    "address": "Đường Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.628208,
+    "longitude": 106.739327
+  },
+  {
+    "headName": "Nguyễn Thị Thứ",
+    "address": "Đường Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 7,
+    "latitude": 16.628798,
+    "longitude": 106.739587
+  },
+  {
+    "headName": "Nguyễn Tất Phúc",
+    "address": "Đường Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.629118,
+    "longitude": 106.73968
+  },
+  {
+    "headName": "Nguyễn Đắc Sỹ",
+    "address": "Đường Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.628382,
+    "longitude": 106.739378
+  },
+  {
+    "headName": "Nguyễn Văn Cư",
+    "address": "Đường Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 7,
+    "latitude": 16.627997,
+    "longitude": 106.739274
+  },
+  {
+    "headName": "Phan Thị Thuỷ(hải)",
+    "address": "Đường Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.627885,
+    "longitude": 106.739297
+  },
+  {
+    "headName": "Lê Thị Hà (LD)",
+    "address": "Đường Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.662809,
+    "longitude": 106.739473
+  },
+  {
+    "headName": "Hồ Thị Liên",
+    "address": "Đường Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.628097,
+    "longitude": 106.739266
+  },
+  {
+    "headName": "Hà Văn Cừ",
+    "address": "Đường Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 2,
+    "latitude": 16.627947,
+    "longitude": 106.739247
+  },
+  {
+    "headName": "Lê Thị Hường (LD)",
+    "address": "Đường Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.627643,
+    "longitude": 106.739113
+  },
+  {
+    "headName": "Bùi Phòng (LD)",
+    "address": "Đường Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 2,
+    "latitude": 16.62767,
+    "longitude": 106.73902
+  },
+  {
+    "headName": "Hoàng Thị Diệu Khánh",
+    "address": "Đường Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 2,
+    "latitude": 16.627601,
+    "longitude": 106.739079
+  },
+  {
+    "headName": "Nguyễn Thị Phương",
+    "address": "Đường Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 1,
+    "latitude": 16.627648,
+    "longitude": 106.73898
+  },
+  {
+    "headName": "Huỳnh Ngọc",
+    "address": "Đường Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.627625,
+    "longitude": 106.73899
+  },
+  {
+    "headName": "Nguyễn Quang Lợi",
+    "address": "Đường Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.627664,
+    "longitude": 106.738686
+  },
+  {
+    "headName": "Nguyễn Quang Cường",
+    "address": "Đường Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.627627,
+    "longitude": 106.738701
+  },
+  {
+    "headName": "Nguyễn Thị Bích Lộc",
+    "address": "Đường Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.627552,
+    "longitude": 106.738722
+  },
+  {
+    "headName": "Hồ Thị Mỹ Bình Minh",
+    "address": "Đường Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 3,
+    "latitude": 16.627419,
+    "longitude": 106.738994
+  },
+  {
+    "headName": "Hoàng Thị Ngọc Thảo",
+    "address": "Đường Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.627288,
+    "longitude": 106.738915
+  },
+  {
+    "headName": "Lê Thị Sung",
+    "address": "Đường Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 1,
+    "latitude": 16.62719,
+    "longitude": 106.738787
+  },
+  {
+    "headName": "Nguyễn Thị Thu Thuỷ",
+    "address": "Đường Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 7,
+    "latitude": 16.627096,
+    "longitude": 106.738772
+  },
+  {
+    "headName": "Hoàng Công Hương",
+    "address": "Đường Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 8,
+    "latitude": 16.62701,
+    "longitude": 106.738687
+  },
+  {
+    "headName": "Phan Thị Lài Tâm",
+    "address": "Đường Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 8,
+    "latitude": 16.627007,
+    "longitude": 106.738613
+  },
+  {
+    "headName": "Nguyễn Thị Đông Xuân",
+    "address": "Đường Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 9,
+    "latitude": 16.627063,
+    "longitude": 106.738582
+  },
+  {
+    "headName": "Nguyễn Thị Tuyết",
+    "address": "Đường Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.626949,
+    "longitude": 106.7385
+  },
+  {
+    "headName": "Trần Thị Thoả",
+    "address": "Đường Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.626793,
+    "longitude": 106.738243
+  },
+  {
+    "headName": "Nguyễn Thị Hồng",
+    "address": "Đường Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 2,
+    "latitude": 16.626567,
+    "longitude": 106.73827
+  },
+  {
+    "headName": "Trương Công Thanh (LD)",
+    "address": "Đường Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 1,
+    "latitude": 16.626746,
+    "longitude": 106.738195
+  },
+  {
+    "headName": "Lâm Thị Chung",
+    "address": "Đường Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 7,
+    "latitude": 16.626617,
+    "longitude": 106.73786
+  },
+  {
+    "headName": "Nguyễn Quang Hoà",
+    "address": "Đường Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.626571,
+    "longitude": 106.737792
+  },
+  {
+    "headName": "Trần Văn Dụng",
+    "address": "Đường Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.626505,
+    "longitude": 106.73757
+  },
+  {
+    "headName": "Phạm Thị Quả",
+    "address": "Đường Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.626527,
+    "longitude": 106.737479
+  },
+  {
+    "headName": "Hồ Thị Hoàng Anh",
+    "address": "Đường Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.626498,
+    "longitude": 106.737383
+  },
+  {
+    "headName": "Lê Hữu Tuyến",
+    "address": "Đường Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.626488,
+    "longitude": 106.737339
+  },
+  {
+    "headName": "Nguyễn Thị Lệ (thảo)",
+    "address": "Đường Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.626476,
+    "longitude": 106.737283
+  },
+  {
+    "headName": "Võ Thị Khanh",
+    "address": "Đường Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 6,
+    "latitude": 16.626444,
+    "longitude": 106.73719
+  },
+  {
+    "headName": "Nguyễn Thị Thuỳ Dương (LD)",
+    "address": "Đường Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 3
+  },
+  {
+    "headName": "Hồ Thị Don",
+    "address": "Ngõ 171 Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.626615,
+    "longitude": 106.738805
+  },
+  {
+    "headName": "Phan Thị Lệ Ninh",
+    "address": "Ngõ 171 Lê Duẩn",
+    "status": "Hộ nghèo",
+    "memberCount": 3,
+    "latitude": 16.626615,
+    "longitude": 106.738805
+  },
+  {
+    "headName": "Hoàng Minh Hải",
+    "address": "Ngõ 171 Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.626679,
+    "longitude": 106.738642
+  },
+  {
+    "headName": "Hoàng Thị Kim Yến",
+    "address": "Ngõ 171 Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 4,
+    "latitude": 16.626558,
+    "longitude": 106.738585
+  },
+  {
+    "headName": "Hồ Thị Thu Hương",
+    "address": "Ngõ 171 Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 5,
+    "latitude": 16.626748,
+    "longitude": 106.73875
+  },
+  {
+    "headName": "Phan Như Ý",
+    "address": "Ngõ 171 Lê Duẩn",
+    "status": "Hộ bình thường",
+    "memberCount": 1,
+    "latitude": 16.626391,
+    "longitude": 106.738807
+  }
+]
