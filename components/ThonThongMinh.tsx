@@ -106,7 +106,7 @@ export default function ThonThongMinh({ slugKhuVuc }: { slugKhuVuc?: string }) {
       <div className="flex-1 w-full h-full relative z-0">
         {!loading ? (
           <SmartVillageMap 
-            households={households} 
+            households={baseHouseholds} 
             selectedAddress={selectedAddress}
             onSelectAddress={setSelectedAddress} 
             focusedHouseholdId={focusedHouseholdId}

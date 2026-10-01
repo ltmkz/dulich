@@ -30,11 +30,14 @@ function HouseholdMarker({ household, isFocused, icon }: { household: Household,
 
   useEffect(() => {
     if (markerRef && isFocused) {
-      markerRef.openPopup();
       map.flyTo([household.latitude, household.longitude], 18, {
         animate: true,
-        duration: 1.5
+        duration: 1.0
       });
+      const t = setTimeout(() => {
+        markerRef.openPopup();
+      }, 250);
+      return () => clearTimeout(t);
     }
   }, [markerRef, isFocused, map, household.latitude, household.longitude]);
 
@@ -98,9 +101,7 @@ export default function SmartVillageMap({ households, onSelectAddress, selectedA
   // Find focused household for map panning
   const focusedHousehold = focusedHouseholdId ? households.find(h => h.id === focusedHouseholdId) : null;
 
-  const center: [number, number] = focusedHousehold 
-    ? [focusedHousehold.latitude, focusedHousehold.longitude]
-    : locations.length > 0 
+  const center: [number, number] = locations.length > 0 
       ? [locations[0].lat, locations[0].lng] 
       : [16.634, 106.721]; // Default to Khe Sanh rough coords
 
@@ -157,7 +158,7 @@ export default function SmartVillageMap({ households, onSelectAddress, selectedA
       ))}
 
       {/* Render individual households for selected address */}
-      {selectedHouseholds.map((h, idx) => {
+      {households.map((h, idx) => {
         return (
           <HouseholdMarker 
             key={`h-${h.id}`} 
