@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
-import { MapPin, ArrowLeft, Search, X, Home, Users } from "lucide-react";
+import { MapPin, ArrowLeft, Search, X, Home, Users, ChevronRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import dynamic from 'next/dynamic';
@@ -29,7 +29,14 @@ export default function ThonThongMinh({ slugKhuVuc }: { slugKhuVuc?: string }) {
   const [loading, setLoading] = useState(true);
   const [selectedAddress, setSelectedAddress] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState("");
+  const [focusedHouseholdId, setFocusedHouseholdId] = useState<string | null>(null);
 
+  useEffect(() => {
+    // Reset focus when address changes
+    setFocusedHouseholdId(null);
+  }, [selectedAddress]);
+
+  // Fetch all households ...
   useEffect(() => {
     // Fetch all households for interactive map
     fetch(`/api/households?khuVuc=all`)
@@ -80,6 +87,7 @@ export default function ThonThongMinh({ slugKhuVuc }: { slugKhuVuc?: string }) {
             households={households} 
             selectedAddress={selectedAddress}
             onSelectAddress={setSelectedAddress} 
+            focusedHouseholdId={focusedHouseholdId}
           />
         ) : (
           <div className="absolute inset-0 flex items-center justify-center bg-slate-800">
@@ -137,40 +145,36 @@ export default function ThonThongMinh({ slugKhuVuc }: { slugKhuVuc?: string }) {
             </div>
           </div>
 
-          {/* Search */}
-          <div className="relative mb-6">
-            <Search className="absolute left-4 top-1/2 -translate-y-1/2 text-slate-400" size={18} />
-            <Input 
-              placeholder="Tìm kiếm tên chủ hộ..." 
-              className="pl-11 h-12 bg-slate-50 border-slate-200 rounded-2xl focus-visible:ring-blue-500"
-              value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
-            />
-          </div>
-
           {/* List */}
-          <div className="space-y-3">
+          <div className="space-y-3 pb-20">
             {filteredHouseholds.map(h => (
-              <div key={h.id} className="flex items-center justify-between p-4 bg-white border border-slate-100 rounded-2xl shadow-sm hover:shadow-md transition-all cursor-pointer group">
+              <div 
+                key={h.id} 
+                onClick={() => setFocusedHouseholdId(h.id)}
+                className={cn(
+                  "flex items-center justify-between p-4 bg-white border rounded-2xl shadow-sm hover:shadow-md transition-all cursor-pointer group",
+                  focusedHouseholdId === h.id ? "border-blue-500 bg-blue-50/30" : "border-slate-100"
+                )}
+              >
                 <div className="flex items-center gap-4">
-                  <div className="w-10 h-10 rounded-xl bg-blue-50 text-blue-600 flex items-center justify-center shrink-0">
-                    <Home size={20} />
+                  <div className="w-10 h-10 rounded-full bg-blue-50 text-blue-600 flex items-center justify-center shrink-0">
+                    <Home size={18} />
                   </div>
                   <div>
                     <h3 className="font-bold text-slate-800 text-[15px]">{h.headName}</h3>
-                    <p className="text-xs text-slate-500 flex items-center gap-1 mt-0.5">
-                      <Users size={12} /> {h.memberCount} nhân khẩu
-                    </p>
                   </div>
                 </div>
                 
-                <div className={cn(
-                  "px-3 py-1.5 rounded-full text-[11px] font-bold whitespace-nowrap",
-                  h.status === 'Hộ nghèo' ? 'bg-red-50 text-red-600' :
-                  h.status === 'Hộ cận nghèo' ? 'bg-orange-50 text-orange-600' :
-                  'bg-blue-600 text-white'
-                )}>
-                  {h.status}
+                <div className="flex items-center gap-2">
+                  <div className={cn(
+                    "px-3 py-1.5 rounded-full text-[11px] font-bold whitespace-nowrap",
+                    h.status === 'Hộ nghèo' ? 'bg-red-500 text-white' :
+                    h.status === 'Hộ cận nghèo' ? 'bg-orange-500 text-white' :
+                    'bg-blue-600 text-white'
+                  )}>
+                    {h.status}
+                  </div>
+                  <ChevronRight size={16} className="text-slate-400" />
                 </div>
               </div>
             ))}
@@ -180,6 +184,19 @@ export default function ThonThongMinh({ slugKhuVuc }: { slugKhuVuc?: string }) {
                 Không tìm thấy hộ gia đình nào.
               </div>
             )}
+          </div>
+        </div>
+
+        {/* Sticky Search at bottom */}
+        <div className="absolute bottom-0 left-0 right-0 p-4 bg-white border-t border-slate-100 z-30">
+          <div className="relative">
+            <Search className="absolute left-4 top-1/2 -translate-y-1/2 text-slate-400" size={18} />
+            <Input 
+              placeholder="Tìm kiếm tên chủ hộ..." 
+              className="pl-11 h-12 bg-slate-50 border-slate-200 rounded-full focus-visible:ring-blue-500 w-full"
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+            />
           </div>
         </div>
       </div>
