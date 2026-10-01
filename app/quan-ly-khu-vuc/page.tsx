@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 import { Map, QrCode, ArrowRight, Home } from "lucide-react";
 import { extractedQrData } from "@/lib/regionData";
+import { generateSlug } from "@/components/ThonThongMinh";
 
 export default function QuanLyKhuVucPage() {
   const maps = Object.entries(extractedQrData).filter(([k, v]) => v.type === 'map');
@@ -30,7 +31,7 @@ export default function QuanLyKhuVucPage() {
                 <p className="text-slate-500 text-sm mb-4">Bản đồ địa giới hành chính</p>
               </div>
               <Link 
-                href={`/thon-thong-minh?khuVuc=${encodeURIComponent(key)}`}
+                href={`/khu-vuc/${generateSlug(key)}`}
                 className="inline-flex items-center gap-2 text-blue-600 font-bold hover:text-blue-800 transition-colors bg-blue-50 w-fit px-4 py-2 rounded-xl"
               >
                 Mở Bản Đồ <ArrowRight size={18} />
@@ -67,7 +68,7 @@ export default function QuanLyKhuVucPage() {
                     </td>
                     <td className="p-4">
                       <Link 
-                        href={`/thon-thong-minh?khuVuc=${encodeURIComponent(key)}`}
+                        href={`/khu-vuc/${generateSlug(key)}`}
                         className="text-sm font-semibold text-blue-600 hover:text-blue-800 flex items-center gap-1"
                       >
                         Định vị <ArrowRight size={16} />

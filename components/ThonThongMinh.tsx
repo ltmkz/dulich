@@ -7,50 +7,49 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import dynamic from 'next/dynamic';
 import { cn } from "@/lib/utils";
+import { extractedQrData } from "@/lib/regionData";
 
 // Dynamically import Leaflet Map to avoid SSR issues
 const SmartVillageMap = dynamic(() => import('./SmartVillageMap'), { ssr: false });
 
-export default function ThonThongMinh() {
+export default function ThonThongMinh({ slugKhuVuc }: { slugKhuVuc?: string }) {
   const router = useRouter();
   const searchParams = useSearchParams();
-  const initialKhuVuc = searchParams.get('khuVuc') || "";
+  
+  // Resolve actual khuVuc name from slug, or fallback to query param
+  let initialKhuVuc = searchParams.get('khuVuc') || "";
+  if (slugKhuVuc) {
+    const foundEntry = Object.keys(extractedQrData).find(
+      key => generateSlug(key) === slugKhuVuc
+    );
+    if (foundEntry) initialKhuVuc = foundEntry;
+  }
 
   const [households, setHouseholds] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
   const [selectedAddress, setSelectedAddress] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState("");
-  const [staticMapUrl, setStaticMapUrl] = useState<string | null>(null);
 
   useEffect(() => {
-    // Check if initialKhuVuc is actually a static map
-    import('@/lib/regionData').then(({ extractedQrData }) => {
-      const info = extractedQrData[initialKhuVuc];
-      if (info && info.type === 'map') {
-        setStaticMapUrl(info.value);
-        setLoading(false);
-      } else {
-        // Fetch all households for interactive map
-        fetch(`/api/households?khuVuc=all`)
-          .then(res => res.json())
-          .then(data => {
-            if (Array.isArray(data)) {
-              setHouseholds(data);
-              if (initialKhuVuc) {
-                const exists = data.some(h => h.address === initialKhuVuc);
-                if (exists) {
-                  setSelectedAddress(initialKhuVuc);
-                }
-              }
+    // Fetch all households for interactive map
+    fetch(`/api/households?khuVuc=all`)
+      .then(res => res.json())
+      .then(data => {
+        if (Array.isArray(data)) {
+          setHouseholds(data);
+          if (initialKhuVuc) {
+            const exists = data.some(h => h.address === initialKhuVuc);
+            if (exists) {
+              setSelectedAddress(initialKhuVuc);
             }
-            setLoading(false);
-          })
-          .catch(e => {
-            console.error(e);
-            setLoading(false);
-          });
-      }
-    });
+          }
+        }
+        setLoading(false);
+      })
+      .catch(e => {
+        console.error(e);
+        setLoading(false);
+      });
   }, [initialKhuVuc]);
 
   const filteredHouseholds = households
@@ -70,35 +69,27 @@ export default function ThonThongMinh() {
         </button>
         <MapPin size={20} className="text-blue-200" />
         <h1 className="text-lg font-bold">
-          {selectedAddress || "Quản Lý Thôn Thông Minh"}
+          {selectedAddress || initialKhuVuc || "Quản Lý Thôn Thông Minh"}
         </h1>
       </div>
 
       {/* Main Map Area */}
-      <div className="flex-1 w-full h-full relative z-0 bg-slate-800">
-        {!loading && staticMapUrl ? (
-          <div className="absolute inset-0 flex items-center justify-center p-4">
-            <img 
-              src={staticMapUrl} 
-              alt="Map Background" 
-              className="w-full h-full object-contain rounded-3xl"
-            />
-          </div>
-        ) : !loading ? (
+      <div className="flex-1 w-full h-full relative z-0">
+        {!loading ? (
           <SmartVillageMap 
             households={households} 
             selectedAddress={selectedAddress}
             onSelectAddress={setSelectedAddress} 
           />
         ) : (
-          <div className="absolute inset-0 flex items-center justify-center">
+          <div className="absolute inset-0 flex items-center justify-center bg-slate-800">
             <div className="w-12 h-12 border-4 border-blue-500 border-t-transparent rounded-full animate-spin"></div>
           </div>
         )}
       </div>
 
       {/* Floating Button if no address is selected (Only for interactive map) */}
-      {!selectedAddress && !staticMapUrl && (
+      {!selectedAddress && (
         <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10">
           <Button className="bg-blue-800 hover:bg-blue-900 rounded-full shadow-xl font-bold px-6 py-6 text-base" onClick={() => {
             if (households.length > 0) setSelectedAddress(households[0].address);
@@ -109,12 +100,11 @@ export default function ThonThongMinh() {
       )}
 
       {/* Bottom Sheet (Danh sách hộ gia đình) */}
-      {!staticMapUrl && (
-        <div className={cn(
-          "absolute bottom-0 left-0 right-0 z-20 bg-white rounded-t-3xl shadow-[0_-10px_40px_rgba(0,0,0,0.1)] transition-transform duration-500 flex flex-col",
-          selectedAddress ? "translate-y-0 h-[65vh]" : "translate-y-full h-[65vh]"
-        )}>
-          {/* Drag handle */}
+      <div className={cn(
+        "absolute bottom-0 left-0 right-0 z-20 bg-white rounded-t-3xl shadow-[0_-10px_40px_rgba(0,0,0,0.1)] transition-transform duration-500 flex flex-col",
+        selectedAddress ? "translate-y-0 h-[65vh]" : "translate-y-full h-[65vh]"
+      )}>
+        {/* Drag handle */}
         <div className="w-full flex justify-center pt-3 pb-1 cursor-pointer" onClick={() => setSelectedAddress(null)}>
           <div className="w-12 h-1.5 bg-slate-300 rounded-full"></div>
         </div>
@@ -193,7 +183,18 @@ export default function ThonThongMinh() {
           </div>
         </div>
       </div>
-      )}
     </div>
   );
+}
+
+// Utility to generate URL-safe slugs
+export function generateSlug(text: string) {
+  return text
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "") // remove diacritics
+    .replace(/đ/g, "d")
+    .replace(/[^a-z0-9\s-]/g, "") // remove special chars
+    .trim()
+    .replace(/\s+/g, "-"); // replace spaces with hyphens
 }
