@@ -1,10 +1,23 @@
-import React from "react";
+"use client";
+
+import React, { useState, useEffect } from "react";
 import Link from "next/link";
-import { Map, QrCode, ArrowRight, Home } from "lucide-react";
+import { Map, QrCode, ArrowRight, Home, X } from "lucide-react";
 import { extractedQrData } from "@/lib/regionData";
 import { generateSlug } from "@/lib/utils";
+import { QRCodeSVG } from "qrcode.react";
 
 export default function QuanLyKhuVucPage() {
+  const [qrModal, setQrModal] = useState<{ isOpen: boolean, title: string, url: string }>({
+    isOpen: false,
+    title: "",
+    url: ""
+  });
+  
+  const [origin, setOrigin] = useState("");
+  useEffect(() => {
+    setOrigin(window.location.origin);
+  }, []);
   const maps = Object.entries(extractedQrData).filter(([k, v]) => v.type === 'map');
   const households = Object.entries(extractedQrData).filter(([k, v]) => v.type === 'household');
 
@@ -30,12 +43,24 @@ export default function QuanLyKhuVucPage() {
                 <h3 className="text-xl font-bold text-slate-800 mb-2">{key}</h3>
                 <p className="text-slate-500 text-sm mb-4">Bản đồ địa giới hành chính</p>
               </div>
-              <Link 
-                href={`/khu-vuc/${generateSlug(key)}`}
-                className="inline-flex items-center gap-2 text-blue-600 font-bold hover:text-blue-800 transition-colors bg-blue-50 w-fit px-4 py-2 rounded-xl"
-              >
-                Mở Bản Đồ <ArrowRight size={18} />
-              </Link>
+              <div className="flex gap-2 mt-4">
+                <Link 
+                  href={`/khu-vuc/${generateSlug(key)}`}
+                  className="inline-flex items-center gap-2 text-blue-600 font-bold hover:text-blue-800 transition-colors bg-blue-50 w-fit px-4 py-2 rounded-xl"
+                >
+                  Mở Bản Đồ <ArrowRight size={18} />
+                </Link>
+                <button 
+                  onClick={() => setQrModal({
+                    isOpen: true,
+                    title: key,
+                    url: `${origin}/khu-vuc/${generateSlug(key)}`
+                  })}
+                  className="inline-flex items-center gap-2 text-purple-600 font-bold hover:text-purple-800 transition-colors bg-purple-50 w-fit px-4 py-2 rounded-xl"
+                >
+                  <QrCode size={18} /> Lấy QR Code
+                </button>
+              </div>
             </div>
           ))}
         </div>
@@ -80,6 +105,49 @@ export default function QuanLyKhuVucPage() {
             </table>
           </div>
         </div>
+
+        {/* QR Code Modal */}
+        {qrModal.isOpen && (
+          <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-sm p-4">
+            <div className="bg-white rounded-3xl p-8 max-w-sm w-full relative shadow-2xl flex flex-col items-center animate-in fade-in zoom-in duration-200">
+              <button 
+                onClick={() => setQrModal(prev => ({...prev, isOpen: false}))}
+                className="absolute top-4 right-4 text-slate-400 hover:text-slate-600 bg-slate-100 hover:bg-slate-200 p-2 rounded-full transition-colors"
+              >
+                <X size={20} />
+              </button>
+              
+              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-4">
+                <QrCode className="h-8 w-8 text-blue-600" />
+              </div>
+              
+              <h3 className="text-xl font-extrabold text-slate-800 text-center mb-2 leading-tight">
+                Mã QR Code
+              </h3>
+              <p className="text-slate-500 text-center mb-6 font-medium text-sm">
+                {qrModal.title}
+              </p>
+              
+              <div className="bg-white p-4 rounded-2xl shadow-inner border-2 border-slate-100 mb-6 flex justify-center w-full">
+                {qrModal.url ? (
+                  <QRCodeSVG 
+                    value={qrModal.url} 
+                    size={200}
+                    level="H"
+                    includeMargin={false}
+                    fgColor="#1e293b" 
+                  />
+                ) : (
+                  <div className="w-[200px] h-[200px] bg-slate-100 animate-pulse rounded-lg" />
+                )}
+              </div>
+              
+              <p className="text-xs text-slate-400 text-center px-4">
+                Quét mã này bằng Camera hoặc ứng dụng quét mã QR trên điện thoại để mở bản đồ.
+              </p>
+            </div>
+          </div>
+        )}
       </div>
     </div>
   );
