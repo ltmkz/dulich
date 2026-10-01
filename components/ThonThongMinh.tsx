@@ -36,18 +36,32 @@ export default function ThonThongMinh({ slugKhuVuc }: { slugKhuVuc?: string }) {
     setFocusedHouseholdId(null);
   }, [selectedAddress]);
 
+  const thonLuongLeRoads = [
+    "Xóm Tà Đủ - Thôn Lương Lễ",
+    "Xóm 5 - Thôn Lương Lễ",
+    "Xóm 4 - Thôn Lương Lễ",
+    "Xóm 3 - Thôn Lương Lễ",
+    "Xóm 2 - Thôn Lương Lễ",
+    "Xóm 1 - Thôn Lương Lễ"
+  ];
+
   // Fetch all households ...
   useEffect(() => {
-    // Fetch all households for interactive map
     fetch(`/api/households?khuVuc=all`)
       .then(res => res.json())
       .then(data => {
         if (Array.isArray(data)) {
           setHouseholds(data);
           if (initialKhuVuc) {
-            const exists = data.some(h => h.address === initialKhuVuc);
-            if (exists) {
-              setSelectedAddress(initialKhuVuc);
+            if (initialKhuVuc.includes('Lương Lễ')) {
+              setSelectedAddress("Thôn Lương Lễ");
+            } else if (initialKhuVuc.includes('3A')) {
+              setSelectedAddress("Thôn 3A");
+            } else {
+              const exists = data.some(h => h.address === initialKhuVuc);
+              if (exists) {
+                setSelectedAddress(initialKhuVuc);
+              }
             }
           }
         }
@@ -59,13 +73,21 @@ export default function ThonThongMinh({ slugKhuVuc }: { slugKhuVuc?: string }) {
       });
   }, [initialKhuVuc]);
 
-  const filteredHouseholds = households
-    .filter(h => h.address === selectedAddress)
+  const getFilteredBase = () => {
+    if (selectedAddress === "Thôn Lương Lễ") return households.filter(h => thonLuongLeRoads.includes(h.address));
+    if (selectedAddress === "Thôn 3A") return households.filter(h => !thonLuongLeRoads.includes(h.address));
+    if (!selectedAddress) return households;
+    return households.filter(h => h.address === selectedAddress);
+  };
+
+  const baseHouseholds = getFilteredBase();
+
+  const filteredHouseholds = baseHouseholds
     .filter(h => h.headName.toLowerCase().includes(searchQuery.toLowerCase()));
 
-  const normalCount = households.filter(h => h.address === selectedAddress && h.status === 'Hộ bình thường').length;
-  const nearPoorCount = households.filter(h => h.address === selectedAddress && h.status === 'Hộ cận nghèo').length;
-  const poorCount = households.filter(h => h.address === selectedAddress && h.status === 'Hộ nghèo').length;
+  const normalCount = baseHouseholds.filter(h => h.status === 'Hộ bình thường').length;
+  const nearPoorCount = baseHouseholds.filter(h => h.status === 'Hộ cận nghèo').length;
+  const poorCount = baseHouseholds.filter(h => h.status === 'Hộ nghèo').length;
 
   return (
     <div className="flex flex-col h-screen bg-slate-50 relative overflow-hidden font-sans">

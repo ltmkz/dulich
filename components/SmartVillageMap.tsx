@@ -26,12 +26,17 @@ interface Household {
 
 function HouseholdMarker({ household, isFocused, icon }: { household: Household, isFocused: boolean, icon: any }) {
   const [markerRef, setMarkerRef] = useState<any>(null);
+  const map = useMap();
 
   useEffect(() => {
     if (markerRef && isFocused) {
       markerRef.openPopup();
+      map.flyTo([household.latitude, household.longitude], 18, {
+        animate: true,
+        duration: 1.5
+      });
     }
-  }, [markerRef, isFocused]);
+  }, [markerRef, isFocused, map, household.latitude, household.longitude]);
 
   return (
     <Marker 

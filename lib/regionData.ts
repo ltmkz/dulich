@@ -1,8 +1,8 @@
 export const extractedQrData: Record<string, { type: 'map' | 'household', value: string, mapUrl?: string }> = {
-  "Sơ đồ địa giới - Thôn Lương Lễ": { type: "map", value: "https://assets.icheck.vn/image/2026/app/8/25/9de5f5b0f37a69ffcbc4c88918687809.png", mapUrl: "https://assets.icheck.vn/image/2026/app/8/25/9de5f5b0f37a69ffcbc4c88918687809.png" },
-  "Sơ đồ địa giới - Thôn 3A": { type: "map", value: "https://assets.icheck.vn/image/2026/app/8/25/1d20e283cb9f10e82c746a6042bc081c.png", mapUrl: "https://assets.icheck.vn/image/2026/app/8/25/1d20e283cb9f10e82c746a6042bc081c.png" },
-  "Thôn Lương Lễ - xã Khe Sanh": { type: "map", value: "https://qr-i.io/image/smart-village%20/smart-village-overview.png", mapUrl: "https://qr-i.io/image/smart-village%20/smart-village-overview.png" },
-  "Thôn 3A - Xã Khe Sanh": { type: "map", value: "https://qr-i.io/image/smart-village%20/smart-village-overview.png", mapUrl: "https://qr-i.io/image/smart-village%20/smart-village-overview.png" },
+  "Sơ đồ địa giới - Thôn Lương Lễ": { type: "household", value: "Thôn Lương Lễ", mapUrl: "https://assets.icheck.vn/image/2026/app/8/25/9de5f5b0f37a69ffcbc4c88918687809.png" },
+  "Sơ đồ địa giới - Thôn 3A": { type: "household", value: "Thôn 3A", mapUrl: "https://assets.icheck.vn/image/2026/app/8/25/1d20e283cb9f10e82c746a6042bc081c.png" },
+  "Thôn Lương Lễ - xã Khe Sanh": { type: "household", value: "Thôn Lương Lễ", mapUrl: "https://qr-i.io/image/smart-village%20/smart-village-overview.png" },
+  "Thôn 3A - Xã Khe Sanh": { type: "household", value: "Thôn 3A", mapUrl: "https://qr-i.io/image/smart-village%20/smart-village-overview.png" },
   "Xóm Tà Đủ - Thôn Lương Lễ": { type: "household", value: "Số 1", mapUrl: "https://assets.icheck.vn/image/2026/app/8/25/9de5f5b0f37a69ffcbc4c88918687809.png" },
   "Xóm 5 - Thôn Lương Lễ": { type: "household", value: "Số 1", mapUrl: "https://assets.icheck.vn/image/2026/app/8/25/9de5f5b0f37a69ffcbc4c88918687809.png" },
   "Xóm 4 - Thôn Lương Lễ": { type: "household", value: "Số 1", mapUrl: "https://assets.icheck.vn/image/2026/app/8/25/9de5f5b0f37a69ffcbc4c88918687809.png" },
