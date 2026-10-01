@@ -31,10 +31,7 @@ export default function ThonThongMinh({ slugKhuVuc }: { slugKhuVuc?: string }) {
   const [searchQuery, setSearchQuery] = useState("");
   const [focusedHouseholdId, setFocusedHouseholdId] = useState<string | null>(null);
 
-  useEffect(() => {
-    // Reset focus when address changes
-    setFocusedHouseholdId(null);
-  }, [selectedAddress]);
+  // Removed useEffect that resets focusedHouseholdId on selectedAddress change
 
   const thonLuongLeRoads = [
     "Xóm Tà Đủ - Thôn Lương Lễ",
@@ -108,7 +105,10 @@ export default function ThonThongMinh({ slugKhuVuc }: { slugKhuVuc?: string }) {
           <SmartVillageMap 
             households={baseHouseholds} 
             selectedAddress={selectedAddress}
-            onSelectAddress={setSelectedAddress} 
+            onSelectAddress={(addr) => {
+              setSelectedAddress(addr);
+              setFocusedHouseholdId(null);
+            }} 
             focusedHouseholdId={focusedHouseholdId}
           />
         ) : (
@@ -122,7 +122,10 @@ export default function ThonThongMinh({ slugKhuVuc }: { slugKhuVuc?: string }) {
       {!selectedAddress && (
         <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10">
           <Button className="bg-blue-800 hover:bg-blue-900 rounded-full shadow-xl font-bold px-6 py-6 text-base" onClick={() => {
-            if (households.length > 0) setSelectedAddress(households[0].address);
+            if (households.length > 0) {
+              setSelectedAddress(households[0].address);
+              setFocusedHouseholdId(null);
+            }
           }}>
             Danh sách Đường/Ngõ
           </Button>
@@ -172,7 +175,10 @@ export default function ThonThongMinh({ slugKhuVuc }: { slugKhuVuc?: string }) {
             {filteredHouseholds.map(h => (
               <div 
                 key={h.id} 
-                onClick={() => setFocusedHouseholdId(h.id)}
+                onClick={() => {
+                  setFocusedHouseholdId(h.id);
+                  setSelectedAddress(null);
+                }}
                 className={cn(
                   "flex items-center justify-between p-4 bg-white border rounded-2xl shadow-sm hover:shadow-md transition-all cursor-pointer group",
                   focusedHouseholdId === h.id ? "border-blue-500 bg-blue-50/30" : "border-slate-100"
