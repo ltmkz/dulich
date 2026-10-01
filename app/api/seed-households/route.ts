@@ -24,9 +24,9 @@ export async function POST(request: Request) {
           address: key,
           status: "Hộ bình thường",
           memberCount: Math.floor(Math.random() * 5) + 2,
-          // random tọa độ xung quanh trung tâm
-          latitude: 50 + (Math.random() * 40 - 20),
-          longitude: 50 + (Math.random() * 40 - 20),
+          // random tọa độ xung quanh trung tâm Khe Sanh (16.62, 106.73)
+          latitude: 16.62 + (Math.random() * 0.02 - 0.01),
+          longitude: 106.73 + (Math.random() * 0.02 - 0.01),
         });
       }
     }

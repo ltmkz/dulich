@@ -47,8 +47,9 @@ const fs = require('fs');
         address: key,
         status: "Hộ bình thường",
         memberCount: Math.floor(Math.random() * 5) + 2,
-        latitude: 50 + (Math.random() * 40 - 20),
-        longitude: 50 + (Math.random() * 40 - 20),
+        // Khe Sanh center is around 16.63, 106.72
+        latitude: 16.63 + (Math.random() * 0.02 - 0.01),
+        longitude: 106.72 + (Math.random() * 0.02 - 0.01),
       });
     }
   }
