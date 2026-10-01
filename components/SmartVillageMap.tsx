@@ -24,6 +24,34 @@ interface Household {
   longitude: number;
 }
 
+function HouseholdMarker({ household, isFocused, icon }: { household: Household, isFocused: boolean, icon: any }) {
+  const [markerRef, setMarkerRef] = useState<any>(null);
+
+  useEffect(() => {
+    if (markerRef && isFocused) {
+      markerRef.openPopup();
+    }
+  }, [markerRef, isFocused]);
+
+  return (
+    <Marker 
+      position={[household.latitude, household.longitude]} 
+      icon={icon}
+      ref={setMarkerRef}
+    >
+      <Popup>
+        <div className="p-1 min-w-[200px]">
+          <h3 className="font-bold text-lg text-slate-800 mb-1">{household.headName}</h3>
+          <p className="text-sm text-slate-500 mb-3">{household.address} Số nhân khẩu: {household.memberCount}</p>
+          <div className="inline-block px-3 py-1.5 rounded-lg text-sm font-bold text-white bg-blue-600">
+            {household.status}
+          </div>
+        </div>
+      </Popup>
+    </Marker>
+  );
+}
+
 interface SmartVillageMapProps {
   households: Household[];
   onSelectAddress: (address: string) => void;
@@ -125,28 +153,13 @@ export default function SmartVillageMap({ households, onSelectAddress, selectedA
 
       {/* Render individual households for selected address */}
       {selectedHouseholds.map((h, idx) => {
-        const isFocused = h.id === focusedHouseholdId;
         return (
-          <Marker 
+          <HouseholdMarker 
             key={`h-${h.id}`} 
-            position={[h.latitude, h.longitude]} 
+            household={h} 
+            isFocused={h.id === focusedHouseholdId} 
             icon={createHouseholdIcon(h.status)}
-            ref={(r) => {
-              if (r && isFocused) {
-                r.openPopup();
-              }
-            }}
-          >
-            <Popup>
-              <div className="p-1 min-w-[200px]">
-                <h3 className="font-bold text-lg text-slate-800 mb-1">{h.headName}</h3>
-                <p className="text-sm text-slate-500 mb-3">{h.address} Số nhân khẩu: {h.memberCount}</p>
-                <div className="inline-block px-3 py-1.5 rounded-lg text-sm font-bold text-white bg-blue-600">
-                  {h.status}
-                </div>
-              </div>
-            </Popup>
-          </Marker>
+          />
         );
       })}
     </MapContainer>
